@@ -1,0 +1,258 @@
+/* Particles Canvas */
+.particles-canvas {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    pointer-events: none;
+    z-index: 1;
+}
+
+/* Animated Gears */
+.animated-gears {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    pointer-events: none;
+    z-index: 1;
+    opacity: 0.4;
+}
+
+.gear {
+    position: absolute;
+    width: 120px;
+    height: 120px;
+    animation: rotate 20s linear infinite;
+}
+
+.gear-1 {
+    top: 15%;
+    right: 10%;
+    animation-duration: 15s;
+}
+
+.gear-2 {
+    bottom: 20%;
+    left: 8%;
+    animation-duration: 20s;
+    animation-direction: reverse;
+}
+
+.gear-3 {
+    top: 50%;
+    right: 5%;
+    animation-duration: 18s;
+    opacity: 0.3;
+}
+
+@keyframes rotate {
+    from {
+        transform: rotate(0deg);
+    }
+
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+/* Piston Animation */
+.piston-container {
+    position: fixed;
+    bottom: 10%;
+    right: 15%;
+    width: 60px;
+    height: 100px;
+    pointer-events: none;
+    z-index: 1;
+    opacity: 0.25;
+}
+
+.cylinder {
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 40px;
+    height: 60px;
+    border: 2px solid rgba(0, 102, 255, 0.5);
+    border-top: none;
+    border-radius: 0 0 8px 8px;
+}
+
+.piston {
+    position: absolute;
+    bottom: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+    animation: pistonMove 1.5s ease-in-out infinite;
+}
+
+.piston-rod {
+    width: 4px;
+    height: 40px;
+    background: linear-gradient(180deg, rgba(0, 212, 255, 0.6), rgba(0, 102, 255, 0.8));
+    margin: 0 auto;
+    border-radius: 2px;
+}
+
+.piston-head {
+    width: 30px;
+    height: 15px;
+    background: linear-gradient(180deg, rgba(0, 212, 255, 0.7), rgba(0, 102, 255, 0.9));
+    margin: 0 auto;
+    border-radius: 4px;
+    box-shadow: 0 2px 8px rgba(0, 102, 255, 0.5);
+}
+
+@keyframes pistonMove {
+
+    0%,
+    100% {
+        transform: translateX(-50%) translateY(0);
+    }
+
+    50% {
+        transform: translateX(-50%) translateY(-30px);
+    }
+}
+
+/* Binary Rain */
+.binary-rain {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    pointer-events: none;
+    z-index: 1;
+    opacity: 0.15;
+    overflow: hidden;
+}
+
+.binary-column {
+    position: absolute;
+    top: -100%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    animation: rainFall 15s linear infinite;
+    font-family: 'Courier New', monospace;
+    font-size: 14px;
+    color: rgba(0, 212, 255, 0.8);
+}
+
+.binary-digit {
+    display: block;
+    animation: digitFade 2s ease-in-out infinite;
+}
+
+@keyframes rainFall {
+    from {
+        top: -100%;
+    }
+
+    to {
+        top: 100%;
+    }
+}
+
+@keyframes digitFade {
+
+    0%,
+    100% {
+        opacity: 0.3;
+    }
+
+    50% {
+        opacity: 1;
+    }
+}
+
+/* Animated Lines */
+.animated-lines {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    pointer-events: none;
+    z-index: 1;
+    opacity: 0.4;
+}
+
+.line {
+    stroke-dasharray: 200;
+    stroke-dashoffset: 200;
+    animation: drawLine 8s ease-in-out infinite;
+}
+
+.line-1 {
+    animation-delay: 0s;
+}
+
+.line-2 {
+    animation-delay: 2s;
+}
+
+@keyframes drawLine {
+    0% {
+        stroke-dashoffset: 200;
+        opacity: 0;
+    }
+
+    20% {
+        opacity: 1;
+    }
+
+    80% {
+        opacity: 1;
+    }
+
+    100% {
+        stroke-dashoffset: 0;
+        opacity: 0;
+    }
+}
+
+/* Energy Pulses */
+@keyframes energyPulse {
+
+    0%,
+    100% {
+        transform: scale(1);
+        opacity: 0.6;
+    }
+
+    50% {
+        transform: scale(1.1);
+        opacity: 1;
+    }
+}
+
+/* Responsive adjustments */
+@media (max-width: 1200px) {
+    .gear {
+        width: 80px;
+        height: 80px;
+    }
+
+    .piston-container {
+        width: 40px;
+        height: 70px;
+    }
+
+    .binary-column {
+        font-size: 12px;
+    }
+}
+
+@media (max-height: 700px) {
+
+    .animated-gears,
+    .piston-container {
+        display: none;
+    }
+}
