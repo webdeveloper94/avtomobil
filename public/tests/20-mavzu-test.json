@@ -1,0 +1,121 @@
+{
+    "mavzu_id": 20,
+    "mavzu_nomi": "Amaliy nazorat mashg'uloti",
+    "test_info": {
+        "jami_savollar": 10,
+        "vaqt_limit": 15,
+        "otish_ball": 70
+    },
+    "savollar": [
+        {
+            "id": 1,
+            "savol": "Dvigatelning asosiy qismlari qaysilar?",
+            "variantlar": {
+                "a": "Faqat piston",
+                "b": "Silindr bloki, bosh qopqoq, krivoship-shatun va gaz taqsimlash mexanizmi",
+                "c": "Faqat radiator",
+                "d": "Faqat akkumulyator"
+            },
+            "togri_javob": "b"
+        },
+        {
+            "id": 2,
+            "savol": "Dvigatel qizib ketishining asosiy sabablari qaysilar?",
+            "variantlar": {
+                "a": "Sovuq havo",
+                "b": "Sovutish tizimi nosozligi, termostat buzuq, radiator tiqilib qolgan",
+                "c": "Yoqilg'i kam",
+                "d": "Tormoz yomon"
+            },
+            "togri_javob": "b"
+        },
+        {
+            "id": 3,
+            "savol": "Moy bosimi past bo'lishining sabablari qaysilar?",
+            "variantlar": {
+                "a": "Hech narsa",
+                "b": "Moy kam, moy nasosi buzuq, podshipniklar yeyilgan",
+                "c": "Yoqilg'i ko'p",
+                "d": "Havo filtri yangi"
+            },
+            "togri_javob": "b"
+        },
+        {
+            "id": 4,
+            "savol": "Kompressiya past bo'lsa sabablari qaysilar?",
+            "variantlar": {
+                "a": "Hech narsa",
+                "b": "Piston halqalari yeyilgan, klapanlar zichligi yo'q",
+                "c": "Yoqilg'i yaxshi",
+                "d": "Havo tozа"
+            },
+            "togri_javob": "b"
+        },
+        {
+            "id": 5,
+            "savol": "Dvigatel ishga tushmasa asosiy sabablar qaysilar?",
+            "variantlar": {
+                "a": "Qizil rang",
+                "b": "Akkumulyator zaryadsiz, yoqilg'i yo'q, o't oldirish tizimi nosoz",
+                "c": "Havo tozа",
+                "d": "Faqat yomg'ir"
+            },
+            "togri_javob": "b"
+        },
+        {
+            "id": 6,
+            "savol": "Dvigatel mosh-mosh bo'lsa sabablari qaysilar?",
+            "variantlar": {
+                "a": "Hech narsa",
+                "b": "Svecha buzuq, injektorlar kirlangan, yoqilg'i filtri tiqilgan",
+                "c": "Yoqilg'i ko'p",
+                "d": "Havo kam"
+            },
+            "togri_javob": "b"
+        },
+        {
+            "id": 7,
+            "savol": "Texnik xizmat ko'rsatishning asosiy turlari qaysilar?",
+            "variantlar": {
+                "a": "Faqat yuvish",
+                "b": "Kundalik, davriy va joriy ta'mirlash",
+                "c": "Faqat bo'yash",
+                "d": "Hech qanday"
+            },
+            "togri_javob": "b"
+        },
+        {
+            "id": 8,
+            "savol": "Diagnostika instrumentlari qaysilar?",
+            "variantlar": {
+                "a": "Faqat bolg'a",
+                "b": "Skaner, multimetr, kompressometr, manometr",
+                "c": "Faqat chizg'ich",
+                "d": "Faqat qalam"
+            },
+            "togri_javob": "b"
+        },
+        {
+            "id": 9,
+            "savol": "Texnika xavfsizligi qoidalariga rioya qilish nima uchun muhim?",
+            "variantlar": {
+                "a": "Muhim emas",
+                "b": "Jarohatlar va baxtsiz hodisalarning oldini olish uchun",
+                "c": "Faqat qonun talabi",
+                "d": "Faqat ko'rinish uchun"
+            },
+            "togri_javob": "b"
+        },
+        {
+            "id": 10,
+            "savol": "Professional ustaning asosiy sifatlari qaysilar?",
+            "variantlar": {
+                "a": "Faqat kuch",
+                "b": "Bilim, tajriba, masuliyat va ehtiyotkorlik",
+                "c": "Faqat tezlik",
+                "d": "Faqat narx"
+            },
+            "togri_javob": "b"
+        }
+    ]
+}

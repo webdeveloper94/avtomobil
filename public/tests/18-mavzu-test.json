@@ -1,0 +1,121 @@
+{
+    "mavzu_id": 18,
+    "mavzu_nomi": "Avtomobil dvigatellarini yig'ish va sinash",
+    "test_info": {
+        "jami_savollar": 10,
+        "vaqt_limit": 15,
+        "otish_ball": 70
+    },
+    "savollar": [
+        {
+            "id": 1,
+            "savol": "Dvigatelni yig'ishdan oldin nima qilish kerak?",
+            "variantlar": {
+                "a": "Hech narsa",
+                "b": "Barcha detallarni yuvish va tekshirish",
+                "c": "Darhol yig'ish",
+                "d": "Faqat moy quyish"
+            },
+            "togri_javob": "b"
+        },
+        {
+            "id": 2,
+            "savol": "Detallarni yig'ishda qaysi tartib muhim?",
+            "variantlar": {
+                "a": "Istalgan tartib",
+                "b": "Texnologik tartib (pastdan yuqoriga)",
+                "c": "Faqat tezlik muhim",
+                "d": "Tartib muhim emas"
+            },
+            "togri_javob": "b"
+        },
+        {
+            "id": 3,
+            "savol": "Qistirmalarni o'rnatishda nima tekshiriladi?",
+            "variantlar": {
+                "a": "Faqat rangi",
+                "b": "Tozaligi va to'g'ri joylashuvi",
+                "c": "Faqat og'irligi",
+                "d": "Faqat narxi"
+            },
+            "togri_javob": "b"
+        },
+        {
+            "id": 4,
+            "savol": "Podshipniklarni o'rnatishda nimaga e'tibor beriladi?",
+            "variantlar": {
+                "a": "Faqat rangiga",
+                "b": "To'g'ri joylashuviga va moylashga",
+                "c": "Faqat uzunligiga",
+                "d": "Faqat narxiga"
+            },
+            "togri_javob": "b"
+        },
+        {
+            "id": 5,
+            "savol": "Dvigatel yig'ilganidan keyin birinchi navbatda nima qilinadi?",
+            "variantlar": {
+                "a": "Darhol haydash",
+                "b": "Sinash va sozlash",
+                "c": "Garajga qo'yish",
+                "d": "Hech narsa"
+            },
+            "togri_javob": "b"
+        },
+        {
+            "id": 6,
+            "savol": "Dvigatelni sinashda nimaga e'tibor beriladi?",
+            "variantlar": {
+                "a": "Faqat rangiga",
+                "b": "Tovushlar, bosim, harorat va sizishlar",
+                "c": "Faqat tezlikka",
+                "d": "Faqat narxga"
+            },
+            "togri_javob": "b"
+        },
+        {
+            "id": 7,
+            "savol": "Dvigatelni ishlatib moslash (obkatka) nima uchun zarur?",
+            "variantlar": {
+                "a": "Kerak emas",
+                "b": "Detallarni bir-biriga moslash va uzoq xizmat qilish uchun",
+                "c": "Faqat vaqt o'tkazish uchun",
+                "d": "Faqat bezak uchun"
+            },
+            "togri_javob": "b"
+        },
+        {
+            "id": 8,
+            "savol": "Ishlatib moslash (obkatka) davrida nima qilish taqiqlanadi?",
+            "variantlar": {
+                "a": "Hech narsa",
+                "b": "Yuqori tezlik va og'ir yuk",
+                "c": "Sekin haydash",
+                "d": "Tekshirish"
+            },
+            "togri_javob": "b"
+        },
+        {
+            "id": 9,
+            "savol": "Dvigatel sinovi muvaffaqiyatsiz bo'lsa nima qilish kerak?",
+            "variantlar": {
+                "a": "E'tibor bermaslik",
+                "b": "Nosozlikni aniqlash va tuzatish",
+                "c": "Dvigatelni tashlash",
+                "d": "Hech narsa qilmaslik"
+            },
+            "togri_javob": "b"
+        },
+        {
+            "id": 10,
+            "savol": "Dvigatelni to'liq yig'ishdan keyin qanday hujjatlar tuziladiki?",
+            "variantlar": {
+                "a": "Hech qanday",
+                "b": "Sinov protokoli va ta'mir jurnali",
+                "c": "Faqat rasm",
+                "d": "Faqat videо"
+            },
+            "togri_javob": "b"
+        }
+    ]
+}

@@ -1,0 +1,121 @@
+{
+    "mavzu_id": 5,
+    "mavzu_nomi": "Krivoship-shatun mexanizm detallarini tekshirish",
+    "test_info": {
+        "jami_savollar": 10,
+        "vaqt_limit": 15,
+        "otish_ball": 70
+    },
+    "savollar": [
+        {
+            "id": 1,
+            "savol": "Krivoship-shatun mexanizmi qaysi detallardan tashkil topgan?",
+            "variantlar": {
+                "a": "Faqat piston",
+                "b": "Piston, shatun, krivoship vali",
+                "c": "Faqat krivoship",
+                "d": "Klapanlar"
+            },
+            "togri_javob": "b"
+        },
+        {
+            "id": 2,
+            "savol": "Piston halqalarining yeyilishini qanday aniqlash mumkin?",
+            "variantlar": {
+                "a": "Ko'z bilan",
+                "b": "Bo'shliqni o'lchash asboblari bilan",
+                "c": "Qo'l bilan",
+                "d": "Tinglash orqali"
+            },
+            "togri_javob": "b"
+        },
+        {
+            "id": 3,
+            "savol": "Shatun podshipniklarini tekshirishda nimaga e'tibor beriladi?",
+            "variantlar": {
+                "a": "Rangiga",
+                "b": "Yeyilish, tirqish va sirtining holatiga",
+                "c": "Og'irligiga",
+                "d": "Uzunligiga"
+            },
+            "togri_javob": "b"
+        },
+        {
+            "id": 4,
+            "savol": "Krivoship valining buralishini qanday tekshiriladi?",
+            "variantlar": {
+                "a": "Ko'z bilan",
+                "b": "Indikatorli asbob bilan",
+                "c": "Qo'l bilan",
+                "d": "Tinglash orqali"
+            },
+            "togri_javob": "b"
+        },
+        {
+            "id": 5,
+            "savol": "Pistonning silindr bilan bo'shligi qancha bo'lishi kerak?",
+            "variantlar": {
+                "a": "Qancha katta bo'lsa shuncha yaxshi",
+                "b": "Texnik me'yorga muvofiq (0.03-0.07 mm)",
+                "c": "Bo'shliq bo'lmasligi kerak",
+                "d": "5 mm"
+            },
+            "togri_javob": "b"
+        },
+        {
+            "id": 6,
+            "savol": "Silindr devorlarining yeyilishini qanday aniqlash mumkin?",
+            "variantlar": {
+                "a": "Ko'z bilan",
+                "b": "Mikrometr va nutromer bilan",
+                "c": "Qo'l bilan sezish orqali",
+                "d": "Tinglash orqali"
+            },
+            "togri_javob": "b"
+        },
+        {
+            "id": 7,
+            "savol": "Shatunning qayrilishini tekshirish nima uchun muhim?",
+            "variantlar": {
+                "a": "Muhim emas",
+                "b": "Dvigatelning to'g'ri ishlashi va kuchlanishlarni oldini olish uchun",
+                "c": "Faqat estetik jihatdan",
+                "d": "Faqat narxni bilish uchun"
+            },
+            "togri_javob": "b"
+        },
+        {
+            "id": 8,
+            "savol": "Piston halqalari qancha turga bo'linadi?",
+            "variantlar": {
+                "a": "1 tur",
+                "b": "2 tur: kompression va moy halqalari",
+                "c": "5 tur",
+                "d": "10 tur"
+            },
+            "togri_javob": "b"
+        },
+        {
+            "id": 9,
+            "savol": "Krivoship mexanizmini yig'ishda qaysi parametr muhim?",
+            "variantlar": {
+                "a": "Faqat rangi",
+                "b": "Bo'shliqlar, tortish kuchi va hizalanish",
+                "c": "Faqat narxi",
+                "d": "Faqat og'irligi"
+            },
+            "togri_javob": "b"
+        },
+        {
+            "id": 10,
+            "savol": "Silindr blokini qismlarga ajratganda nimaga e'tibor berish kerak?",
+            "variantlar": {
+                "a": "Hech narsaga",
+                "b": "Detallar tartibini belgilash va ularni belgilash",
+                "c": "Faqat tezlikka",
+                "d": "Faqat vaqtga"
+            },
+            "togri_javob": "b"
+        }
+    ]
+}

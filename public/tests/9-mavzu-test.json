@@ -1,0 +1,121 @@
+{
+    "mavzu_id": 9,
+    "mavzu_nomi": "Radiator tozalash va termostatni almashtirish",
+    "test_info": {
+        "jami_savollar": 10,
+        "vaqt_limit": 15,
+        "otish_ball": 70
+    },
+    "savollar": [
+        {
+            "id": 1,
+            "savol": "Radiatorni ichidan qanday tozalanadi?",
+            "variantlar": {
+                "a": "Suv bilan",
+                "b": "Maxsus yuvish eritmalari bilan",
+                "c": "Benzin bilan",
+                "d": "Qum bilan"
+            },
+            "togri_javob": "b"
+        },
+        {
+            "id": 2,
+            "savol": "Radiator tashqarisini qanday tozalash kerak?",
+            "variantlar": {
+                "a": "Qo'l bilan artish",
+                "b": "Siqilgan havo yoki suv bilan yumshoq yuvish",
+                "c": "Bolg'a bilan urish",
+                "d": "Ximoya vositalari bilan"
+            },
+            "togri_javob": "b"
+        },
+        {
+            "id": 3,
+            "savol": "Termostat ishlamay qolsa nima bo'ladi?",
+            "variantlar": {
+                "a": "Hech narsa",
+                "b": "Dvigatel qizib yoki sovib ketadi",
+                "c": "Tezroq ishlaydi",
+                "d": "Yoqilg'i kam sarflanadi"
+            },
+            "togri_javob": "b"
+        },
+        {
+            "id": 4,
+            "savol": "Termostatni qanday tekshirish mumkin?",
+            "variantlar": {
+                "a": "Ko'z bilan",
+                "b": "Issiq suvda ochilishini kuzatish",
+                "c": "Qo'l bilan",
+                "d": "Tinglash orqali"
+            },
+            "togri_javob": "b"
+        },
+        {
+            "id": 5,
+            "savol": "Radiator qoplamlari (plastinkalari) bukilsa nima qilish kerak?",
+            "variantlar": {
+                "a": "Hech narsa",
+                "b": "Ehtiyotkorlik bilan to'g'rilash",
+                "c": "Tashlab yuborish",
+                "d": "Buktirib qoldirish"
+            },
+            "togri_javob": "b"
+        },
+        {
+            "id": 6,
+            "savol": "Sovutish tizimidan shlam (cho'kma) hosil bo'lishining sababi nima?",
+            "variantlar": {
+                "a": "Hech narsa",
+                "b": "Sifatsiz sovutish suyuqligi yoki suv ishlatish",
+                "c": "Tez haydash",
+                "d": "Sekin haydash"
+            },
+            "togri_javob": "b"
+        },
+        {
+            "id": 7,
+            "savol": "Termostatni almashtirishdan oldin nima qilish kerak?",
+            "variantlar": {
+                "a": "Hech narsa",
+                "b": "Sovutish suyuqligini to'kish",
+                "c": "Dvigatelni ishga tushirish",
+                "d": "Mashina haydash"
+            },
+            "togri_javob": "b"
+        },
+        {
+            "id": 8,
+            "savol": "Radiator sizib tursa asosiy sabab nima?",
+            "variantlar": {
+                "a": "Havo bosimi",
+                "b": "Qistirmaning yomon bo'lishi yoki mextanik shikastlanish",
+                "c": "Yoqilg'i kam",
+                "d": "Elektr muammosi"
+            },
+            "togri_javob": "b"
+        },
+        {
+            "id": 9,
+            "savol": "Sovutish tizimini yuvishdan keyin nima to'ldiriladi?",
+            "variantlar": {
+                "a": "Benzin",
+                "b": "Yangi antifreeze yoki sovutish suyuqligi",
+                "c": "Moy",
+                "d": "Havo"
+            },
+            "togri_javob": "b"
+        },
+        {
+            "id": 10,
+            "savol": "Radiator shlangi (shlang) yorilib ketsa nima qilish kerak?",
+            "variantlar": {
+                "a": "Hech narsa",
+                "b": "Zudlik bilan almashtirish",
+                "c": "Skotch yopish",
+                "d": "Yopishqoq surish"
+            },
+            "togri_javob": "b"
+        }
+    ]
+}

@@ -1,0 +1,121 @@
+{
+    "mavzu_id": 15,
+    "mavzu_nomi": "Gaz yonilg'isida ishlaydigan dvigatellar",
+    "test_info": {
+        "jami_savollar": 10,
+        "vaqt_limit": 15,
+        "otish_ball": 70
+    },
+    "savollar": [
+        {
+            "id": 1,
+            "savol": "Gaz yoqilg'isining afzalliklari qaysilar?",
+            "variantlar": {
+                "a": "Hech narsa",
+                "b": "Ekologik toza va iqtisodiy tejamkor",
+                "c": "Faqat arzon",
+                "d": "Faqat tezroq"
+            },
+            "togri_javob": "b"
+        },
+        {
+            "id": 2,
+            "savol": "Gaz baloni qayerda o'rnatiladi?",
+            "variantlar": {
+                "a": "Dvigatel ichida",
+                "b": "Avtomobilning orqa bagajida yoki ostida",
+                "c": "Salon ichida",
+                "d": "Tomirsda"
+            },
+            "togri_javob": "b"
+        },
+        {
+            "id": 3,
+            "savol": "Gaz uskunasiga qanday servis kerak?",
+            "variantlar": {
+                "a": "Hech qanday",
+                "b": "Filtrlarni almashtirish, zichlikni tekshirish",
+                "c": "Faqat yuvish",
+                "d": "Faqat bo'yash"
+            },
+            "togri_javob": "b"
+        },
+        {
+            "id": 4,
+            "savol": "Gaz sizib chiqsa nima qilish kerak?",
+            "variantlar": {
+                "a": "E'tibor bermaslik",
+                "b": "Zudlik bilan dvigatelni o'chirish va uskunani tekshirish",
+                "c": "Chekish",
+                "d": "Hech narsa"
+            },
+            "togri_javob": "b"
+        },
+        {
+            "id": 5,
+            "savol": "Gaz reduktori nima vazifa bajaradi?",
+            "variantlar": {
+                "a": "Gaz bosimini kamaytiradi va issitadi",
+                "b": "Gaz bosimini pasaytiradi va bug'latadi",
+                "c": "Gaz bosimini oshiradi",
+                "d": "Hech narsa"
+            },
+            "togri_javob": "b"
+        },
+        {
+            "id": 6,
+            "savol": "Gaz yoqilg'isida ishlayotgan dvigateldagi o't oldirish qanday?",
+            "variantlar": {
+                "a": "Benzindagidan farq qilmaydi",
+                "b": "Ozroq ilgarilatilishi kerak",
+                "c": "Juda kech bo'lishi kerak",
+                "d": "Hech qanday farqi yo'q"
+            },
+            "togri_javob": "b"
+        },
+        {
+            "id": 7,
+            "savol": "Gaz ballonini tekshirish qancha vaqtda amalga oshiriladi?",
+            "variantlar": {
+                "a": "Hech qachon",
+                "b": "Har 2-3 yilda bir marta (davlat standarti bo'yicha)",
+                "c": "Har kuni",
+                "d": "Har 50 yilda"
+            },
+            "togri_javob": "b"
+        },
+        {
+            "id": 8,
+            "savol": "Gaz bilan ishlaydigan dvigatelda qanday kamchiliklar bor?",
+            "variantlar": {
+                "a": "Hech qanday",
+                "b": "Quvvat biroz pasayishi va qo'shimcha uskunalar kerak",
+                "c": "Juda ko'p kamchiliklar",
+                "d": "Faqat narxi"
+            },
+            "togri_javob": "b"
+        },
+        {
+            "id": 9,
+            "savol": "Gaz tizimida elektr klapani nima vazifa bajaradi?",
+            "variantlar": {
+                "a": "Hech narsa",
+                "b": "Gaz oqimini boshqaradi va xavfsizlikni ta'minlaydi",
+                "c": "Faqat tovush chiqaradi",
+                "d": "Yoqilg'i quyadi"
+            },
+            "togri_javob": "b"
+        },
+        {
+            "id": 10,
+            "savol": "Gaz uskunasini kim o'rnatishi va ta'mirlashi mumkin?",
+            "variantlar": {
+                "a": "Har kim",
+                "b": "Faqat litsenziyaga ega mutaxassislar",
+                "c": "Faqat haydovchi",
+                "d": "Faqat do'stlar"
+            },
+            "togri_javob": "b"
+        }
+    ]
+}

@@ -1,0 +1,121 @@
+{
+    "mavzu_id": 3,
+    "mavzu_nomi": "Dvigatelga servis xizmat ko'rsatish va uni ta'mirlash",
+    "test_info": {
+        "jami_savollar": 10,
+        "vaqt_limit": 15,
+        "otish_ball": 70
+    },
+    "savollar": [
+        {
+            "id": 1,
+            "savol": "Dvigatelga qanday vaqtda profilaktik xizmat ko'rsatiladi?",
+            "variantlar": {
+                "a": "Hech qachon",
+                "b": "Ishlab chiqaruvchi tomonidan belgilangan muddatda",
+                "c": "Faqat buzilganda",
+                "d": "Yiliga bir marta"
+            },
+            "togri_javob": "b"
+        },
+        {
+            "id": 2,
+            "savol": "Kapital ta'mirlash deganda nima tushuniladi?",
+            "variantlar": {
+                "a": "Faqat moyni almashtirish",
+                "b": "Dvigatelni to'liq qismlarga ajratish va barcha detallarni almashtirish",
+                "c": "Faqat filtrlarni almashtirish",
+                "d": "Yuvish"
+            },
+            "togri_javob": "b"
+        },
+        {
+            "id": 3,
+            "savol": "Moy va filtrlarni qancha masofadan keyin almashtirish kerak?",
+            "variantlar": {
+                "a": "1000 km",
+                "b": "7000-10000 km (ishlab chiqaruvchi tavsiyasiga ko'ra)",
+                "c": "50000 km",
+                "d": "Hech qachon"
+            },
+            "togri_javob": "b"
+        },
+        {
+            "id": 4,
+            "savol": "Dvigatel ta'miridan keyin birinchi navbatda nima qilinadi?",
+            "variantlar": {
+                "a": "Darhol uzoq yo'lga chiqish",
+                "b": "Sinash va sozlash ishlari",
+                "c": "Garajga qo'yish",
+                "d": "Sotish"
+            },
+            "togri_javob": "b"
+        },
+        {
+            "id": 5,
+            "savol": "Dvigatel detallarini yuvishda qanday vositalar ishlatiladi?",
+            "variantlar": {
+                "a": "Sovun va suv",
+                "b": "Maksus yuvish eritmasi yoki kerosin",
+                "c": "Faqat havo",
+                "d": "Sirka"
+            },
+            "togri_javob": "b"
+        },
+        {
+            "id": 6,
+            "savol": "Prujinalar va klapanlarni almashtirish qachon zarur?",
+            "variantlar": {
+                "a": "Hech qachon",
+                "b": "Yeyilgan yoki singan hollarda",
+                "c": "Har oy",
+                "d": "Faqat qishda"
+            },
+            "togri_javob": "b"
+        },
+        {
+            "id": 7,
+            "savol": "Dvigatel yig'ilganidan keyin nimani tekshirish muhim?",
+            "variantlar": {
+                "a": "Rangini",
+                "b": "Barcha birikmalarning mahkamligini va suyuqliklarni",
+                "c": "Og'irligini",
+                "d": "Faqat narxini"
+            },
+            "togri_javob": "b"
+        },
+        {
+            "id": 8,
+            "savol": "Ta'mirdan keyin dvigatelni sinashda nimalarga e'tibor beriladi?",
+            "variantlar": {
+                "a": "Faqat rangiga",
+                "b": "Ishlash sifati, tovushlar, bosim va harorat",
+                "c": "Faqat tezlikka",
+                "d": "Faqat yoqilg'i sarfiga"
+            },
+            "togri_javob": "b"
+        },
+        {
+            "id": 9,
+            "savol": "Pistonlarni almashtirishda qaysi parametr muhim?",
+            "variantlar": {
+                "a": "Rangi",
+                "b": "O'lchami va og'irligi",
+                "c": "Narxi",
+                "d": "Zavodi"
+            },
+            "togri_javob": "b"
+        },
+        {
+            "id": 10,
+            "savol": "Dvigatel ta'mirlashda xavfsizlik texnikasi nima uchun muhim?",
+            "variantlar": {
+                "a": "Muhim emas",
+                "b": "Jarohatlar va baxtsiz hodisalarning oldini olish uchun",
+                "c": "Faqat qonun talabi",
+                "d": "Faqat vaqtni tejash uchun"
+            },
+            "togri_javob": "b"
+        }
+    ]
+}

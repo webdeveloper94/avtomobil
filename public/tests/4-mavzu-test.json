@@ -1,0 +1,121 @@
+{
+    "mavzu_id": 4,
+    "mavzu_nomi": "Silindrlar bloki qopqog'ini ajratib olish va o'rnatish",
+    "test_info": {
+        "jami_savollar": 10,
+        "vaqt_limit": 15,
+        "otish_ball": 70
+    },
+    "savollar": [
+        {
+            "id": 1,
+            "savol": "Silindr bloki qopqog'ini ajratishdan oldin nima qilish kerak?",
+            "variantlar": {
+                "a": "Hech narsa",
+                "b": "Dvigatelni sovutish va akkumulyatorni uzish",
+                "c": "Faqat elektr tokini uzish",
+                "d": "Moyni to'kish"
+            },
+            "togri_javob": "b"
+        },
+        {
+            "id": 2,
+            "savol": "Bosh qopqoq qaysi tartibda bo'shashtiriladi?",
+            "variantlar": {
+                "a": "Istalgan tartibda",
+                "b": "Markazdan chetga qarab",
+                "c": "Chetdan markazga qarab",
+                "d": "Faqat chap tomondan"
+            },
+            "togri_javob": "b"
+        },
+        {
+            "id": 3,
+            "savol": "Qopqoq qistirmasini (proklatka) qachon almashtirish kerak?",
+            "variantlar": {
+                "a": "Hech qachon",
+                "b": "Har safar ajratganda",
+                "c": "Yiliga bir marta",
+                "d": "Faqat singan bo'lsa"
+            },
+            "togri_javob": "b"
+        },
+        {
+            "id": 4,
+            "savol": "Bosh qopqoqni o'rnatishda qanday moment galit ishlatiladi?",
+            "variantlar": {
+                "a": "Oddiy galit",
+                "b": "Dinamometrik galit",
+                "c": "Elektr galit",
+                "d": "Bolg'a"
+            },
+            "togri_javob": "b"
+        },
+        {
+            "id": 5,
+            "savol": "Qopqoq murvatlari qanday tartibda tortiladi?",
+            "variantlar": {
+                "a": "Istalgan tartibda",
+                "b": "Belgilangan ketma-ketlikda, markazdan chetga",
+                "c": "Chetdan markazga",
+                "d": "Faqat bir tomondan"
+            },
+            "togri_javob": "b"
+        },
+        {
+            "id": 6,
+            "savol": "Qopqoq yuzasini tozalashda nimadan foydalaniladi?",
+            "variantlar": {
+                "a": "Bolg'a",
+                "b": "Maxsus qirg'ich va tozalagich vosita",
+                "c": "Pichoq",
+                "d": "Qum"
+            },
+            "togri_javob": "b"
+        },
+        {
+            "id": 7,
+            "savol": "Yangi qistirmani o'rnatishdan oldin nima qilish kerak?",
+            "variantlar": {
+                "a": "Hech narsa",
+                "b": "Yuzalarni tozalash va nazorat qilish",
+                "c": "Suv bilan yuvish",
+                "d": "Bo'yash"
+            },
+            "togri_javob": "b"
+        },
+        {
+            "id": 8,
+            "savol": "Qopqoqni ajratishda klapan mexanizmini qanday holatga keltirish kerak?",
+            "variantlar": {
+                "a": "Istalgan holatda",
+                "b": "Barcha klapanlar yopiq holatda",
+                "c": "Barcha klapanlar ochiq",
+                "d": "Ahamiyati yo'q"
+            },
+            "togri_javob": "b"
+        },
+        {
+            "id": 9,
+            "savol": "O'rnatilgan qopqoqni tekshirish uchun nima qilinadi?",
+            "variantlar": {
+                "a": "Hech narsa",
+                "b": "Suyuqlik sizib chiqmasligini tekshirish",
+                "c": "Rangini tekshirish",
+                "d": "Og'irligini o'lchash"
+            },
+            "togri_javob": "b"
+        },
+        {
+            "id": 10,
+            "savol": "Qopqoq murvatlari qancha kuch bilan tortilishi kerak?",
+            "variantlar": {
+                "a": "Qo'l kuchi bilan",
+                "b": "Ishlab chiqaruvchi ko'rsatmasiga muvofiq",
+                "c": "Maksimal kuch bilan",
+                "d": "Kam kuch bilan"
+            },
+            "togri_javob": "b"
+        }
+    ]
+}

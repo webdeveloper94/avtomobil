@@ -1,0 +1,121 @@
+{
+    "mavzu_id": 11,
+    "mavzu_nomi": "Moy bosimining oshishi va pasayishi",
+    "test_info": {
+        "jami_savollar": 10,
+        "vaqt_limit": 15,
+        "otish_ball": 70
+    },
+    "savollar": [
+        {
+            "id": 1,
+            "savol": "Moy bosimining ortiqcha oshishi nimaga olib keladi?",
+            "variantlar": {
+                "a": "Hech narsaga",
+                "b": "Qistirmalar va zaptovkalar buziladi, moy sizishi mumkin",
+                "c": "Yaxshi ishlaydi",
+                "d": "Yoqilg'i tejamkor bo'ladi"
+            },
+            "togri_javob": "b"
+        },
+        {
+            "id": 2,
+            "savol": "Moy bosimining past bo'lishi nimaga sabab bo'ladi?",
+            "variantlar": {
+                "a": "Hech narsaga",
+                "b": "Podshipniklar va boshqa qismlar moysizlanmaydi, buziladi",
+                "c": "Yaxshi ishlaydi",
+                "d": "Tezroq ishlaydi"
+            },
+            "togri_javob": "b"
+        },
+        {
+            "id": 3,
+            "savol": "Moy bosim reduktor klapani nima vazifa bajaradi?",
+            "variantlar": {
+                "a": "Hech narsa",
+                "b": "Bosimni me'yorida ushlab turadi",
+                "c": "Moyni filtratsiya qiladi",
+                "d": "Moyni issitadi"
+            },
+            "togri_javob": "b"
+        },
+        {
+            "id": 4,
+            "savol": "Moy nasosi yeyilsa nima bo'ladi?",
+            "variantlar": {
+                "a": "Hech narsa",
+                "b": "Moy bosimi pasayadi",
+                "c": "Moy bosimi ortadi",
+                "d": "Hech narsa o'zgarmaydi"
+            },
+            "togri_javob": "b"
+        },
+        {
+            "id": 5,
+            "savol": "Podshipnik bo'shliqlari katta bo'lsa nima sodir bo'ladi?",
+            "variantlar": {
+                "a": "Hech narsa",
+                "b": "Moy bosimi pasayadi",
+                "c": "Moy bosimi ortadi",
+                "d": "Yaxshi ishlaydi"
+            },
+            "togri_javob": "b"
+        },
+        {
+            "id": 6,
+            "savol": "Moy filtr to'lib qolsa nima bo'ladi?",
+            "variantlar": {
+                "a": "Hech narsa",
+                "b": "Moy bosimi pasayadi yoki moy tizimga yaxshi kirmaydi",
+                "c": "Yaxshi ishlaydi",
+                "d": "Moy bosimi ortadi"
+            },
+            "togri_javob": "b"
+        },
+        {
+            "id": 7,
+            "savol": "Moy quyuq bo'lsa (qishda) nima sodir bo'ladi?",
+            "variantlar": {
+                "a": "Moy bosimi pasayadi",
+                "b": "Moy bosimi ortadi",
+                "c": "Hech narsa o'zgarmaydi",
+                "d": "Yaxshi ishlaydi"
+            },
+            "togri_javob": "b"
+        },
+        {
+            "id": 8,
+            "savol": "Moy darajasi pastligi nimaga olib keladi?",
+            "variantlar": {
+                "a": "Hech narsaga",
+                "b": "Moy bosimi pasayadi va dvigatel buziladi",
+                "c": "Yaxshi ishlaydi",
+                "d": "Yoqilg'i kam ketadi"
+            },
+            "togri_javob": "b"
+        },
+        {
+            "id": 9,
+            "savol": "Bosim reduktor klapani singan bo'lsa nima bo'ladi?",
+            "variantlar": {
+                "a": "Hech narsa",
+                "b": "Moy bosimi ortiqcha oshadi yoki pasayadi",
+                "c": "Yaxshi ishlaydi",
+                "d": "Tezroq ishlaydi"
+            },
+            "togri_javob": "b"
+        },
+        {
+            "id": 10,
+            "savol": "Moy bosimi o'lchagichi noto'g'ri ko'rsatsa nima qilish kerak?",
+            "variantlar": {
+                "a": "E'tibor bermaslik",
+                "b": "Manometr bilan haqiqiy bosimni o'lchash",
+                "c": "Dvigatelni o'chirish",
+                "d": "Tezroq haydash"
+            },
+            "togri_javob": "b"
+        }
+    ]
+}

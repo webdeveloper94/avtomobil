@@ -1,0 +1,121 @@
+{
+    "mavzu_id": 16,
+    "mavzu_nomi": "O't oldirish tizimi",
+    "test_info": {
+        "jami_savollar": 10,
+        "vaqt_limit": 15,
+        "otish_ball": 70
+    },
+    "savollar": [
+        {
+            "id": 1,
+            "savol": "O't oldirish tizimining vazifasi nima?",
+            "variantlar": {
+                "a": "Moyni quyish",
+                "b": "Havo-yoqilg'i aralashmasini yoqish uchun uchqun hosil qilish",
+                "c": "Sovutish",
+                "d": "Yoqilg'i berish"
+            },
+            "togri_javob": "b"
+        },
+        {
+            "id": 2,
+            "savol": "O't oldirish svechalari nima vazifa bajaradi?",
+            "variantlar": {
+                "a": "Havo berish",
+                "b": "Uchqun hosil qilish",
+                "c": "Yoqilg'i quyish",
+                "d": "Moyni quyish"
+            },
+            "togri_javob": "b"
+        },
+        {
+            "id": 3,
+            "savol": "O't oldirish g'altagani (katushka) vazifasi nima?",
+            "variantlar": {
+                "a": "Havo berish",
+                "b": "Kuchlanishni 12V dan 25000V gacha oshirish",
+                "c": "Moyni quyish",
+                "d": "Sovutish"
+            },
+            "togri_javob": "b"
+        },
+        {
+            "id": 4,
+            "savol": "Uzgich kontaktlari orasidagi tirqish qancha bo'lishi kerak?",
+            "variantlar": {
+                "a": "10 mm",
+                "b": "0.35-0.45 mm (dvigatel turiga ko'ra)",
+                "c": "5 mm",
+                "d": "0 mm"
+            },
+            "togri_javob": "b"
+        },
+        {
+            "id": 5,
+            "savol": "O't oldirish shamlarining orasidagi bo'shliq qancha bo'lishi kerak?",
+            "variantlar": {
+                "a": "5 mm",
+                "b": "0.6-1.0 mm (dvigatel turiga ko'ra)",
+                "c": "10 mm",
+                "d": "Bo'shliq bo'lmasligi kerak"
+            },
+            "togri_javob": "b"
+        },
+        {
+            "id": 6,
+            "savol": "O't oldirish ilgarilash burchagi nima?",
+            "variantlar": {
+                "a": "Hech narsa",
+                "b": "Uchqun piston VMT ga yetishidan oldin hosil bo'lishi",
+                "c": "Uchqun pistondan keyin hosil bo'lishi",
+                "d": "Farqi yo'q"
+            },
+            "togri_javob": "b"
+        },
+        {
+            "id": 7,
+            "savol": "O't oldirish juda erta bo'lsa nima sodir bo'ladi?",
+            "variantlar": {
+                "a": "Hech narsa",
+                "b": "Detonatsiya va dvigatelga zarar",
+                "c": "Yaxshi ishlaydi",
+                "d": "Tezroq ishlaydi"
+            },
+            "togri_javob": "b"
+        },
+        {
+            "id": 8,
+            "savol": "O't oldirish kech bo'lsa nima sodir bo'ladi?",
+            "variantlar": {
+                "a": "Hech narsa",
+                "b": "Quvvat pasayadi, dvigatel qizib ketadi",
+                "c": "Yaxshi ishlaydi",
+                "d": "Tezroq ishlaydi"
+            },
+            "togri_javob": "b"
+        },
+        {
+            "id": 9,
+            "savol": "Zamonaviy avtomobillarda o't oldirish qanday boshqariladi?",
+            "variantlar": {
+                "a": "Qo'lda",
+                "b": "Elektron boshqaruv bloki (ECU) orqali",
+                "c": "Mexanik ravishda",
+                "d": "Havo bosimi bilan"
+            },
+            "togri_javob": "b"
+        },
+        {
+            "id": 10,
+            "savol": "Svechalarni qachon almashtirish kerak?",
+            "variantlar": {
+                "a": "Hech qachon",
+                "b": "Ishlab chiqaruvchi tavsiyasiga ko'ra yoki buzilganda",
+                "c": "Har kuni",
+                "d": "Yiliga bir marta"
+            },
+            "togri_javob": "b"
+        }
+    ]
+}

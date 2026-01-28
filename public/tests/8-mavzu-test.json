@@ -1,0 +1,121 @@
+{
+    "mavzu_id": 8,
+    "mavzu_nomi": "Sovitish tizimi",
+    "test_info": {
+        "jami_savollar": 10,
+        "vaqt_limit": 15,
+        "otish_ball": 70
+    },
+    "savollar": [
+        {
+            "id": 1,
+            "savol": "Sovitish tizimining asosiy vazifasi nima?",
+            "variantlar": {
+                "a": "Dvigatelni isitish",
+                "b": "Dvigatel haroratini me'yorida ushlab turish",
+                "c": "Yoqilg'i berish",
+                "d": "Elektr energiya ishlab chiqarish"
+            },
+            "togri_javob": "b"
+        },
+        {
+            "id": 2,
+            "savol": "Termostat nima vazifa bajaradi?",
+            "variantlar": {
+                "a": "Hech narsa",
+                "b": "Sovutish suyuqligining harakatini boshqaradi",
+                "c": "Elektr ishlab chiqaradi",
+                "d": "Yoqilg'i beradi"
+            },
+            "togri_javob": "b"
+        },
+        {
+            "id": 3,
+            "savol": "Sovutish suyuqligi qancha haroratda qaynaydi?",
+            "variantlar": {
+                "a": "50°C",
+                "b": "100-110°C (antifreeze 120°C gacha)",
+                "c": "150°C",
+                "d": "200°C"
+            },
+            "togri_javob": "b"
+        },
+        {
+            "id": 4,
+            "savol": "Radiator o'zagini tozalash nima uchun zarur?",
+            "variantlar": {
+                "a": "Kerak emas",
+                "b": "Havo o'tishini yaxshilash va sovutish samaradorligini oshirish",
+                "c": "Faqat ko'rkam bo'lishi uchun",
+                "d": "Faqat og'irligini kamaytirish uchun"
+            },
+            "togri_javob": "b"
+        },
+        {
+            "id": 5,
+            "savol": "Suyuqlik nasosi (pompa) vazifasi nima?",
+            "variantlar": {
+                "a": "Elektr ishlab chiqarish",
+                "b": "Sovutish suyuqligini aylantirish",
+                "c": "Yoqilg'i quyish",
+                "d": "Moy quyish"
+            },
+            "togri_javob": "b"
+        },
+        {
+            "id": 6,
+            "savol": "Radiator qopqog'ining xususiyati nima?",
+            "variantlar": {
+                "a": "Oddiy qopqoq",
+                "b": "Bosim klapani bilan ta'minlangan",
+                "c": "Bezak vazifasini bajaradi",
+                "d": "Hech qanday xususiyati yo'q"
+            },
+            "togri_javob": "b"
+        },
+        {
+            "id": 7,
+            "savol": "Dvigatel yuritma tasmasi (yoki zanjirlari) cho'zilsa nima bo'ladi?",
+            "variantlar": {
+                "a": "Hech narsa",
+                "b": "Pompa va generator yomon ishlaydi",
+                "c": "Yaxshi ishlaydi",
+                "d": "Tezroq ishlaydi"
+            },
+            "togri_javob": "b"
+        },
+        {
+            "id": 8,
+            "savol": "Sovutish tizimida havo tiqilib qolsa nima yuz beradi?",
+            "variantlar": {
+                "a": "Hech narsa",
+                "b": "Dvigatel qizib ketadi",
+                "c": "Yaxshi ishlaydi",
+                "d": "Sovib ketadi"
+            },
+            "togri_javob": "b"
+        },
+        {
+            "id": 9,
+            "savol": "Elektr ventilyator qachon ishga tushadi?",
+            "variantlar": {
+                "a": "Hech qachon",
+                "b": "Harorat ma'lum darajaga yetganda",
+                "c": "Doim ishlaydi",
+                "d": "Qo'lda yoqiladi"
+            },
+            "togri_javob": "b"
+        },
+        {
+            "id": 10,
+            "savol": "Sovutish tizimidan havo chiqarish (spusk) nima uchun zarur?",
+            "variantlar": {
+                "a": "Kerak emas",
+                "b": "Normal aylanishni ta'minlash va qizib ketishni oldini olish",
+                "c": "Faqat vaqt o'tkazish uchun",
+                "d": "Faqat tovush chiqarish uchun"
+            },
+            "togri_javob": "b"
+        }
+    ]
+}

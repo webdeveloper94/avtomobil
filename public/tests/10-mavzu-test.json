@@ -1,0 +1,121 @@
+{
+    "mavzu_id": 10,
+    "mavzu_nomi": "Moylash tizimi",
+    "test_info": {
+        "jami_savollar": 10,
+        "vaqt_limit": 15,
+        "otish_ball": 70
+    },
+    "savollar": [
+        {
+            "id": 1,
+            "savol": "Moylash tizimining asosiy vazifasi nima?",
+            "variantlar": {
+                "a": "Dvigatelni sovutish",
+                "b": "Ishqalanishni kamaytirish va detallarni yeyilishdan himoyalash",
+                "c": "Yoqilg'i berish",
+                "d": "Elektr ishlab chiqarish"
+            },
+            "togri_javob": "b"
+        },
+        {
+            "id": 2,
+            "savol": "Moy bosimini qanday asbob bilan o'lchanadi?",
+            "variantlar": {
+                "a": "Termometr",
+                "b": "Manometr",
+                "c": "Voltmetr",
+                "d": "Tezlikni o'lchagich"
+            },
+            "togri_javob": "b"
+        },
+        {
+            "id": 3,
+            "savol": "Moy filtri nima vazifa bajaradi?",
+            "variantlar": {
+                "a": "Hech narsa",
+                "b": "Moyni kirlardan va zarralardan tozalaydi",
+                "c": "Moyni issitadi",
+                "d": "Moyni sovutadi"
+            },
+            "togri_javob": "b"
+        },
+        {
+            "id": 4,
+            "savol": "Moy nasosi (pompa) vazifasi nima?",
+            "variantlar": {
+                "a": "Moyni saqlash",
+                "b": "Moyni bosim ostida tizimga quyish",
+                "c": "Moyni filtratsiya qilish",
+                "d": "Moyni isitish"
+            },
+            "togri_javob": "b"
+        },
+        {
+            "id": 5,
+            "savol": "Dvigatelda moy bosimi past bo'lsa nima sodir bo'ladi?",
+            "variantlar": {
+                "a": "Hech narsa",
+                "b": "Detallar moysizlanib, tez yeyiladi",
+                "c": "Yaxshi ishlaydi",
+                "d": "Yoqilg'i kam ketadi"
+            },
+            "togri_javob": "b"
+        },
+        {
+            "id": 6,
+            "savol": "Moy rangining qorayishi nimani bildiradi?",
+            "variantlar": {
+                "a": "Moy yangi",
+                "b": "Moy kirlangan, almashtirish kerak",
+                "c": "Moy yaxshi",
+                "d": "Hech narsani"
+            },
+            "togri_javob": "b"
+        },
+        {
+            "id": 7,
+            "savol": "Karterdan moy sizib chiqsa asosiy sabab nima?",
+            "variantlar": {
+                "a": "Havo bosimi",
+                "b": "Qistirma yomon yoki murvatlar bo'shashgan",
+                "c": "Yoqilg'i kam",
+                "d": "Elektr muammosi"
+            },
+            "togri_javob": "b"
+        },
+        {
+            "id": 8,
+            "savol": "Dvigatelda moy sarfi ko'p bo'lishining sababi nima?",
+            "variantlar": {
+                "a": "Hech narsa",
+                "b": "Piston halqalari yeyilgan yoki klapan novdalarining zaptovkalari yomon",
+                "c": "Yoqilg'i yaxshi",
+                "d": "Havo tozа"
+            },
+            "togri_javob": "b"
+        },
+        {
+            "id": 9,
+            "savol": "Karterning shamollatish tizimi nima vazifa bajaradi?",
+            "variantlar": {
+                "a": "Moyni quyish",
+                "b": "Gazlarni chiqarish va bosimni kamaytirish",
+                "c": "Havo kiritish",
+                "d": "Yoqilg'i berish"
+            },
+            "togri_javob": "b"
+        },
+        {
+            "id": 10,
+            "savol": "Moy filtrini qancha vaqtda almashtirish kerak?",
+            "variantlar": {
+                "a": "Hech qachon",
+                "b": "Moy almashtirganda yoki ishlab chiqaruvchi tavsiyasiga ko'ra",
+                "c": "Yiliga bir marta",
+                "d": "10 yilda bir marta"
+            },
+            "togri_javob": "b"
+        }
+    ]
+}

@@ -1,0 +1,121 @@
+{
+    "mavzu_id": 13,
+    "mavzu_nomi": "Dizel dvigatellarining yonilg'i tizimi",
+    "test_info": {
+        "jami_savollar": 10,
+        "vaqt_limit": 15,
+        "otish_ball": 70
+    },
+    "savollar": [
+        {
+            "id": 1,
+            "savol": "Dizel dvigatelida yonilg'i qanday tutashadi?",
+            "variantlar": {
+                "a": "Svecha bilan",
+                "b": "Siqishdan hosil bo'lgan yuqori harorat ta'sirida",
+                "c": "Elektr uchqun bilan",
+                "d": "Qo'lda"
+            },
+            "togri_javob": "b"
+        },
+        {
+            "id": 2,
+            "savol": "Yuqori bosimli nasos (TNVD) vazifasi nima?",
+            "variantlar": {
+                "a": "Havo quyish",
+                "b": "Yoqilg'ini yuqori bosim ostida forsunkalarga etkazish",
+                "c": "Moyni quyish",
+                "d": "Sovutish"
+            },
+            "togri_javob": "b"
+        },
+        {
+            "id": 3,
+            "savol": "Forsunkalar nima vazifa bajaradi?",
+            "variantlar": {
+                "a": "Havo berish",
+                "b": "Yoqilg'ini mayda zarralar holida purkash",
+                "c": "Moyni quyish",
+                "d": "Sovutish"
+            },
+            "togri_javob": "b"
+        },
+        {
+            "id": 4,
+            "savol": "Dizel yoqilg'isida suv yoki iflos bo'lsa nima bo'ladi?",
+            "variantlar": {
+                "a": "Hech narsa",
+                "b": "Tizim buziladi, dvigatel ishlamaydi",
+                "c": "Yaxshi ishlaydi",
+                "d": "Tezroq ishlaydi"
+            },
+            "togri_javob": "b"
+        },
+        {
+            "id": 5,
+            "savol": "Qizdiruv svechalari (kalilnыe) nima uchun kerak?",
+            "variantlar": {
+                "a": "Kerak emas",
+                "b": "Sovuq havoda ishga tushirishni osonlashtirish uchun",
+                "c": "Faqat yorug'lik uchun",
+                "d": "Faqat tovush uchun"
+            },
+            "togri_javob": "b"
+        },
+        {
+            "id": 6,
+            "savol": "Plunjer juftining yeyilishi nimaga olib keladi?",
+            "variantlar": {
+                "a": "Hech narsaga",
+                "b": "Yoqilg'i berish noto'g'ri bo'ladi, dvigatel quvvatsizlashadi",
+                "c": "Yaxshi ishlaydi",
+                "d": "Tezroq ishlaydi"
+            },
+            "togri_javob": "b"
+        },
+        {
+            "id": 7,
+            "savol": "Forsunkaning purkash bosimi necha bo'lishi kerak?",
+            "variantlar": {
+                "a": "1-2 bar",
+                "b": "150-300 bar (dvigatel turiga ko'ra)",
+                "c": "10 bar",
+                "d": "500 bar"
+            },
+            "togri_javob": "b"
+        },
+        {
+            "id": 8,
+            "savol": "Yoqilg'i tizimidan havo chiqarish nima uchun zarur?",
+            "variantlar": {
+                "a": "Kerak emas",
+                "b": "Dvigatelni normal ishga tushirish uchun",
+                "c": "Faqat vaqt o'tkazish uchun",
+                "d": "Faqat tovush uchun"
+            },
+            "togri_javob": "b"
+        },
+        {
+            "id": 9,
+            "savol": "Dizel dvigatelining afzalliklari qaysilar?",
+            "variantlar": {
+                "a": "Hech narsa",
+                "b": "Yoqilg'i tejamkorligi va yuqori moment",
+                "c": "Faqat arzonligi",
+                "d": "Faqat tezligi"
+            },
+            "togri_javob": "b"
+        },
+        {
+            "id": 10,
+            "savol": "Forsunkalarni qachon tozalash yoki almashtirish kerak?",
+            "variantlar": {
+                "a": "Hech qachon",
+                "b": "Purkash sifati yomonlashganda yoki tiqilib qolganda",
+                "c": "Har kuni",
+                "d": "Yiliga bir marta"
+            },
+            "togri_javob": "b"
+        }
+    ]
+}

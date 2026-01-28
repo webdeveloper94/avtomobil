@@ -1,0 +1,121 @@
+{
+    "mavzu_id": 1,
+    "mavzu_nomi": "Kirish. O'quv ustaxonasida texnika xavfsizligi va yong'in xavfsizligi qoidalari. Ish joyini tashkil etish.",
+    "test_info": {
+        "jami_savollar": 10,
+        "vaqt_limit": 15,
+        "otish_ball": 70
+    },
+    "savollar": [
+        {
+            "id": 1,
+            "savol": "O'quv ustaxonasida ishlashda qaysi shaxsiy himoya vositalarini kiyish majburiy?",
+            "variantlar": {
+                "a": "Faqat qo'lqop",
+                "b": "Ish kiyimi, qo'lqop va himoya ko'zoynak",
+                "c": "Hech narsa kerak emas",
+                "d": "Faqat shapka"
+            },
+            "togri_javob": "b"
+        },
+        {
+            "id": 2,
+            "savol": "Yong'in chiqsa, birinchi navbatda nima qilish kerak?",
+            "variantlar": {
+                "a": "Qochib ketish",
+                "b": "Elektr tokini uzish va o't o'chirish vositasidan foydalanish",
+                "c": "Suv quyish",
+                "d": "Deraza ochish"
+            },
+            "togri_javob": "b"
+        },
+        {
+            "id": 3,
+            "savol": "Ustaxonada ish joyini to'g'ri tashkil etishda nima hisobga olinadi?",
+            "variantlar": {
+                "a": "Faqat yaxshi yoritilganlik",
+                "b": "Asbob-uskunalarning tartibi, yoritilganlik va xavfsizlik",
+                "c": "Faqat asboblar joylashuvi",
+                "d": "Harorat rejimi"
+            },
+            "togri_javob": "b"
+        },
+        {
+            "id": 4,
+            "savol": "Elektr asboblari bilan ishlashdan oldin nima tekshiriladi?",
+            "variantlar": {
+                "a": "Rangini",
+                "b": "Simlarning yaxlitligi va yerga ulanishi",
+                "c": "Og'irligini",
+                "d": "Narxini"
+            },
+            "togri_javob": "b"
+        },
+        {
+            "id": 5,
+            "savol": "O't o'chirish apparatining asosiy turlari qaysilar?",
+            "variantlar": {
+                "a": "Suv va qum",
+                "b": "Ko'pikli, karbonatlashtirilgan va kukun",
+                "c": "Faqat suv",
+                "d": "Faqat kukun"
+            },
+            "togri_javob": "b"
+        },
+        {
+            "id": 6,
+            "savol": "Ustaxonada yaralanish sodir bo'lsa, dastlabki yordam nima?",
+            "variantlar": {
+                "a": "Hech narsa qilmaslik",
+                "b": "Yaraga bandaj qo'yish va shifokorga murojaat qilish",
+                "c": "Suv bilan yuvish",
+                "d": "Kutib turish"
+            },
+            "togri_javob": "b"
+        },
+        {
+            "id": 7,
+            "savol": "Ustaxonada ishlash vaqtida taqiqlangan harakatlar qaysilar?",
+            "variantlar": {
+                "a": "Gaplashish",
+                "b": "Mast ichimliklar ichish va chekish",
+                "c": "Savollar berish",
+                "d": "Dam olish"
+            },
+            "togri_javob": "b"
+        },
+        {
+            "id": 8,
+            "savol": "Ko'tarish mexanizmlari bilan ishlashda qaysi qoida asosiy?",
+            "variantlar": {
+                "a": "Tez ishlash",
+                "b": "Yukni to'g'ri mahkamlash va xavfsizlik texnikasiga rioya qilish",
+                "c": "Ko'p yuk ko'tarish",
+                "d": "Bir kishining o'zi ishlashi"
+            },
+            "togri_javob": "b"
+        },
+        {
+            "id": 9,
+            "savol": "Ustaxonada havo almashinuvi nima uchun muhim?",
+            "variantlar": {
+                "a": "Sovuq bo'lishi uchun",
+                "b": "Zaharli gazlar va bug'larni chiqarish uchun",
+                "c": "Issiq bo'lishi uchun",
+                "d": "Shovqinni kamaytirish uchun"
+            },
+            "togri_javob": "b"
+        },
+        {
+            "id": 10,
+            "savol": "Dvigatel ustida ishlashdan oldin nimani tekshirish kerak?",
+            "variantlar": {
+                "a": "Rangini",
+                "b": "Dvigatel sovuganligini va elektr uzilganligini",
+                "c": "Og'irligini",
+                "d": "Narxini"
+            },
+            "togri_javob": "b"
+        }
+    ]
+}

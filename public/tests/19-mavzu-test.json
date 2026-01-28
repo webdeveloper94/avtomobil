@@ -1,0 +1,121 @@
+{
+    "mavzu_id": 19,
+    "mavzu_nomi": "Avtomobillarga servis xizmat ko'rsatishdan so'ng sinash",
+    "test_info": {
+        "jami_savollar": 10,
+        "vaqt_limit": 15,
+        "otish_ball": 70
+    },
+    "savollar": [
+        {
+            "id": 1,
+            "savol": "Servis xizmatdan keyin avtomobilni sinash nima uchun zarur?",
+            "variantlar": {
+                "a": "Kerak emas",
+                "b": "Ishlarning sifatli bajarilganligini tekshirish uchun",
+                "c": "Faqat vaqt o'tkazish uchun",
+                "d": "Faqat narx uchun"
+            },
+            "togri_javob": "b"
+        },
+        {
+            "id": 2,
+            "savol": "Sinash jarayonida birinchi navbatda nima tekshiriladi?",
+            "variantlar": {
+                "a": "Faqat rangi",
+                "b": "Barcha birikmalarning mahkamligi va suyuqliklар darajasi",
+                "c": "Faqat tezligi",
+                "d": "Faqat narxi"
+            },
+            "togri_javob": "b"
+        },
+        {
+            "id": 3,
+            "savol": "Yo'lda sinash (test-drayv) nima uchun amalga oshiriladi?",
+            "variantlar": {
+                "a": "Sayohat uchun",
+                "b": "Haqiqiy sharoitda ishlashni tekshirish uchun",
+                "c": "Faqat zavqlanish uchun",
+                "d": "Hech narsa uchun"
+            },
+            "togri_javob": "b"
+        },
+        {
+            "id": 4,
+            "savol": "Tormoz tizimi ta'miridan keyin nima tekshiriladi?",
+            "variantlar": {
+                "a": "Hech narsa",
+                "b": "Tormozlash samaradorligi va to'xtash masofasi",
+                "c": "Faqat tovushi",
+                "d": "Faqat rangi"
+            },
+            "togri_javob": "b"
+        },
+        {
+            "id": 5,
+            "savol": "Rul boshqaruvi ta'miridan keyin nimaga e'tibor beriladi?",
+            "variantlar": {
+                "a": "Faqat rangiga",
+                "b": "Rulning bo'sh yurishi va to'g'rilikka",
+                "c": "Faqat og'irligiga",
+                "d": "Faqat narxiga"
+            },
+            "togri_javob": "b"
+        },
+        {
+            "id": 6,
+            "savol": "Elektr tizimi ishlaridan keyin nima tekshiriladi?",
+            "variantlar": {
+                "a": "Hech narsa",
+                "b": "Barcha asboblar va chiroqlarning ishlashi",
+                "c": "Faqat akkumulyator",
+                "d": "Faqat generator"
+            },
+            "togri_javob": "b"
+        },
+        {
+            "id": 7,
+            "savol": "Diagnostika skaneri yordamida nima aniqlanadi?",
+            "variantlar": {
+                "a": "Faqat rangi",
+                "b": "Xatolar kodlari va tizimlarning holati",
+                "c": "Faqat narxi",
+                "d": "Faqat og'irligi"
+            },
+            "togri_javob": "b"
+        },
+        {
+            "id": 8,
+            "savol": "Sinov protokolida nima qayd etiladi?",
+            "variantlar": {
+                "a": "Hech narsa",
+                "b": "Bajarilgan ishlar va sinov natijalari",
+                "c": "Faqat sana",
+                "d": "Faqat ism"
+            },
+            "togri_javob": "b"
+        },
+        {
+            "id": 9,
+            "savol": "Mijozga avtomobilni topshirishdan oldin nima qilinadi?",
+            "variantlar": {
+                "a": "Hech narsa",
+                "b": "Yuvish va ichini tozalash",
+                "c": "Faqat kalit berish",
+                "d": "Hech narsa"
+            },
+            "togri_javob": "b"
+        },
+        {
+            "id": 10,
+            "savol": "Kafolat muddati ichida muammo topilsa nima qilish kerak?",
+            "variantlar": {
+                "a": "E'tibor bermaslik",
+                "b": "Bepul tuzatish",
+                "c": "Mijozdan pul olish",
+                "d": "Rad etish"
+            },
+            "togri_javob": "b"
+        }
+    ]
+}

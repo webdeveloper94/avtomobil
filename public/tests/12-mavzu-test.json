@@ -1,0 +1,121 @@
+{
+    "mavzu_id": 12,
+    "mavzu_nomi": "Karbyuratorli va injektorli dvigatellar",
+    "test_info": {
+        "jami_savollar": 10,
+        "vaqt_limit": 15,
+        "otish_ball": 70
+    },
+    "savollar": [
+        {
+            "id": 1,
+            "savol": "Karbyuratorning asosiy vazifasi nima?",
+            "variantlar": {
+                "a": "Moyni quyish",
+                "b": "Havo va yoqilg'ini aralashtirib, dvigatelga berish",
+                "c": "Sovutish",
+                "d": "Elektr ishlab chiqarish"
+            },
+            "togri_javob": "b"
+        },
+        {
+            "id": 2,
+            "savol": "Injektorli tizimning afzalligi nima?",
+            "variantlar": {
+                "a": "Hech narsa",
+                "b": "Aniqroq yoqilg'i berish va iqtisodiylik",
+                "c": "Arzonroq",
+                "d": "Oddiy ta'mirlash"
+            },
+            "togri_javob": "b"
+        },
+        {
+            "id": 3,
+            "savol": "Karbyuratorni sozlashda nimaga e'tibor beriladi?",
+            "variantlar": {
+                "a": "Faqat rangiga",
+                "b": "Yoqilg'i-havo aralashmasining nisbatiga",
+                "c": "Faqat og'irligiga",
+                "d": "Faqat narxiga"
+            },
+            "togri_javob": "b"
+        },
+        {
+            "id": 4,
+            "savol": "Injektorlar qanday ishlaydi?",
+            "variantlar": {
+                "a": "Mexanik ravishda",
+                "b": "Elektron boshqaruv orqali pulsatsiya bilan",
+                "c": "Qo'l bilan",
+                "d": "Havo bosimi bilan"
+            },
+            "togri_javob": "b"
+        },
+        {
+            "id": 5,
+            "savol": "Yoqilg'i nasosi vazifasi nima?",
+            "variantlar": {
+                "a": "Moyni quyish",
+                "b": "Yoqilg'ini bakdan dvigatelga etkazish",
+                "c": "Havo berish",
+                "d": "Sovutish"
+            },
+            "togri_javob": "b"
+        },
+        {
+            "id": 6,
+            "savol": "Havo filtri nima uchun zarur?",
+            "variantlar": {
+                "a": "Kerak emas",
+                "b": "Dvigatelga toza havo kiritish uchun",
+                "c": "Faqat tovush uchun",
+                "d": "Faqat bezak uchun"
+            },
+            "togri_javob": "b"
+        },
+        {
+            "id": 7,
+            "savol": "Yoqilg'i filtri nima vazifa bajaradi?",
+            "variantlar": {
+                "a": "Hech narsa",
+                "b": "Yoqilg'ini kirlardan tozalaydi",
+                "c": "Yoqilg'ini issitadi",
+                "d": "Yoqilg'ini sovutadi"
+            },
+            "togri_javob": "b"
+        },
+        {
+            "id": 8,
+            "savol": "Injektorlar tiqilib qolsa nima bo'ladi?",
+            "variantlar": {
+                "a": "Hech narsa",
+                "b": "Dvigatel quvvati pasayadi, noto'g'ri ishlaydi",
+                "c": "Yax shi ishlaydi",
+                "d": "Tezroq ishlaydi"
+            },
+            "togri_javob": "b"
+        },
+        {
+            "id": 9,
+            "savol": "Karbyuratorli dvigatelda mosh-mosh bo'lsa sababi nima?",
+            "variantlar": {
+                "a": "Hech narsa",
+                "b": "Aralashma noto'g'ri yoki karbyurator buzuq",
+                "c": "Yoqilg'i ko'p",
+                "d": "Havo kam"
+            },
+            "togri_javob": "b"
+        },
+        {
+            "id": 10,
+            "savol": "Yoqilg'i tizimiga servis ko'rsatish nimani o'z ichiga oladi?",
+            "variantlar": {
+                "a": "Hech narsa",
+                "b": "Filtrlarni almashtirish, injektorlarni tozalash",
+                "c": "Faqat yuvish",
+                "d": "Faqat bo'yash"
+            },
+            "togri_javob": "b"
+        }
+    ]
+}

@@ -1,0 +1,121 @@
+{
+    "mavzu_id": 17,
+    "mavzu_nomi": "O't oldirish shamlarini tekshirish va almashtirish",
+    "test_info": {
+        "jami_savollar": 10,
+        "vaqt_limit": 15,
+        "otish_ball": 70
+    },
+    "savollar": [
+        {
+            "id": 1,
+            "savol": "O't oldirish shamini vizual tekshirishda nimaga e'tibor beriladi?",
+            "variantlar": {
+                "a": "Faqat rangiga",
+                "b": "Elektrodlarning holatiga, izolyatorga va cho'kmalarga",
+                "c": "Faqat uzunligiga",
+                "d": "Faqat og'irligiga"
+            },
+            "togri_javob": "b"
+        },
+        {
+            "id": 2,
+            "savol": "Svecha izolyatori oq rangda bo'lsa nima ma'noni anglatadi?",
+            "variantlar": {
+                "a": "Hech narsa",
+                "b": "Aralashma yuqori (yoqilg'i kam)",
+                "c": "Aralashma boy (yoqilg'i ko'p)",
+                "d": "Hammasi normal"
+            },
+            "togri_javob": "b"
+        },
+        {
+            "id": 3,
+            "savol": "Svecha qora va nam bo'lsa nima ma'noni anglatadi?",
+            "variantlar": {
+                "a": "Hammasi normal",
+                "b": "Aralashma boy (yoqilg'i ko'p) yoki moy o'tib ketmoqda",
+                "c": "Yaxshi ishlayapti",
+                "d": "Yangi svecha"
+            },
+            "togri_javob": "b"
+        },
+        {
+            "id": 4,
+            "savol": "Svechani qanday asbob bilan bo'shatiladi?",
+            "variantlar": {
+                "a": "Oddiy galit",
+                "b": "Maxsus svecha galiti",
+                "c": "Bolg'a",
+                "d": "Qo'l bilan"
+            },
+            "togri_javob": "b"
+        },
+        {
+            "id": 5,
+            "savol": "Svechalarning elektrodlari orasidagi bo'shliqni qanday o'lchash mumkin?",
+            "variantlar": {
+                "a": "Ko'z bilan",
+                "b": "Shchupp (shup zond) yoki maxsus asbob bilan",
+                "c": "Chizg'ich bilan",
+                "d": "Qo'l bilan"
+            },
+            "togri_javob": "b"
+        },
+        {
+            "id": 6,
+            "savol": "Svechani o'rnatishda qancha kuch bilan tortish kerak?",
+            "variantlar": {
+                "a": "Qo'l kuchi bilan",
+                "b": "Dinamometrik galit bilan belgilangan momentga ko'ra",
+                "c": "Maksimal kuch bilan",
+                "d": "Kam kuch bilan"
+            },
+            "togri_javob": "b"
+        },
+        {
+            "id": 7,
+            "savol": "Svechani tozalash mumkinmi?",
+            "variantlar": {
+                "a": "Yo'q, hech qachon",
+                "b": "Ha, maxsus asbob bilan yoki qumlovchi (peskostruy) bilan",
+                "c": "Faqat suv bilan",
+                "d": "Faqat benzin bilan"
+            },
+            "togri_javob": "b"
+        },
+        {
+            "id": 8,
+            "savol": "Svechani almashtirayotganda nima tekshiriladi?",
+            "variantlar": {
+                "a": "Hech narsa",
+                "b": "Silindr boshidagi ip va yangi svechaning turi",
+                "c": "Faqat rangi",
+                "d": "Faqat narxi"
+            },
+            "togri_javob": "b"
+        },
+        {
+            "id": 9,
+            "savol": "Svecha simlarining holati nima uchun muhim?",
+            "variantlar": {
+                "a": "Muhim emas",
+                "b": "Sifatli uchqun uzatish va dvigatelning to'g'ri ishlashi uchun",
+                "c": "Faqat ko'rkam bo'lishi uchun",
+                "d": "Faqat narx uchun"
+            },
+            "togri_javob": "b"
+        },
+        {
+            "id": 10,
+            "savol": "Sovuq dvigatelda svecha holati qanday tekshiriladi?",
+            "variantlar": {
+                "a": "Tek shirilmaydi",
+                "b": "Vizual va multimetr bilan qarshilikni o'lchash",
+                "c": "Faqat ko'z bilan",
+                "d": "Faqat tinglash orqali"
+            },
+            "togri_javob": "b"
+        }
+    ]
+}

@@ -1,0 +1,121 @@
+{
+    "mavzu_id": 7,
+    "mavzu_nomi": "Klapanlar yuritmasidagi issiqlik tirqishlarini rostlash",
+    "test_info": {
+        "jami_savollar": 10,
+        "vaqt_limit": 15,
+        "otish_ball": 70
+    },
+    "savollar": [
+        {
+            "id": 1,
+            "savol": "Issiqlik tirqishi nima uchun zarur?",
+            "variantlar": {
+                "a": "Kerak emas",
+                "b": "Ishlash vaqtida kengayishni hisobga olish uchun",
+                "c": "Faqat tovush chiqarish uchun",
+                "d": "Faqat bezak uchun"
+            },
+            "togri_javob": "b"
+        },
+        {
+            "id": 2,
+            "savol": "Tirqishni o'lchash uchun qanday asbob ishlatiladi?",
+            "variantlar": {
+                "a": "Chizg'ich",
+                "b": "Shchupp (shup zond)",
+                "c": "Bolg'a",
+                "d": "Qalam"
+            },
+            "togri_javob": "b"
+        },
+        {
+            "id": 3,
+            "savol": "Tirqishni qachon tekshirish va rostlash kerak?",
+            "variantlar": {
+                "a": "Har kuni",
+                "b": "Sovuq dvigatelda, ma'lum muddatda",
+                "c": "Ishlayotgan dvigatelda",
+                "d": "Hech qachon"
+            },
+            "togri_javob": "b"
+        },
+        {
+            "id": 4,
+            "savol": "Tirqish katta bo'lsa nima sodir bo'ladi?",
+            "variantlar": {
+                "a": "Hech narsa",
+                "b": "Klapanlar to'liq ochilmaydi, quvvat pasayadi",
+                "c": "Dvigatel tezlashadi",
+                "d": "Yoqilg'i tejamkor bo'ladi"
+            },
+            "togri_javob": "b"
+        },
+        {
+            "id": 5,
+            "savol": "Tirqish kichik bo'lsa nima sodir bo'ladi?",
+            "variantlar": {
+                "a": "Yaxshi ishlaydi",
+                "b": "Klapanlar to'liq yopilmaydi, kompressiya yo'qoladi",
+                "c": "Hech narsa",
+                "d": "Dvigatel sekinlashadi"
+            },
+            "togri_javob": "b"
+        },
+        {
+            "id": 6,
+            "savol": "Kirish va chiqish klapanlari uchun tirqish bir xilmi?",
+            "variantlar": {
+                "a": "Ha, doimo bir xil",
+                "b": "Yo'q, chiqish klapani uchun biroz kattaroq",
+                "c": "Yo'q, kirish uchun katta",
+                "d": "Farqi yo'q"
+            },
+            "togri_javob": "b"
+        },
+        {
+            "id": 7,
+            "savol": "Tirqishni rostlashda pistonni qanday holatga keltirish kerak?",
+            "variantlar": {
+                "a": "Istalgan holatda",
+                "b": "Yuqori o'lik nuqtada (VMT)",
+                "c": "Pastki o'lik nuqtada",
+                "d": "Ahamiyati yo'q"
+            },
+            "togri_javob": "b"
+        },
+        {
+            "id": 8,
+            "savol": "Rostlash murt-gaykalari qanday mahkamlanadi?",
+            "variantlar": {
+                "a": "Mahkamlanmaydi",
+                "b": "Kontr gayka bilan",
+                "c": "Sim bilan",
+                "d": "Yopishqoq bilan"
+            },
+            "togri_javob": "b"
+        },
+        {
+            "id": 9,
+            "savol": "Gidrokompensatorli tizimda tirqishni rostlash kerakmi?",
+            "variantlar": {
+                "a": "Ha, doim",
+                "b": "Yo'q, avtomatik rostlanadi",
+                "c": "Har hafta",
+                "d": "Har oy"
+            },
+            "togri_javob": "b"
+        },
+        {
+            "id": 10,
+            "savol": "Rostlashdan keyin nima tekshiriladi?",
+            "variantlar": {
+                "a": "Hech narsa",
+                "b": "Dvigatelni ishga tushirib tovushni tinglash",
+                "c": "Faqat rangni",
+                "d": "Faqat narxni"
+            },
+            "togri_javob": "b"
+        }
+    ]
+}

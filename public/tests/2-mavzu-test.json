@@ -1,0 +1,121 @@
+{
+    "mavzu_id": 2,
+    "mavzu_nomi": "Dvigatelni umumiy tekshirish",
+    "test_info": {
+        "jami_savollar": 10,
+        "vaqt_limit": 15,
+        "otish_ball": 70
+    },
+    "savollar": [
+        {
+            "id": 1,
+            "savol": "Dvigatelni tashqi ko'rinishini tekshirishda nimaga e'tibor beriladi?",
+            "variantlar": {
+                "a": "Faqat rangiga",
+                "b": "Moy sizishi, suv oqishi va mexanik shikastlanishlar",
+                "c": "Faqat og'irligiga",
+                "d": "Narxiga"
+            },
+            "togri_javob": "b"
+        },
+        {
+            "id": 2,
+            "savol": "Dvigatel kompressiyasini qanday o'lchanadi?",
+            "variantlar": {
+                "a": "Ko'z bilan qarab",
+                "b": "Kompressometr yordamida",
+                "c": "Qo'l bilan tekshirib",
+                "d": "Tinglash orqali"
+            },
+            "togri_javob": "b"
+        },
+        {
+            "id": 3,
+            "savol": "Dvigatelning normal ish harorati qancha bo'lishi kerak?",
+            "variantlar": {
+                "a": "50-60°C",
+                "b": "80-90°C",
+                "c": "100-110°C",
+                "d": "120-130°C"
+            },
+            "togri_javob": "b"
+        },
+        {
+            "id": 4,
+            "savol": "Dvigatel ishlayotganda noto'g'ri tovushlar nima haqida gapiradi?",
+            "variantlar": {
+                "a": "Hamma narsa normal",
+                "b": "Ichki nosozliklar mavjud",
+                "c": "Dvigatel yangi",
+                "d": "Havo harorati past"
+            },
+            "togri_javob": "b"
+        },
+        {
+            "id": 5,
+            "savol": "Moy bosimini qaysi asbob bilan o'lchanadi?",
+            "variantlar": {
+                "a": "Termometr",
+                "b": "Manometr",
+                "c": "Tezlikni o'lchagich",
+                "d": "Voltmetr"
+            },
+            "togri_javob": "b"
+        },
+        {
+            "id": 6,
+            "savol": "Dvigatel starter bilan aylanmasa, sababi nima bo'lishi mumkin?",
+            "variantlar": {
+                "a": "Benzin yo'q",
+                "b": "Akkumulyator zaryadsiz yoki starter buzuq",
+                "c": "Havo filtri kirlangan",
+                "d": "Moy kam"
+            },
+            "togri_javob": "b"
+        },
+        {
+            "id": 7,
+            "savol": "Dvigatel qizib ketishining asosiy sabablari qaysilar?",
+            "variantlar": {
+                "a": "Tez haydash",
+                "b": "Sovutish tizimi nosozligi, termostat buzuq",
+                "c": "Eski benzin",
+                "d": "Havo filtri yangi"
+            },
+            "togri_javob": "b"
+        },
+        {
+            "id": 8,
+            "savol": "Dvigatel ishlash jarayonida nimani muntazam tekshirish kerak?",
+            "variantlar": {
+                "a": "Faqat yoqilg'i miqdorini",
+                "b": "Moy, suv darajasi va tovushlar",
+                "c": "Faqat shina bosimini",
+                "d": "Asboblar panelidagi soatni"
+            },
+            "togri_javob": "b"
+        },
+        {
+            "id": 9,
+            "savol": "Silindr-piston guruhining yeyilishini qanday aniqlash mumkin?",
+            "variantlar": {
+                "a": "Rangidan",
+                "b": "Kompressiya o'lchovi va tutun rangidan",
+                "c": "Og'irligidan",
+                "d": "Tovushidan"
+            },
+            "togri_javob": "b"
+        },
+        {
+            "id": 10,
+            "savol": "Dvigatel diagnostikasida qaysi asboblar ishlatiladi?",
+            "variantlar": {
+                "a": "Faqat bolg'a",
+                "b": "Skaner, multimetr, kompressometr",
+                "c": "Faqat chizg'ich",
+                "d": "Faqat qalam"
+            },
+            "togri_javob": "b"
+        }
+    ]
+}

@@ -1,0 +1,121 @@
+{
+    "mavzu_id": 14,
+    "mavzu_nomi": "Havo va yoqilg'i filtrlarning tozalash",
+    "test_info": {
+        "jami_savollar": 10,
+        "vaqt_limit": 15,
+        "otish_ball": 70
+    },
+    "savollar": [
+        {
+            "id": 1,
+            "savol": "Havo filtri nima vazifa bajaradi?",
+            "variantlar": {
+                "a": "Yoqilg'ini tozalaydi",
+                "b": "Dvigatelga kiradigan havoni kirlardan tozalaydi",
+                "c": "Moyni tozalaydi",
+                "d": "Suvni tozalaydi"
+            },
+            "togri_javob": "b"
+        },
+        {
+            "id": 2,
+            "savol": "Havo filtri kirlangan bo'lsa nima bo'ladi?",
+            "variantlar": {
+                "a": "Hech narsa",
+                "b": "Dvigatel quvvati pasayadi, yoqilg'i sarfi ortadi",
+                "c": "Yaxshi ishlaydi",
+                "d": "Tezroq ishlaydi"
+            },
+            "togri_javob": "b"
+        },
+        {
+            "id": 3,
+            "savol": "Qog'oz havo filtrini qanday tozalash mumkin?",
+            "variantlar": {
+                "a": "Suv bilan yuvish",
+                "b": "Siqilgan havo bilan puflash, lekin almashtirgani ma'qul",
+                "c": "Benzin bilan yuvish",
+                "d": "Bolg'a bilan urish"
+            },
+            "togri_javob": "b"
+        },
+        {
+            "id": 4,
+            "savol": "Yoqilg'i filtri nima vazifa bajaradi?",
+            "variantlar": {
+                "a": "Havoni tozalaydi",
+                "b": "Yoqilg'ini kir va suvdan tozalaydi",
+                "c": "Moyni tozalaydi",
+                "d": "Elektr ishlab chiqaradi"
+            },
+            "togri_javob": "b"
+        },
+        {
+            "id": 5,
+            "savol": "Yoqilg'i filtri tiqilib qolsa nima bo'ladi?",
+            "variantlar": {
+                "a": "Hech narsa",
+                "b": "Yoqilg'i yetarli kelmaydi, dvigatel mosh-mosh bo'ladi",
+                "c": "Yaxshi ishlaydi",
+                "d": "Tezroq ishlaydi"
+            },
+            "togri_javob": "b"
+        },
+        {
+            "id": 6,
+            "savol": "Yoqilg'i filtrini qancha vaqtda almashtirish kerak?",
+            "variantlar": {
+                "a": "Hech qachon",
+                "b": "Ishlab chiqaruvchi tavsiyasiga ko'ra (odatda 15000-30000 km)",
+                "c": "Har kuni",
+                "d": "10 yilda bir marta"
+            },
+            "togri_javob": "b"
+        },
+        {
+            "id": 7,
+            "savol": "Dizel dvigatelida yoqilg'i filtridan suv ajratib olinishi nima uchun muhim?",
+            "variantlar": {
+                "a": "Muhim emas",
+                "b": "Suv forsunkalarga zarar yetkazadi va korroziya hosil qiladi",
+                "c": "Faqat estetik jihatdan",
+                "d": "Faqat narx uchun"
+            },
+            "togri_javob": "b"
+        },
+        {
+            "id": 8,
+            "savol": "Havo filtrini almashtirishning belgisi qanday?",
+            "variantlar": {
+                "a": "Rangi o'zgargan",
+                "b": "Qoralangan, kirlangan va havo o'tmaydi",
+                "c": "Yangi ko'rinishda",
+                "d": "Hech qanday belgisi yo'q"
+            },
+            "togri_javob": "b"
+        },
+        {
+            "id": 9,
+            "savol": "Filtrsiz dvigatelni ishlatish mumkinmi?",
+            "variantlar": {
+                "a": "Ha, muammo yo'q",
+                "b": "Yo'q, dvigatel tez yeyiladi va buziladi",
+                "c": "Faqat qisqa vaqt",
+                "d": "Faqat kuzda"
+            },
+            "togri_javob": "b"
+        },
+        {
+            "id": 10,
+            "savol": "Yoqilg'i filtri o'rnatilganda nima tekshiriladi?",
+            "variantlar": {
+                "a": "Hech narsa",
+                "b": "O'rnatish yo'nalishi va zichlik",
+                "c": "Faqat rangi",
+                "d": "Faqat narxi"
+            },
+            "togri_javob": "b"
+        }
+    ]
+}

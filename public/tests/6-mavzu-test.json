@@ -1,0 +1,121 @@
+{
+    "mavzu_id": 6,
+    "mavzu_nomi": "Gaz taqsimlash mexanizmi",
+    "test_info": {
+        "jami_savollar": 10,
+        "vaqt_limit": 15,
+        "otish_ball": 70
+    },
+    "savollar": [
+        {
+            "id": 1,
+            "savol": "Gaz taqsimlash mexanizmining asosiy vazifasi nima?",
+            "variantlar": {
+                "a": "Yoqilg'i berish",
+                "b": "Havo-yoqilg'i aralashmasini kiritish va chiqindi gazlarni chiqarish",
+                "c": "Sovutish",
+                "d": "Moylash"
+            },
+            "togri_javob": "b"
+        },
+        {
+            "id": 2,
+            "savol": "Klapan prujinalarining qayishqoqligini qanday tekshiriladi?",
+            "variantlar": {
+                "a": "Ko'z bilan",
+                "b": "Maxsus asbob yoki dinamometr bilan",
+                "c": "Qo'l bilan",
+                "d": "Tinglash orqali"
+            },
+            "togri_javob": "b"
+        },
+        {
+            "id": 3,
+            "savol": "Klapanlarning yeyilishini qayerdan aniqlash mumkin?",
+            "variantlar": {
+                "a": "Faqat rangidan",
+                "b": "Klapan boshi, novda va o'rindiqdan",
+                "c": "Faqat og'irligidan",
+                "d": "Faqat uzunligidan"
+            },
+            "togri_javob": "b"
+        },
+        {
+            "id": 4,
+            "savol": "Klapan yuritmasida qancha issiqlik tirqish bo'lishi kerak?",
+            "variantlar": {
+                "a": "Bo'lmasligi kerak",
+                "b": "Ishlab chiqaruvchi ko'rsatmasiga ko'ra (0.15-0.30 mm)",
+                "c": "10 mm",
+                "d": "Qancha katta bo'lsa yaxshi"
+            },
+            "togri_javob": "b"
+        },
+        {
+            "id": 5,
+            "savol": "Klapan o'rindiqlarini qayta ishlash nima uchun zarur?",
+            "variantlar": {
+                "a": "Kerak emas",
+                "b": "Zichlikni ta'minlash va kompressiyani saqlash uchun",
+                "c": "Faqat ko'rkam bo'lishi uchun",
+                "d": "Faqat vaqtni o'tkazish uchun"
+            },
+            "togri_javob": "b"
+        },
+        {
+            "id": 6,
+            "savol": "Gaz taqsimlash mexanizmida ekssentrik val nima vazifa bajaradi?",
+            "variantlar": {
+                "a": "Hech narsa",
+                "b": "Klapanlarni ochish va yopish harakatini beradi",
+                "c": "Faqat aylanadi",
+                "d": "Sovutadi"
+            },
+            "togri_javob": "b"
+        },
+        {
+            "id": 7,
+            "savol": "Klapan yuritma zanjirini (yoki tasmani) qachon almashtirish kerak?",
+            "variantlar": {
+                "a": "Hech qachon",
+                "b": "Cho'zilgan yoki yeyilgan hollarda",
+                "c": "Har oy",
+                "d": "Yiliga bir marta"
+            },
+            "togri_javob": "b"
+        },
+        {
+            "id": 8,
+            "savol": "Klapan novdalarining yo'nalishlash втулкалари nima uchun kerak?",
+            "variantlar": {
+                "a": "Bezak uchun",
+                "b": "Klapanning to'g'ri harakatlanishi va moylash uchun",
+                "c": "Hech narsa uchun",
+                "d": "Faqat og'irlik qo'shish uchun"
+            },
+            "togri_javob": "b"
+        },
+        {
+            "id": 9,
+            "savol": "Gaz taqsimlash mexanizmini sozlash nimani ta'minlaydi?",
+            "variantlar": {
+                "a": "Hech narsani",
+                "b": "Dvigatelning samarali ishlashi va yonilg'i tejamkorligi",
+                "c": "Faqat tovushning pasayishi",
+                "d": "Faqat tezlikning oshishi"
+            },
+            "togri_javob": "b"
+        },
+        {
+            "id": 10,
+            "savol": "Klapanlarning zichligini qanday tekshiriladi?",
+            "variantlar": {
+                "a": "Ko'z bilan",
+                "b": "Kerosin yoki vakuum usuli bilan",
+                "c": "Qo'l bilan",
+                "d": "Tinglash orqali"
+            },
+            "togri_javob": "b"
+        }
+    ]
+}

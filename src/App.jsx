@@ -1,19 +1,139 @@
-import { useState } from 'react';
+import { useState, useEffect } from 'react';
 import './App.css';
+import './components/TopicDetail.css';
 import heroBg from './assets/hero-bg.png';
 import AnimatedBackground from './components/AnimatedBackground';
 
 function App() {
   const [showTopics, setShowTopics] = useState(false);
   const [showAuthorModal, setShowAuthorModal] = useState(false);
+  const [selectedTopic, setSelectedTopic] = useState(null);
+  const [showPdfViewer, setShowPdfViewer] = useState(false);
+  const [selectedPdf, setSelectedPdf] = useState(null);
+  const [showVideoPlayer, setShowVideoPlayer] = useState(false);
+  const [selectedVideo, setSelectedVideo] = useState(null);
+  const [showTestPlayer, setShowTestPlayer] = useState(false);
+  const [testData, setTestData] = useState(null);
+  const [currentQuestion, setCurrentQuestion] = useState(0);
+  const [selectedAnswers, setSelectedAnswers] = useState({});
+  const [timeRemaining, setTimeRemaining] = useState(0);
+  const [testCompleted, setTestCompleted] = useState(false);
+  const [testScore, setTestScore] = useState(null);
+
+  const materials = [
+    { id: 1, title: "Ma'ruza matni", icon: "📄", description: "Nazariy materiallar", color: "rgba(0, 102, 255, 0.15)" },
+    { id: 2, title: "Video darslar", icon: "🎥", description: "Amaliy ko'rsatmalar", color: "rgba(255, 0, 102, 0.15)" },
+    { id: 3, title: "Taqdimotlar", icon: "📊", description: "Vizual materiallar", color: "rgba(0, 212, 255, 0.15)" },
+    { id: 4, title: "Testlar", icon: "✍️", description: "Bilim sinovi", color: "rgba(102, 255, 0, 0.15)" },
+    { id: 5, title: "Nazorat savollari", icon: "✅", description: "Baholash uchun", color: "rgba(255, 165, 0, 0.15)" },
+    { id: 6, title: "Glossary", icon: "📖", description: "Atamalar lug'ati", color: "rgba(138, 43, 226, 0.15)" },
+  ];
+
+  const handleMaterialClick = async (material) => {
+    if (material.id === 1 && selectedTopic) {
+      // Ma'ruza matni uchun PDF ochish
+      const pdfPath = `/pdfs/${selectedTopic.id}-mavzu.pdf`;
+      setSelectedPdf(pdfPath);
+      setShowPdfViewer(true);
+    } else if (material.id === 2 && selectedTopic) {
+      // Video darslar uchun video player ochish
+      const videoPath = `/videos/${selectedTopic.id}-dars.mp4`;
+      setSelectedVideo(videoPath);
+      setShowVideoPlayer(true);
+    } else if (material.id === 3 && selectedTopic) {
+      // Taqdimotlar uchun PDF ochish
+      const pdfPath = `/presentations/${selectedTopic.id}-mavzu-taqdimot.pdf`;
+      setSelectedPdf(pdfPath);
+      setShowPdfViewer(true);
+    } else if (material.id === 4 && selectedTopic) {
+      // Testlar uchun test player ochish
+      try {
+        const response = await fetch(`/tests/${selectedTopic.id}-mavzu-test.json`);
+        const data = await response.json();
+        setTestData(data);
+        setCurrentQuestion(0);
+        setSelectedAnswers({});
+        setTimeRemaining(data.test_info.vaqt_limit * 60); // minutlarni sekundlarga
+        setTestCompleted(false);
+        setTestScore(null);
+        setShowTestPlayer(true);
+      } catch (error) {
+        console.error('Test yuklashda xatolik:', error);
+        alert('Test yuklanmadi. Iltimos, qaytadan urinib ko\'ring.');
+      }
+    }
+  };
+
+  // Timer effect
+  useEffect(() => {
+    if (showTestPlayer && timeRemaining > 0 && !testCompleted) {
+      const timer = setInterval(() => {
+        setTimeRemaining(prev => {
+          if (prev <= 1) {
+            handleTestSubmit();
+            return 0;
+          }
+          return prev - 1;
+        });
+      }, 1000);
+      return () => clearInterval(timer);
+    }
+  }, [showTestPlayer, timeRemaining, testCompleted]);
+
+  const handleAnswerSelect = (questionId, answer) => {
+    setSelectedAnswers(prev => ({
+      ...prev,
+      [questionId]: answer
+    }));
+  };
+
+  const handleTestSubmit = () => {
+    if (!testData) return;
+
+    let correctCount = 0;
+    testData.savollar.forEach(savol => {
+      if (selectedAnswers[savol.id] === savol.togri_javob) {
+        correctCount++;
+      }
+    });
+
+    const score = Math.round((correctCount / testData.test_info.jami_savollar) * 100);
+    setTestScore({ score, correctCount, total: testData.test_info.jami_savollar });
+    setTestCompleted(true);
+  };
+
+  const closeTestPlayer = () => {
+    setShowTestPlayer(false);
+    setTestData(null);
+    setCurrentQuestion(0);
+    setSelectedAnswers({});
+    setTimeRemaining(0);
+    setTestCompleted(false);
+    setTestScore(null);
+  };
 
   const topics = [
-    { id: 1, title: "Ma'ruzalar", icon: "📚", description: "50+ nazariy material", count: "52" },
-    { id: 2, title: "Taqdimotlar", icon: "📊", description: "Interaktiv taqdimotlar", count: "38" },
-    { id: 3, title: "Video darslar", icon: "🎥", description: "Amaliy ko'rsatmalar", count: "45" },
-    { id: 4, title: "Glossary", icon: "📖", description: "Terminlar lug'ati", count: "200+" },
-    { id: 5, title: "Testlar", icon: "✍️", description: "Bilim sinovi", count: "150" },
-    { id: 6, title: "Nazorat savollari", icon: "✅", description: "Baholash uchun", count: "80" },
+    { id: 1, title: "Kirish. O‘quv ustaxonasida texnika xavfsizligi va yong‘in xavfsizligi qoidalari. Ish joyini tashkil etish.", icon: "⚙️" },
+    { id: 2, title: "Dvigatelni umumiy tekshirish", icon: "🔩" },
+    { id: 3, title: "Dvigatelga servis xizmat ko‘rsatish va uni ta’mirlash.", icon: "⛽" },
+    { id: 4, title: "Silindrlar bloki qopqog‘ini ajratib olish va o‘rnatish, Silindrlar bloki qopqog‘ini ajratib olish va o‘rnatish", icon: "❄️" },
+    { id: 5, title: "Krivoship-shatun mexanizm detallarini texnik holatini tekshirish. Silindrlar blokini qismlarga ajratish va tozalash hamda yuvish ishlarini bajarish.", icon: "🛢️" },
+    { id: 6, title: "Gaz taqsimlash mexanizmini texnik holatini tekshirish. Klapanlar prujinalarining qayishqoqligini ajratib olmay yoki ajratib olib tekshirish.", icon: "⚡" },
+    { id: 7, title: "Klapanlar yuritmasidagi issiqlik tirqishlarini tekshirish va rostlash ishlarini bajarish. Gaz taqsimlash mexanizmiga servis xizmat ko‘rsatish.", icon: "🔑" },
+    { id: 8, title: "Sovitish tizimini texnik holatini tekshirish va nosozliklarini aniqlash. Suyuqlik nasosi yuritma tasmasini almashtirish. Dvigateldagi yuritma moslamalarining tarangligini rostlash.", icon: "🔋" },
+    { id: 9, title: "Radiator o‘zagidagi havo yo‘llarini ifloslanishini ko‘zdan kechirib aniqlash tozalash, yuvish va siqilgan havo bilan tozalash ishlarini ketma ketlikda bajarish. Termostatni tekshirish va uni almashtirish. Sovitish tizimiga servis xizmat ko‘rsatish.", icon: "🔧" },
+    { id: 10, title: "Moylash tizimini texnik holatini tekshirish va nosozliklarini aniqlash. Moylash tizimini nosozliklarini aniqlash. Moy sizayotganligi dvigatelni tashqi tomondan ko‘zdan kechirish. Birikmalarni mahkamlash detallarini qattiqlash yo‘li bilan tuzatish.", icon: "🌪️" },
+    { id: 11, title: "Moy bosimining oshishi va pasayishini aniqlash hamda ta’mirlash ishlarini ketma-ketlikda bajarish. Moyning ko‘p sarflanishiga sabab bo‘lgan detallarni ta’mirlash. Dvigatel karterini shamollatish tizimini ta’mirlash.", icon: "🎛️" },
+    { id: 12, title: "Karbyuratorli va injektorli dvigatellarning yonilg‘i-ta’minlash tizimiga servis xizmat ko‘rsatish va ta’mirlash.", icon: "💉" },
+    { id: 13, title: "Dizel dvigatellarining yonilg‘i tizimini tashxislash va nosozliklarini aniqlash. Dizel dvigatellarini qismlarga ajratish, detallarni yuvish va tozalash. Yuqori bosimli nasos va forsunka zichligini buzilishini ta’mirlashni o‘rganib bajarish..", icon: "🛑" },
+    { id: 14, title: "Havo va yonilg‘i filtrlarning kirlarini tozalash, plunjer juftining yeyilishi va sozligining buzilishini ta’mirlashni o‘rganib bajarish. Forsunkaning purkash teshigini qurumlardan tozalash. Dizel dvigatellarini yig‘ish va sinash.", icon: "🛑" },
+    { id: 15, title: "Gaz yonilg‘isida ishlaydigan dvigatellarining yonilg‘i tizimiga servis xizmat ko‘rsatish va ta’mirlash.", icon: "⚙️" },
+    { id: 16, title: "O‘t oldirish tizimini umumiy tashxislash va nosozliklarni bartaraf etish. Uzgich kontaktlari orasidagi tirqishni tekshirish va rostlash ishlari. O‘t oldirishni ilgarilatish burchagini tekshirish va rostlash.", icon: "🔍" },
+    { id: 17, title: "O‘t oldirish shamlarini tekshirish, nosozliklarini aniqlash, tozalash va almashtirish ishlarini ketma ketlikda bajarish. O‘t oldirish tizmini ta’mirlash. Ta’mirdan chiqqan dvigatelni ishlatib moslash va sinash", icon: "📡" },
+    { id: 18, title: "Avtomobil dvigatellarini yig‘ish va sinash.", icon: "🔨" },
+    { id: 19, title: "Avtomobillarga servis xizmat ko‘rsatishdan so‘ng sinash", icon: "🛠️" },
+    { id: 20, title: "Amaliy nazorat mashg‘uloti. Sinov.", icon: "🧰" },
+
   ];
 
   const stats = [
@@ -42,7 +162,7 @@ function App() {
       {/* Main Content */}
       <div className="main-content">
         {!showTopics ? (
-          <div className="home-screen">
+          <div className="home-screen">{/* Home screen content remains same */}
             <div className="home-left">
               <div className="brand-section">
                 <div className="logo-wrapper">
@@ -61,12 +181,11 @@ function App() {
                   Zamonaviy Ta'lim Tizimi
                 </div>
                 <h1 className="main-title">
-                  Avtomobil Dvigatellariga servis xizmat ko'rsatish<br />
-                  <span className="text-gradient">Va ta'mirlash ishlari o'quv amaliyoti</span>
+                  Avtomobil dvigatellariga servis xizmat ko'rsatish<br />
+                  <span className="text-gradient">va ta'mirlash ishlari o'quv amaliyoti</span>
                 </h1>
                 <p className="main-description">
-                  Professional darajadagi nazariy va amaliy bilimlar. Video darslar,
-                  testlar va interaktiv materiallar bilan to'liq raqamli ta'lim resursi.
+                  30711601 – Avtomobil dvigatellarini tashxislash va ta’mirlash kasb bo‘yicha
                 </p>
 
                 <button className="btn-topics" onClick={() => setShowTopics(true)}>
@@ -141,9 +260,9 @@ function App() {
                     </div>
                     <div className="preview-text">
                       <div className="preview-label">Interaktiv testlar</div>
-                      <div className="preview-desc">400 test savollari</div>
+                      <div className="preview-desc">200 test savollari</div>
                     </div>
-                    <div className="preview-count">400</div>
+                    <div className="preview-count">200</div>
                   </div>
                   <div className="preview-item">
                     <div className="preview-icon">
@@ -169,6 +288,48 @@ function App() {
               </div>
             </div>
           </div>
+        ) : selectedTopic ? (
+          <div className="topic-detail-screen">
+            <div className="topic-detail-header">
+              <button className="btn-back" onClick={() => setSelectedTopic(null)}>
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
+                  <line x1="19" y1="12" x2="5" y2="12"></line>
+                  <polyline points="12 19 5 12 12 5"></polyline>
+                </svg>
+                Mavzularga qaytish
+              </button>
+              <div className="topic-detail-title">
+                <span className="topic-detail-icon">{selectedTopic.icon}</span>
+                <h2>{selectedTopic.title}</h2>
+              </div>
+            </div>
+
+            <div className="materials-grid">
+              {materials.map((material, index) => (
+                <div
+                  key={material.id}
+                  className="material-card"
+                  style={{
+                    animationDelay: `${index * 0.1}s`,
+                    '--card-color': material.color
+                  }}
+                >
+                  <div className="material-icon-wrapper">
+                    <div className="material-icon">{material.icon}</div>
+                  </div>
+                  <h3 className="material-title">{material.title}</h3>
+                  <p className="material-description">{material.description}</p>
+                  <button className="material-btn" onClick={() => handleMaterialClick(material)}>
+                    <span>O'rganish</span>
+                    <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
+                      <line x1="5" y1="12" x2="19" y2="12"></line>
+                      <polyline points="12 5 19 12 12 19"></polyline>
+                    </svg>
+                  </button>
+                </div>
+              ))}
+            </div>
+          </div>
         ) : (
           <div className="topics-screen">
             <div className="topics-header">
@@ -187,12 +348,11 @@ function App() {
                 <div
                   key={topic.id}
                   className="topic-card"
-                  style={{ animationDelay: `${index * 0.08}s` }}
+                  style={{ animationDelay: `${index * 0.04}s` }}
+                  onClick={() => setSelectedTopic(topic)}
                 >
-                  <div className="topic-count">{topic.count}</div>
                   <div className="topic-icon">{topic.icon}</div>
                   <h3 className="topic-title">{topic.title}</h3>
-                  <p className="topic-description">{topic.description}</p>
                   <div className="topic-arrow">
                     <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
                       <line x1="5" y1="12" x2="19" y2="12"></line>
@@ -205,6 +365,199 @@ function App() {
           </div>
         )}
       </div>
+
+      {/* PDF Viewer Modal */}
+      {showPdfViewer && selectedPdf && (
+        <div className="pdf-viewer-overlay" onClick={() => setShowPdfViewer(false)}>
+          <div className="pdf-viewer-container" onClick={(e) => e.stopPropagation()}>
+            <div className="pdf-viewer-header">
+              <h3 className="pdf-viewer-title">
+                <span className="pdf-icon">📄</span>
+                Ma'ruza matni - {selectedTopic?.title}
+              </h3>
+              <button className="pdf-close-btn" onClick={() => setShowPdfViewer(false)}>
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
+                  <line x1="18" y1="6" x2="6" y2="18"></line>
+                  <line x1="6" y1="6" x2="18" y2="18"></line>
+                </svg>
+              </button>
+            </div>
+            <div className="pdf-viewer-content">
+              <iframe
+                src={selectedPdf}
+                title="PDF Viewer"
+                className="pdf-iframe"
+              ></iframe>
+            </div>
+          </div>
+        </div>
+      )}
+
+      {/* Video Player Modal */}
+      {showVideoPlayer && selectedVideo && (
+        <div className="video-player-overlay" onClick={() => setShowVideoPlayer(false)}>
+          <div className="video-player-container" onClick={(e) => e.stopPropagation()}>
+            <div className="video-player-header">
+              <h3 className="video-player-title">
+                <span className="video-icon">🎥</span>
+                Video dars - {selectedTopic?.title}
+              </h3>
+              <button className="video-close-btn" onClick={() => setShowVideoPlayer(false)}>
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
+                  <line x1="18" y1="6" x2="6" y2="18"></line>
+                  <line x1="6" y1="6" x2="18" y2="18"></line>
+                </svg>
+              </button>
+            </div>
+            <div className="video-player-content">
+              <video
+                className="video-element"
+                controls
+                autoPlay
+                controlsList="nodownload"
+              >
+                <source src={selectedVideo} type="video/mp4" />
+                Brauzer video ni qo'llab-quvvatlamaydi.
+              </video>
+            </div>
+          </div>
+        </div>
+      )}
+
+      {/* Test Player Modal */}
+      {showTestPlayer && testData && (
+        <div className="test-player-overlay" onClick={closeTestPlayer}>
+          <div className="test-player-container" onClick={(e) => e.stopPropagation()}>
+            {!testCompleted ? (
+              <>
+                <div className="test-player-header">
+                  <div className="test-header-left">
+                    <h3 className="test-player-title">
+                      <span className="test-icon">✍️</span>
+                      {testData.mavzu_nomi}
+                    </h3>
+                    <p className="test-progress">
+                      Savol {currentQuestion + 1} / {testData.test_info.jami_savollar}
+                    </p>
+                  </div>
+                  <div className="test-header-right">
+                    <div className="test-timer">
+                      <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
+                        <circle cx="12" cy="12" r="10"></circle>
+                        <polyline points="12 6 12 12 16 14"></polyline>
+                      </svg>
+                      <span>{Math.floor(timeRemaining / 60)}:{(timeRemaining % 60).toString().padStart(2, '0')}</span>
+                    </div>
+                    <button className="test-close-btn" onClick={closeTestPlayer}>
+                      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
+                        <line x1="18" y1="6" x2="6" y2="18"></line>
+                        <line x1="6" y1="6" x2="18" y2="18"></line>
+                      </svg>
+                    </button>
+                  </div>
+                </div>
+
+                <div className="test-player-content">
+                  <div className="test-question-box">
+                    <h4 className="question-text">
+                      {testData.savollar[currentQuestion].savol}
+                    </h4>
+                  </div>
+
+                  <div className="test-answers">
+                    {Object.entries(testData.savollar[currentQuestion].variantlar).map(([key, value]) => (
+                      <div
+                        key={key}
+                        className={`answer-option ${selectedAnswers[testData.savollar[currentQuestion].id] === key ? 'selected' : ''
+                          }`}
+                        onClick={() => handleAnswerSelect(testData.savollar[currentQuestion].id, key)}
+                      >
+                        <div className="answer-radio">
+                          {selectedAnswers[testData.savollar[currentQuestion].id] === key && (
+                            <div className="answer-radio-dot"></div>
+                          )}
+                        </div>
+                        <div className="answer-content">
+                          <span className="answer-label">{key.toUpperCase()})</span>
+                          <span className="answer-text">{value}</span>
+                        </div>
+                      </div>
+                    ))}
+                  </div>
+
+                  <div className="test-navigation">
+                    <button
+                      className="test-nav-btn"
+                      onClick={() => setCurrentQuestion(prev => Math.max(0, prev - 1))}
+                      disabled={currentQuestion === 0}
+                    >
+                      <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
+                        <polyline points="15 18 9 12 15 6"></polyline>
+                      </svg>
+                      Orqaga
+                    </button>
+
+                    {currentQuestion < testData.test_info.jami_savollar - 1 ? (
+                      <button
+                        className="test-nav-btn"
+                        onClick={() => setCurrentQuestion(prev => prev + 1)}
+                      >
+                        Keyingi
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
+                          <polyline points="9 18 15 12 9 6"></polyline>
+                        </svg>
+                      </button>
+                    ) : (
+                      <button className="test-submit-btn" onClick={handleTestSubmit}>
+                        Testni yakunlash
+                      </button>
+                    )}
+                  </div>
+                </div>
+              </>
+            ) : (
+              <div className="test-results">
+                <div className="results-header">
+                  <div className={`results-score ${testScore.score >= testData.test_info.otish_ball ? 'passed' : 'failed'}`}>
+                    <h2>{testScore.score}%</h2>
+                    <p>{testScore.score >= testData.test_info.otish_ball ? '✅ O\'tdingiz!' : '❌ O\'tmadingiz'}</p>
+                  </div>
+                </div>
+
+                <div className="results-stats">
+                  <div className="stat-item">
+                    <span className="stat-label">To'g'ri javoblar</span>
+                    <span className="stat-value">{testScore.correctCount} / {testScore.total}</span>
+                  </div>
+                  <div className="stat-item">
+                    <span className="stat-label">O'tish balli</span>
+                    <span className="stat-value">{testData.test_info.otish_ball}%</span>
+                  </div>
+                  <div className="stat-item">
+                    <span className="stat-label">Sizning ballingiz</span>
+                    <span className="stat-value">{testScore.score}%</span>
+                  </div>
+                </div>
+
+                <div className="results-actions">
+                  <button className="results-btn secondary" onClick={() => {
+                    setTestCompleted(false);
+                    setCurrentQuestion(0);
+                    setSelectedAnswers({});
+                    setTimeRemaining(testData.test_info.vaqt_limit * 60);
+                    setTestScore(null);
+                  }}>
+                    Qayta urinish
+                  </button>
+                  <button className="results-btn primary" onClick={closeTestPlayer}>
+                    Yopish
+                  </button>
+                </div>
+              </div>
+            )}
+          </div>
+        </div>
+      )}
 
       {/* Author Button */}
       <button
