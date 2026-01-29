@@ -18,7 +18,7 @@ function App() {
   const [numPages, setNumPages] = useState(null);
   const [currentPage, setCurrentPage] = useState(1);
   const [isFullScreen, setIsFullScreen] = useState(false);
-  const [pageAspectRatio, setPageAspectRatio] = useState(1.778); // Default 16:9
+  const [pageAspectRatio, setPageAspectRatio] = useState(1.778);
   const pdfContentRef = useRef(null);
   const [pdfContainerDimensions, setPdfContainerDimensions] = useState({ width: 800, height: 600 });
   const [showVideoPlayer, setShowVideoPlayer] = useState(false);
@@ -36,6 +36,7 @@ function App() {
   const [showGlossary, setShowGlossary] = useState(false);
   const [glossaryData, setGlossaryData] = useState(null);
   const [glossarySearch, setGlossarySearch] = useState('');
+  const [expandedGlossaryIndex, setExpandedGlossaryIndex] = useState(null);
   const [showTechMap, setShowTechMap] = useState(false);
   const [techMapFile, setTechMapFile] = useState(null);
   const [docxType, setDocxType] = useState(''); // 'lecture' or 'techmap'
@@ -296,8 +297,8 @@ function App() {
                   Zamonaviy Ta'lim Tizimi
                 </div>
                 <h1 className="main-title">
-                  Avtomobil dvigatellariga servis xizmat ko'rsatish<br />
-                  <span className="text-gradient">va ta'mirlash ishlari o'quv amaliyoti</span>
+                  <span className="text-gradient">Avtomobil dvigatellariga</span><br />
+                  servis xizmat ko'rsatish va ta'mirlash
                 </h1>
                 <p className="main-description">
                   30711601 – Avtomobil dvigatellarini tashxislash va ta’mirlash kasb bo‘yicha
@@ -758,9 +759,22 @@ function App() {
                     item.tasnif.toLowerCase().includes(glossarySearch.toLowerCase())
                   )
                   .map((item, index) => (
-                    <div key={index} className="glossary-item">
-                      <div className="glossary-term">{item.atama}</div>
-                      <div className="glossary-definition">{item.tasnif}</div>
+                    <div
+                      key={index}
+                      className={`glossary-item ${expandedGlossaryIndex === index ? 'expanded' : ''}`}
+                      onClick={() => setExpandedGlossaryIndex(expandedGlossaryIndex === index ? null : index)}
+                    >
+                      <div className="glossary-term-wrapper">
+                        <div className="glossary-term">{item.atama}</div>
+                        <div className="glossary-toggle-icon">
+                          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5">
+                            <polyline points="6 9 12 15 18 9"></polyline>
+                          </svg>
+                        </div>
+                      </div>
+                      <div className="glossary-definition-container">
+                        <div className="glossary-definition">{item.tasnif}</div>
+                      </div>
                     </div>
                   ))}
                 {glossaryData.glossary.filter(item =>
