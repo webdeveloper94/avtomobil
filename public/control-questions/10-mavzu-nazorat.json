@@ -1,0 +1,36 @@
+{
+    "mavzu_id": 10,
+    "mavzu_nomi": "Moylash tizimi",
+    "nazorat_savollari": [
+        {
+            "id": 1,
+            "savol": "Moylash tizimining asosiy vazifasi nima?",
+            "javob": "Ishqalanishni kamaytirish, detallarning yeyilishini oldini olish, sovutish, tozalash va korroziyadan himoya qilish.",
+            "izoh": "Moy juda ko'p vazifalarni bajaradi: ishqalanishni 1000 marta kamaytiradi, issiqlikni olib ketadi, metall zarrachalarni yuvadi, korroziyaga qarshi himoya yaratadi. Moyning sifati va darajasi dvigatelning umrini belgilaydi."
+        },
+        {
+            "id": 2,
+            "savol": "Moy nasosi (pompa) qayerda joylashgan va qanday ishlaydi?",
+            "javob": "Dvigatel pastki qismida, moy karteriida. Krivoship aylantirganda moy ni filtrga, keyin kanallarga yuboradi.",
+            "izoh": "Moy nasosi dvigatelning 'yuragi'. U doimiy ravishda moyni haydaydi. Turli xil nasos turlari bor: tishli, rotorli. Nasosning ishlashi to'xtasa - dvigatel bir necha soniyada buziladi."
+        },
+        {
+            "id": 3,
+            "savol": "Moy filtri nima uchun muhim va uni qachon almashtirish kerak?",
+            "javob": "Kirlar va metall zarrachalarni ushlab qoladi. Har safar moy almashtirishda (odatda har 10000 km) almashtirish kerak.",
+            "izoh": "Filtr moydagi barcha kirlarni tutadi. Vaqt o'tishi bilan u to'lib, o'tkazish qobiliyati pasayadi. To'lgan filtrda bypass klapani ochiladi va filtrlanmagan moy o'tadi - bu juda yomon. Shuning uchun muntazam almashtirish zarur."
+        },
+        {
+            "id": 4,
+            "savol": "Dvigatel moyini qancha vaqtda almashtirish kerak va qanday tanlash kerak?",
+            "javob": "Odatda har 10 000 km yoki yiliga bir marta. SAE yopishqoqligi (5W-40, 10W-40) va API sinfiga (SN, SM) ko'ra tanlash.",
+            "izoh": "Moy vaqt o'tishi bilan xususiyatlarini yo'qotadi, kirlasa di va kuyadi. Qishki moy (5W) sovuqda quyuq bo'lmaydi, yozgi moy (40) issiqda suyuq bo'lmaydi. API sinfi - sifat darajasi. Ishlab chiqaruvchi tavsiyasiga rioya qilish kerak."
+        },
+        {
+            "id": 5,
+            "savol": "Moy darajasini qanday to'g'ri tekshirish kerak?",
+            "javob": "Sovuq yoki bir necha daqiqa to'xtagan dvigatelda, tekis yerda, shchup (dipstick) ni chiqarib artib, qaytadan kiritib chiqarish va belgilarni ko'rish.",
+            "izoh": "Moy darajasi min va max belgilari orasida bo'lishi kerak. Kam moy - yeyilish va qizish. Ko'p moy - bosimi oshadi, qistirmalar shikastlanadi. Tekshirishni muntazam, haftada bir marta qilish tavsiya etiladi."
+        }
+    ]
+}

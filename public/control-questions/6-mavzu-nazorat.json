@@ -1,0 +1,36 @@
+{
+    "mavzu_id": 6,
+    "mavzu_nomi": "Gaz taqsimlash mexanizmi",
+    "nazorat_savollari": [
+        {
+            "id": 1,
+            "savol": "Gaz taqsimlash mexanizmining asosiy vazifasi nima?",
+            "javob": "O'z vaqtida silindrga havo-yoqilg'i aralashmasini kiritish va yonish mahsulotlarini chiqarish uchun klapanlarni ochish va yopish.",
+            "izoh": "GTM dvigatelning 'nafas olishi'ni ta'minlaydi. Kirish klapani ochilganda aralashma kiradi, yopiq holatda siqiladi va yonadi, chiqish klapani ochilganda esa yonish mahsulotlari chiqadi. Bu jarayon aniq vaqt bo'yicha sodir bo'lishi kerak."
+        },
+        {
+            "id": 2,
+            "savol": "GTMning asosiy detallar qaysilar?",
+            "javob": "Klapanlar, klapan trubkalari (vtulkalar), prujinalar, tolqinli val (raspredval), rokker yoki gidrokompensatorlar.",
+            "izoh": "Har bir detal muhim rol o'ynaydi: tolqinli val klapanlarni ochish vaqtini belgilaydi, prujinalartiny qaytadan yopadi, vtulkalar klapan o'qini mahkamlaydi, gidrokompensatorlar avtomatik tortishni ta'minlaydi."
+        },
+        {
+            "id": 3,
+            "savol": "Klapan va o'tirg'i (sedlo) orasidagi yeyilishni qanday aniqlash mumkin?",
+            "javob": "Kompressiya o'lchash, klapan yuzasini ko'rikdan o'tkazish, maxsus bo'yoq bilan aloqa joyini tekshirish.",
+            "izoh": "Klapan va sedlo orasidagi yomirish kompressiya yo'qotishiga olib keladi. Ko'zga ko'rinadigan yoriq yoki egilish bo'lishi mumkin. Agar aloqa doirasi to'liq bo'lmasa - pereshlifovka kerak."
+        },
+        {
+            "id": 4,
+            "savol": "Tolqinli val (raspredval) ning nosozliklarini qanday aniqlash mumkin?",
+            "javob": "Yeyilish belgilarini ko'rikdan o'tkazish, kamera (kulachok) balandligini o'lchash, podshipnik joyini tekshirish, sirtni baholash.",
+            "izoh": "Raspredval kameralarining yeyilishi klapanlarning kam ochilishiga olib keladi. Bu dvigatel quvvatini kamaytiradi. Kameralardagi yeyilish 0.3mm dan oshsa, valni almashtirish kerak."
+        },
+        {
+            "id": 5,
+            "savol": "GTM nosozliklarining asosiy belgilari qaysilar?",
+            "javob": "Taqillatish tovushi, quvvat pasayishi, yoqilg'i sarfi oshishi, qiyin ishga tushish, notekis ishlash.",
+            "izoh": "Klapanlar taqillatishi - bo'shliq katta. Quvvat pasayishi - klapanlar to'liq ochilmayapti yoki hermetiklik yo'q. Notekis ishlash - klapa nlar taqsimlash vaqti buzilgan. Barcha belgilar borliqda tekshirish zarur."
+        }
+    ]
+}

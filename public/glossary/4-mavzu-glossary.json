@@ -1,0 +1,62 @@
+{
+    "mavzu_id": 4,
+    "mavzu_nomi": "Silindrlar bosh qopqog'ini olib-o'rnatish",
+    "glossary": [
+        {
+            "atama": "Bosh qopqoq (Golovka)",
+            "tasnif": "Dvigatel silindrlarining yuqori qismini yopuvchi muhim qism, klapanlar joylashadi."
+        },
+        {
+            "atama": "Bosh qopqoq boltlari",
+            "tasnif": "Bosh qopqoqni dvigatel blokiga mahkamlaydigan maxsus uzun boltlar."
+        },
+        {
+            "atama": "Bosh qopqoq qistirmasi",
+            "tasnif": "Blok va bosh qopqoq orasidagi muhim qistirma, bir marta ishlatiladi."
+        },
+        {
+            "atama": "Diagonal tartib",
+            "tasnif": "Boltlarni markazdan chetlarga qarab tortish tartibi."
+        },
+        {
+            "atama": "Klapan kanallari",
+            "tasnif": "Havo va gaz o'tadigan yo'llar, bosh qopqoqda joylashgan."
+        },
+        {
+            "atama": "Yonish kamerasi",
+            "tasnif": "Yoqilg'i -havo aralashmasi yonadigan joy, piston va bosh qopqoq orasida."
+        },
+        {
+            "atama": "VMT (Yuqori o'lik nuqta)",
+            "tasnif": "Pistonning eng yuqori holati."
+        },
+        {
+            "atama": "Egilish",
+            "tasnif": "Qizish natijasida bosh qopqoqning deformatsiyalanishi."
+        },
+        {
+            "atama": "Tekislik",
+            "tasnif": "Bosh qopqoq yuzasining to'liq tekis bo'lishi, maxsus asbob bilan tekshiriladi."
+        },
+        {
+            "atama": "Klapan prujinasi",
+            "tasnif": "Klapanni yopiq holatda ushlab turadigan prujina."
+        },
+        {
+            "atama": "Klapan trelkasi",
+            "tasnif": "Pruji nani klapanga bog'laydigan detal."
+        },
+        {
+            "atama": "Bosqichma-bosqich tortish",
+            "tasnif": "Boltlarni bir necha bosqichda asta-sekin tortish usuli."
+        },
+        {
+            "atama": "Havo chiqarish",
+            "tasnif": "Sovutish tizimidan havo pufakchalarini olib tashlash."
+        },
+        {
+            "atama": "Moy kanallari",
+            "tasnif": "Bosh qopqoq ichidagi moy o'tadigan yo'llar."
+        }
+    ]
+}

@@ -19,6 +19,12 @@ function App() {
   const [timeRemaining, setTimeRemaining] = useState(0);
   const [testCompleted, setTestCompleted] = useState(false);
   const [testScore, setTestScore] = useState(null);
+  const [showControlQuestions, setShowControlQuestions] = useState(false);
+  const [controlQuestionsData, setControlQuestionsData] = useState(null);
+  const [revealedAnswers, setRevealedAnswers] = useState({});
+  const [showGlossary, setShowGlossary] = useState(false);
+  const [glossaryData, setGlossaryData] = useState(null);
+  const [glossarySearch, setGlossarySearch] = useState('');
 
   const materials = [
     { id: 1, title: "Ma'ruza matni", icon: "📄", description: "Nazariy materiallar", color: "rgba(0, 102, 255, 0.15)" },
@@ -61,7 +67,38 @@ function App() {
         console.error('Test yuklashda xatolik:', error);
         alert('Test yuklanmadi. Iltimos, qaytadan urinib ko\'ring.');
       }
+    } else if (material.id === 5 && selectedTopic) {
+      // Nazorat savollari uchun modal ochish
+      try {
+        const response = await fetch(`/control-questions/${selectedTopic.id}-mavzu-nazorat.json`);
+        const data = await response.json();
+        setControlQuestionsData(data);
+        setRevealedAnswers({});
+        setShowControlQuestions(true);
+      } catch (error) {
+        console.error('Nazorat savollari yuklashda xatolik:', error);
+        alert('Nazorat savollari yuklanmadi. Iltimos, qaytadan urinib ko\'ring.');
+      }
+    } else if (material.id === 6 && selectedTopic) {
+      // Glossary uchun modal ochish
+      try {
+        const response = await fetch(`/glossary/${selectedTopic.id}-mavzu-glossary.json`);
+        const data = await response.json();
+        setGlossaryData(data);
+        setGlossarySearch('');
+        setShowGlossary(true);
+      } catch (error) {
+        console.error('Glossary yuklashda xatolik:', error);
+        alert('Glossary yuklanmadi. Iltimos, qaytadan urinib ko\'ring.');
+      }
     }
+  };
+
+  const toggleAnswer = (questionId) => {
+    setRevealedAnswers(prev => ({
+      ...prev,
+      [questionId]: !prev[questionId]
+    }));
   };
 
   // Timer effect
@@ -555,6 +592,114 @@ function App() {
                 </div>
               </div>
             )}
+          </div>
+        </div>
+      )}
+
+      {/* Control Questions Modal */}
+      {showControlQuestions && controlQuestionsData && (
+        <div className="control-questions-overlay" onClick={() => setShowControlQuestions(false)}>
+          <div className="control-questions-container" onClick={(e) => e.stopPropagation()}>
+            <div className="control-questions-header">
+              <h3 className="control-questions-title">
+                <span className="control-icon">✅</span>
+                Nazorat savollari - {controlQuestionsData.mavzu_nomi}
+              </h3>
+              <button className="control-close-btn" onClick={() => setShowControlQuestions(false)}>
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
+                  <line x1="18" y1="6" x2="6" y2="18"></line>
+                  <line x1="6" y1="6" x2="18" y2="18"></line>
+                </svg>
+              </button>
+            </div>
+            <div className="control-questions-content">
+              <div className="control-questions-list">
+                {controlQuestionsData.nazorat_savollari.map((savol, index) => (
+                  <div key={savol.id} className="control-question-item">
+                    <div className="question-number">Savol {index + 1}</div>
+                    <div className="question-text">{savol.savol}</div>
+                    <button
+                      className={`answer-toggle-btn ${revealedAnswers[savol.id] ? 'active' : ''}`}
+                      onClick={() => toggleAnswer(savol.id)}
+                    >
+                      {revealedAnswers[savol.id] ? '👁️ Yashirish' : '👁️‍🗨️ Javob'}
+                    </button>
+                    {revealedAnswers[savol.id] && (
+                      <div className="answer-content">
+                        <div className="answer-section">
+                          <strong>✓ Javob:</strong>
+                          <p>{savol.javob}</p>
+                        </div>
+                        <div className="explanation-section">
+                          <strong>💡 Izoh:</strong>
+                          <p>{savol.izoh}</p>
+                        </div>
+                      </div>
+                    )}
+                  </div>
+                ))}
+              </div>
+            </div>
+          </div>
+        </div>
+      )}
+
+      {/* Glossary Modal */}
+      {showGlossary && glossaryData && (
+        <div className="glossary-overlay" onClick={() => setShowGlossary(false)}>
+          <div className="glossary-container" onClick={(e) => e.stopPropagation()}>
+            <div className="glossary-header">
+              <h3 className="glossary-title">
+                <span className="glossary-icon">📖</span>
+                Glossary - {glossaryData.mavzu_nomi}
+              </h3>
+              <button className="glossary-close-btn" onClick={() => setShowGlossary(false)}>
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
+                  <line x1="18" y1="6" x2="6" y2="18"></line>
+                  <line x1="6" y1="6" x2="18" y2="18"></line>
+                </svg>
+              </button>
+            </div>
+            <div className="glossary-search">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
+                <circle cx="11" cy="11" r="8"></circle>
+                <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+              </svg>
+              <input
+                type="text"
+                placeholder="Atama qidirish..."
+                value={glossarySearch}
+                onChange={(e) => setGlossarySearch(e.target.value)}
+              />
+            </div>
+            <div className="glossary-content">
+              <div className="glossary-list">
+                {glossaryData.glossary
+                  .filter(item =>
+                    item.atama.toLowerCase().includes(glossarySearch.toLowerCase()) ||
+                    item.tasnif.toLowerCase().includes(glossarySearch.toLowerCase())
+                  )
+                  .map((item, index) => (
+                    <div key={index} className="glossary-item">
+                      <div className="glossary-term">{item.atama}</div>
+                      <div className="glossary-definition">{item.tasnif}</div>
+                    </div>
+                  ))}
+                {glossaryData.glossary.filter(item =>
+                  item.atama.toLowerCase().includes(glossarySearch.toLowerCase()) ||
+                  item.tasnif.toLowerCase().includes(glossarySearch.toLowerCase())
+                ).length === 0 && (
+                    <div className="glossary-empty">
+                      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
+                        <circle cx="12" cy="12" r="10"></circle>
+                        <line x1="12" y1="8" x2="12" y2="12"></line>
+                        <line x1="12" y1="16" x2="12.01" y2="16"></line>
+                      </svg>
+                      <p>Hech narsa topilmadi</p>
+                    </div>
+                  )}
+              </div>
+            </div>
           </div>
         </div>
       )}

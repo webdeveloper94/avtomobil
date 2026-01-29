@@ -1,0 +1,36 @@
+{
+    "mavzu_id": 18,
+    "mavzu_nomi": "Avtomobil dvigatellarini yig'ish va sinash",
+    "nazorat_savollari": [
+        {
+            "id": 1,
+            "savol": "Dvigatelni yig'ishdan oldin qanday tayyorgarlik ishlari bajariladi?",
+            "javob": "Barcha detallarni yuvish va quritish, tekshirish (o'lchash), qistirmalar va yangi detallarni tayyorlash, asboblarni teklash, toza ish joyini tayyorlash.",
+            "izoh": "Tozalik - birinchi shart. Hech q anday kir yoki metall zarralari qolmasligi kerak. Barcha yangi qistirmalar, prujinalar, podshipniklar tayyorlanadi. Asboblar - dinamometrik galit, momentometr, o'lchov asboblari."
+        },
+        {
+            "id": 2,
+            "savol": "Yig'ish jarayonida qaysi qoidalarga rioya qilish kerak?",
+            "javob": "Texnologik tartibga (ketma-ketlik) rioya qilish, barcha detallarni moylash, tortish momentlariga rioya qilish, tozalikni saqlash.",
+            "izoh": "Yig'ish ketma-ketligi juda muhim. Avval krivoship, keyin pistonlar, keyin bosh qopqoq va h.k. Har bir harakatlanuvchi qismni moylash shart. Harmoniklar 3-4 bosqichda va ma'lum tartibda tortiladi."
+        },
+        {
+            "id": 3,
+            "savol": "Dvigatelni birinchi marta ishga tushirishda nimaga e'tibor berish kerak?",
+            "javob": "Moy bosimini darhol tekshirish, sizishlarni kuzatish, notekis tovushlarni tinglash, haroratni nazorat qilish.",
+            "izoh": "Birinchi ishga tushirish - eng muhim payt. Moy bosimi darho l ko'tarilishi kerak (3-5 soniya ichida). Sizish, taqillatish, qizish bo'lmasligi kerak. Yangi dvigatelni birinchi 10-15 daqiqada juda ehtiyotkorlik bilan kuzatish zarur."
+        },
+        {
+            "id": 4,
+            "savol": "Ishlatib moslash (obkatka) jarayoni nima va qancha davom etadi?",
+            "javob": "Yangi yoki ta'mirlangan dvigatelni yumshoq rejimda ishlat ish - birinchi 2000-3000 km. Detallarni bir-biriga moslash uchun.",
+            "izoh": "Obkatka davomida yangi detallar 'tanishadi' - mikro yeyilishlar sodir bo'ladi va sirtlar silliqlanadi. Bu davrda yuqori tezlik, to'satdan tezlashish, og'ir yuk tashish taqiqlanadi. Moy 1000 km da almashtiriladi."
+        },
+        {
+            "id": 5,
+            "savol": "Dvigatel sinovi (test) da qanday parametrlar o'lchanadi?",
+            "javob": "Quvvat, moment, moy bosimi, kompressiya, yoqilg'i sarfi, chiqindi gazlar tarkibi.",
+            "izoh": "Professional sinov maxsus stendda o'tkaziladi. Barcha parametrlar standart qiymatlarga mos kelishi kerak. Agar farqlar bo'lsa - muammo bor demakdir. Sinovdan o'tgan dvigatel kafolat bilan beriladi."
+        }
+    ]
+}

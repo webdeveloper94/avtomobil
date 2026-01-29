@@ -1,0 +1,66 @@
+{
+    "mavzu_id": 3,
+    "mavzu_nomi": "Dvigatelga servis xizmat ko'rsatish va ta'mirlash",
+    "glossary": [
+        {
+            "atama": "Kapital ta'mirlash",
+            "tasnif": "Dvigatelni to'liq qismlarga ajratish va asosiy detallarni almashtirish."
+        },
+        {
+            "atama": "Qistirma (Prokladka)",
+            "tasnif": "Ikki detal orasida hermetiklikni ta'minlaydigan maxsus material."
+        },
+        {
+            "atama": "Salnik",
+            "tasnif": "Aylanuvchi val joyidan moy chiqishini oldini oladigan rezina halqa."
+        },
+        {
+            "atama": "Podshipnik",
+            "tasnif": "Aylanuvchi vallarni ushlab turadigan va ishqalanishni kamaytiradigan detal."
+        },
+        {
+            "atama": "Yig'ish ketma-ketligi",
+            "tasnif": "Dvigatel detallarini to'g'ri tartibda o'rnatish tartibi."
+        },
+        {
+            "atama": "Momentometr",
+            "tasnif": "Boltlarni aniq moment bilan tortish uchun maxsus kalit."
+        },
+        {
+            "atama": "Tortish momenti",
+            "tasnif": "Bolt yoki gaykani ma'lum kuch bilan tortish o'lchovi (Nm)."
+        },
+        {
+            "atama": "Obkatka (Ishlatib moslash)",
+            "tasnif": "Yangi yoki ta'mirlangan dvigatelni bosqichma-bosqich yumshoq rejimda ishlash."
+        },
+        {
+            "atama": "Xonish",
+            "tasnif": "Detallar yuzasini juda aniq va silliq qilish jarayoni."
+        },
+        {
+            "atama": "O'lchov asboblari",
+            "tasnif": "Detallar hajmini aniq o'lchaydigan asboblar: kalipr, mikrometr."
+        },
+        {
+            "atama": "Zазor (Bo'shliq)",
+            "tasnif": "Ikki detal orasidagi aniq masofa, ishlab chiqaruvchi belgilaydi."
+        },
+        {
+            "atama": "Yangi ehtiyot qismlar",
+            "tasnif": "Eskirgan detallar o'rniga o'rnatiladi gan original yoki sifatli qismlar."
+        },
+        {
+            "atama": "Yig'ish moylagichi",
+            "tasnif": "Yangi detallarni yig' ishda birinchi marta moylovchi maxsus moy."
+        },
+        {
+            "atama": "Tashxis",
+            "tasnif": "Detallarni tekshirish va nosozliklarni aniqlash."
+        },
+        {
+            "atama": "Texnologik karta",
+            "tasnif": "Yig'ish va ta'mirlashning bosqichma -bosqich ko'rsatmasi."
+        }
+    ]
+}

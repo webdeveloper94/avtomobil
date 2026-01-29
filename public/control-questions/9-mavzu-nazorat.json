@@ -1,0 +1,36 @@
+{
+    "mavzu_id": 9,
+    "mavzu_nomi": "Radiatorni tozalash va termostatni almashtirish",
+    "nazorat_savollari": [
+        {
+            "id": 1,
+            "savol": "Radiatorni tashqi tomondan qanday tozalash mumkin?",
+            "javob": "Siqilgan havo yoki suv bilan yuqoridan pastga tomon puflash, yumshoq cho'tka ishlatish, maxsus tozalovchi vositalar bilan ishlov berish.",
+            "izoh": "Radiator oldidagi kir, hasharotlar va boshqa narsalar havo o'tishiga to'sqinlik qiladi. Tashqi tozalash muhim - radiatorning 30-40% samaradorligi tashqi tozalikka bog'liq."
+        },
+        {
+            "id": 2,
+            "savol": "Radiatorni ichki tomondan qanday tozalash kerak?",
+            "javob": "Maxsus yuvish kimyoviy moddasi bilan (radiator cleaner), suv bilan yuvish, tozalash eritmasini quyish va dvigatelni bir necha daqiqa ishlat ish.",
+            "izoh": "Vaqt o'tishi bilan radiator ichida zang, cho'kma va neft qoldiqlari to'planadi. Bu suv oqimini kamaytiradi va sovutishni yomonlashtiradi. Muntazam ichki tozalash zarur - har 2-3 yilda bir marta."
+        },
+        {
+            "id": 3,
+            "savol": "Termostatni qanday tekshirish mumkin?",
+            "javob": "Uni olib, qaynoq suvga (90°C) solish va ochilishini kuzatish. Yoki dvigatelda - yuqori shlangning qizishini kuzatish.",
+            "izoh": "Normal termostat 85-90°C da ochiladi. Agar u ochilmasa yoki doimo ochiq bo'lsa - buzuq demakdir. Oddiy usul - qaynoq suvga solish va ko'z bilan kuzatish. Ochilmasa - almashtirish kerak."
+        },
+        {
+            "id": 4,
+            "savol": "Termostatni almashtirish jarayoni qanday?",
+            "javob": "Sovutish suyuqligini qisman to'kish, termostat xonasining qopqog'ini ochish, eski termostatni olish, qistirmani almashtirish, yangi termostatni o'rnatish.",
+            "izoh": "Ishni sovuq dvigatelda boshlash kerak. Termostatning o'rnatish yo'nalishi muhim - ko'pincha o'rnatish belgisi bor. Qistirmani har doim almashtirish kerak. Ishdan keyin havo chiqarish zarur."
+        },
+        {
+            "id": 5,
+            "savol": "Radiator qopqog'ining vazifasi nima?",
+            "javob": "Tizimda bosimni ushlab turish (1.1-1.3 bar), ortiqcha bosimni chiqarish, vakuum paytida havo kiritish.",
+            "izoh": "Bosim ostida suyuqlikning qaynash harorati oshadi (110-120°C). Qopqoqdagi relef klapani ortiqcha bosimni chiqaradi, vakuum klapani esa soviyotganda havo kiritadi. Buzuq qopqoq - qizishning sababi bo'lishi mumkin."
+        }
+    ]
+}

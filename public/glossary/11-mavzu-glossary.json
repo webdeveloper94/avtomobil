@@ -1,0 +1,54 @@
+{
+    "mavzu_id": 11,
+    "mavzu_nomi": "Moy bosimidagi nosozliklar",
+    "glossary": [
+        {
+            "atama": "Moy bosimi datchigi",
+            "tasnif": "Moy bosimini o'lchaydigan va asboblar paneliga signal yuboradigan sensor."
+        },
+        {
+            "atama": "Manometr",
+            "tasnif": "Moy bosimini aniq o'lchaydigan mexanik asbob."
+        },
+        {
+            "atama": "Past bosim",
+            "tasnif": "Moy bosimi 1 bardan past - xavfli holat."
+        },
+        {
+            "atama": "Yuqori bosim",
+            "tasnif": "Moy bosimi 5 bardan yuqori - muammo bor."
+        },
+        {
+            "atama": "Qizil chiroq",
+            "tasnif": "Moy bosimi past bo'lganda yonadigan ogohlantirish chirog'i."
+        },
+        {
+            "atama": "Relef klapani",
+            "tasnif": "Ortiqcha bosimni kamaytiruvchi xavfsizlik klapani."
+        },
+        {
+            "atama": "Bypass klapani",
+            "tasnif": "Filtr tiqilganda moyni filtrdan chetlab o'tkazuvchi klapan."
+        },
+        {
+            "atama": "Moy nasosi yeyilishi",
+            "tasnif": "Nasos detallarining eskirishi, bosim pasayadi."
+        },
+        {
+            "atama": "Podshipnik yeyilishi",
+            "tasnif": "Podshipniklar bo'shalib, moy bosimi pasayadi."
+        },
+        {
+            "atama": "Moy suyuqligi",
+            "tasnif": "Ishlatilgan yoki noto'g'ri tanlangan moy juda suyuq bo'lishi."
+        },
+        {
+            "atama": "Filtrdagi pass",
+            "tasnif": "Filtr tiqilib, moy o'tmayapti - bosim pasayadi."
+        },
+        {
+            "atama": "Moy sizishi",
+            "tasnif": "Qistirmalardan moy chiqib, darajasi pasayadi."
+        }
+    ]
+}

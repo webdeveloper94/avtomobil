@@ -1,0 +1,36 @@
+{
+    "mavzu_id": 16,
+    "mavzu_nomi": "O't oldirish tizimi",
+    "nazorat_savollari": [
+        {
+            "id": 1,
+            "savol": "O't oldirish tizimining asosiy qismlari qaysilar?",
+            "javob": "Svechalar (shamlar), o't oldirish g'altaganlari (katushkalar), simlar, elektronli blok (dizel da yo'q).",
+            "izoh": "Tizim juda oddiy maqsadga ega -uchqun yaratish. Lekin bu uchun 12V dan 25000V gacha kuchlanish kerak. G'altagan buni amalga oshiradi. Zamonaviy mashinalarda har bir svecha uchun alohida g'altakan bor."
+        },
+        {
+            "id": 2,
+            "savol": "O't oldirish ilgarilash burchagi nima va nima uchun kerak?",
+            "javob": "Uchqun piston VMT ga yetishidan oldin (10-15° avval) hosil bo'lishi. Yonish uchun vaqt kerak - aralashma zudlik bilan yonmaydi.",
+            "izoh": "Agar uchqun VMT da berilsa - kech bo'ladi, piston pastga tushib ketadi. Ilgarilatish aralashmaga yonish uchun vaqt beradi. Kompyuter dvigatel tezligiga qarab ilgarilatishni avtomatik sozlaydi."
+        },
+        {
+            "id": 3,
+            "savol": "O't oldirish juda erta bo'lsa nima bo'ladi?",
+            "javob": "Detonatsiya (portlash) sodir bo'ladi, taqillatish eshitiladi , dvigatelga zarar yetadi, quvvat pasayadi.",
+            "izoh": "Juda erta uchqun - aralashma piston hali yuqoriga ko'tarilayotganda yonadi. Bu pistonni qaytaradi - juda katta yuklanish. Taqillatish tovushi - detonatsiyaning belgisi. Bu dvigatelni tez buzadi."
+        },
+        {
+            "id": 4,
+            "savol": "O't oldirish kech bo'lsa qanday belgilar paydo bo'ladi?",
+            "javob": "Quvvat pasayadi, dvigatel qizib ketadi, chiqish quvuridan alanga chiqishi mumkin, yoqilg'i sarfi ortadi.",
+            "izoh": "Kech uchqun - yonish piston pastga tushgandan keyin boshlandi. Energiya g'ildiraklarga emas, issiqlikka aylanadi. Chiqish quvurida hali yonayotgan aralashma - shuning uchun alanga chiqadi."
+        },
+        {
+            "id": 5,
+            "savol": "Zamonaviy dvigatelarda o't oldirish qanday boshqariladi?",
+            "javob": "Elektron boshqaruv bloki (ECU/ECM) datchiklar ma'lumotlariga qarab avtomatik sozlaydi.",
+            "izoh": "Computer doimiy ravishda dvigat el holatini kuzatadi: tezlik, yuklanish, harorat, havo miqdori. Shu ma'lumotlarga qarab har bir silindr uchun aniq vaqt va kuchni hisoblaydi. Bu maksimal samaradorlik va minimal zarar beradi."
+        }
+    ]
+}

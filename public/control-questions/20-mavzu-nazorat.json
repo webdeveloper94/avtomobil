@@ -1,0 +1,36 @@
+{
+    "mavzu_id": 20,
+    "mavzu_nomi": "Amaliy nazorat mashg'uloti",
+    "nazorat_savollari": [
+        {
+            "id": 1,
+            "savol": "Dvigatelning asosiy xususiyatlarini qanday aniqlash mumkin?",
+            "javob": "VIN kod, dvigatel raqami, texnik hujjatlar orqali - silindrlar soni, hajmi, quvvati, yili, ishlab chiqaruvchini aniqlash mumkin.",
+            "izoh": "Har bir dvigatelning o'z 'pasporti' bor. VIN kod - bu 17 belgili unik al raqam. Dvigatel blokida ham raqam bor. Texnik hujjatlarda barcha xususiyatlar yozilgan. Bu ma'lumotlarni bilish kerak qismlar sotib olish va diagnostika uchun."
+        },
+        {
+            "id": 2,
+            "savol": "Dvigatel nosozliklarini aniqla shda qaysi usullardan foydalaniladi?",
+            "javob": "Vizual ko'rik, tinglab diagnostika, kompressiya o'lchash, diagnostika skaneri, moy va suyuqlikllarni tahlil qilish.",
+            "izoh": "Kompleks yondashuv eng yaxshi natijani beradi. Vizual - ko'zga ko'ringan muammolar. Tinglab - ichki tovushlar. Kompressiya - silindrlar holati. Skaner - elektron tizimlar. Har bir usul o'z ma'lumotini beradi."
+        },
+        {
+            "id": 3,
+            "savol": "Texnika xavfsizligi qoidalariga rioya qilish nima uchun muhim?",
+            "javob": "Jarohatlarning oldini olish, uskunalar ni saqlash, sifatli ish bajarish, qonun talablariga rioya qilish.",
+            "izoh": "Xavfsizlik - birinchi o'rinda. Dvigatel ta'mirlash - xavfli ish: og'ir detallar, elektr toki, kimyoviy moddalar, issiq sirtlar. To'g'ri himoya vositalari va ehtiyotkorlik hodisalarning 90%ini oldini oladi."
+        },
+        {
+            "id": 4,
+            "savol": "Professional usta ning asosiy sifatlari qaysilar?",
+            "javob": "Bilim va tajriba, aniqlik va ehtiyotkorlik, mas'uliyat, uzluksiz o'rganish, mijoz bilan to'g'ri munosabat.",
+            "izoh": "Yaxshi usta - nafaqat bilimli, balki mas'uliyatli va halol. Har bir ish - uning obro'si. Texnologiya rivojlanadi, yangi avtomobillar chiqadi - doimiy o'rganish zarur. Mijoz ishonchi - eng muhim narsa."
+        },
+        {
+            "id": 5,
+            "savol": "Dvigatel xizmat muddatini uzaytirish uchun qanday maslahatlar beriladi?",
+            "javob": "Muntazam texnik xizmat, sifatli moy va yoqilg'i, yumshoq haydash, vaqtida ta'mirlash, qizib ketishdan va og'ir yuklamadan qochish.",
+            "izoh": "Dvigatelning umri asosan egasiga bog'liq. Sifatli moy - eng muhim. Munt azam TO - muammolarni erta aniqlash. Yumshoq haydash - aggressive haydashdan 2 marta ko'proq umr beradi. Kichik nosozliklarni tezda tuzatish kattalariga aylanishining oldini oladi."
+        }
+    ]
+}

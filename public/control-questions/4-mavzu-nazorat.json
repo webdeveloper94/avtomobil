@@ -1,0 +1,36 @@
+{
+    "mavzu_id": 4,
+    "mavzu_nomi": "Silindrlar bosh qopqog'ini olib-o'rnatish",
+    "nazorat_savollari": [
+        {
+            "id": 1,
+            "savol": "Silindrlar bosh qopqog'ini olishdan oldin qanday tayyorgarlik ishlari bajariladi?",
+            "javob": "Sovutish suyuqligini to'kish, akkumulyatorni uzish, havo filtrini olish, barcha quvur va simlarni uzish va belgilash.",
+            "izoh": "To'g'ri tayyorgarlik juda muhim. Sovutish suyuqligini to'kmasdan bosh qopqoqni olib bo'lmaydi. Simlar va quvurlarni belgilash qayta yig'ishni osonlashtiradi va xatolarning oldini oladi."
+        },
+        {
+            "id": 2,
+            "savol": "Bosh qopqoq boltlarini qanday tartibda bo'shashtirish kerak?",
+            "javob": "Markazdan chetlarga tomon diagonal tartibda, bosqichma-bosqich (bir necha bosqichda) bo'shashtirish kerak.",
+            "izoh": "Noto'g'ri tartibda bo'shashtirish bosh qopqoqning egrilishiga yoki yorilishiga olib kelishi mumkin. Markazdan boshlab diagonal tartibda ishlash qopqoqdagi kuchlanishni bir tekis kamaytiradi."
+        },
+        {
+            "id": 3,
+            "savol": "Bosh qopqoq qistirmasi (prokladka) ni qanday holatlarda almashtirish shart?",
+            "javob": "Har doim - qistirma bir marta ishlatiladi. Eski qistirmani qayta ishlatish mumkin emas, chunki u siqilib shakli o'zgaradi.",
+            "izoh": "Bosh qopqoq qistirmasi eng muhim qistirmalardan biri. U silindr va bosh qopqoq orasida hermetiklikni ta'minlaydi. Eski qistirmani ishlatish sizish va dvigatel buzilishiga olib keladi."
+        },
+        {
+            "id": 4,
+            "savol": "Bosh qopqoq boltlarini qanday moment bilan tortish kerak?",
+            "javob": "Ishlab chiqaruvchi ko'rsatgan moment bilan (odatda 60-90 Nm), momentometr yordamida, markazdan chetlarga diagonal tartibda, bosqichma-bosqich.",
+            "izoh": "Momentometr zarur - qo'l kuchi bilan to'g'ri tortish mumkin emas. Kam tortilsa - sizish, ko'p tortilsa - bolt uzilib ketishi yoki qistirma shikastlanishi mumkin. Diagonal tartib qopqoqni bir tekis bosadi."
+        },
+        {
+            "id": 5,
+            "savol": "Bosh qopqoqni o'rnatgandan keyin qanday tekshiruvlar o'tkaziladi?",
+            "javob": "Barcha birikmalarga qaytadan qarash, sovutish suyuqligini quyish, dvigatelni ishga tushirish, sizish joylarini tekshirish, harorat va bosimni kuzatish.",
+            "izoh": "Ishga tushirishdan oldin barcha biriktirishlarni tekshirish kerak. Dvigatel ish paytida birinchi 10-15 daqiqada diqqat bilan kuzatiladi: sizish, notekis ishlash, qizib ketish kabi muammolar bo'lmasligi kerak."
+        }
+    ]
+}

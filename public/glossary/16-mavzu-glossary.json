@@ -1,0 +1,58 @@
+{
+    "mavzu_id": 16,
+    "mavzu_nomi": "O't oldirish tizimi",
+    "glossary": [
+        {
+            "atama": "O't oldirish tizimi",
+            "tasnif": "Yoqilg'i-havo aralashmasini yoqish uchun uchqun yaratadigan tizim."
+        },
+        {
+            "atama": "Svecha (Sham)",
+            "tasnif": "Elektr uchqunini yaratadigan detal, silindr boshig'ida."
+        },
+        {
+            "atama": "O't oldirish g'altagani (Katushka)",
+            "tasnif": "12V ni 25000V gacha ko'taradigan transformator."
+        },
+        {
+            "atama": "Kuchlanish",
+            "tasnif": "Svechada 15000-25000 volt kerak uchqun uchun."
+        },
+        {
+            "atama": "O't oldirish simlar i",
+            "tasnif": "Yuqori kuchlanishli maxsus izolyatsiyalangan simlar."
+        },
+        {
+            "atama": "O't oldirish ilgarilash",
+            "tasnif": "Uchqunni piston VMT ga yetishidan oldin (10-15° avval) berish."
+        },
+        {
+            "atama": "Detonatsiya",
+            "tasnif": "O't juda erta berilganda portlash, taqillatish - xavfli."
+        },
+        {
+            "atama": "Kech o't oldirish",
+            "tasnif": "Uchqun kech berilishi - quvvat pasayadi, qiziydi."
+        },
+        {
+            "atama": "Erta o't oldirish",
+            "tasnif": "Uchqun juda erta - detonatsiya, dvigatel zarar ko'radi."
+        },
+        {
+            "atama": "O't oldirish vaqti",
+            "tasnif": "Dvigatel aylanishiga nisbatan uchqun berish vaqti."
+        },
+        {
+            "atama": "Distributor (Trambler)",
+            "tasnif": "Eski tizimlarda uchqunni tarqatuvchi qurilma."
+        },
+        {
+            "atama": "Elektron o't oldirish",
+            "tasnif": "Zamonaviy computer boshqariladigan tizim."
+        },
+        {
+            "atama": "Detonatsiya datchigi",
+            "tasnif": "Portlashni sezib, computerga signal yuboradigan sensor."
+        }
+    ]
+}

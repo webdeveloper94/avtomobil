@@ -1,0 +1,36 @@
+{
+    "mavzu_id": 12,
+    "mavzu_nomi": "Karbyuratorli va injektorli dvigatellar",
+    "nazorat_savollari": [
+        {
+            "id": 1,
+            "savol": "Karbyurator va injektor orasidagi asosiy farq nima?",
+            "javob": "Karbyurator - mexanik aralashma tayyorlash. Injektor - elektronli boshqaruv, har bir silindrga purkash.",
+            "izoh": "Karbyurator oddiy lekin noaniq - havo oqimi bilan yoqilg'ini so'rib oladi. Injektor - aniq, computer boshqaradi, forsunkalar orqali yoqilg'ini to'g'ridan-to'g'ri purka ydi. Injektorli dvigatel tejamkor va kuchli."
+        },
+        {
+            "id": 2,
+            "savol": "Injektorli dvigatelning afzalliklari qanday?",
+            "javob": "Kam yoqilg'i sarfi, ko'proq quvvat, ekologik toza, istagan vaziyatda ishlaydi (burilish, nishablikda).",
+            "izoh": "Injektor har bir silindrga kerakli miqdorda yoqilg'i yuboradi - bu tejamkorlik beradi. Yaxshi yonish - ko'p quvvat va kam zaharli gaz. Gravitatsiyaga bog'liq emas - har qanday holatda ishlaydi."
+        },
+        {
+            "id": 3,
+            "savol": "Karbyuratorning asosiy nosozliklari qaysilar ?",
+            "javob": "Tiqilib qolish (kirlangan yoqilg'idan), notekis aralashma, yurishda o'chib qolish, ko'p yoqilg'i sarfi.",
+            "izoh": "Karbyurator juda nozik sozlangan moslamadir. Kichik teshiklari bor - ular tez tiqiladi. Membranalari eskiradi, yumshoq qismlar yeyiladi. Muntazam tozalash va sozlash zarur."
+        },
+        {
+            "id": 4,
+            "savol": "Injektorni (forsunkani) qanday tozalash mumkin?",
+            "javob": "Maxsus stendda ultratovush bilan tozalash yoki kimyoviy tozalagichlarni yoqilg'i tizimiga quyish.",
+            "izoh": "Vaqt o'tishi bilan forsunkalar kirlangan yoqilg'idan tiqilib qoladi. Bu purkashni buzadi va dvigatelning notekis ishlashiga olib keladi. Professional tozalash - har 30-50 ming km da tavsiya etiladi."
+        },
+        {
+            "id": 5,
+            "savol": "Injektorli dvigatelda qanday datchiklar bor?",
+            "javob": "Havo massasi (MAF), klapan holati (TPS), kislorod (lambda), harorat, krivoship holati datchiklari.",
+            "izoh": "Datchiklar - injektorning 'ko'zlari'. Ular computer ga ma'lumot beradi: qancha havo, harorat qancha, krivoship qayerda. Computer bu ma'lumotlarga qarab yoqilg'i miqdori va o't oldirish vaqtini hisoblaydi. Biror datchik nosoz bo'lsa - dvigatel yomon ishlaydi."
+        }
+    ]
+}

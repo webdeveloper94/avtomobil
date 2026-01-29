@@ -1,0 +1,66 @@
+{
+    "mavzu_id": 10,
+    "mavzu_nomi": "Moylash tizimi",
+    "glossary": [
+        {
+            "atama": "Moylash tizimi",
+            "tasnif": "Dvigatel qismlarini moylab, ishqalanishni kamaytiradigan tizim."
+        },
+        {
+            "atama": "Dvigatel moyi",
+            "tasnif": "Maxsus moy, ishqalanishni kamaytiradi va sovutadi."
+        },
+        {
+            "atama": "Moy karteri",
+            "tasnif": "Dvigatel ostidagi moy saqlanadigan idish."
+        },
+        {
+            "atama": "Moy nasosi",
+            "tasnif": "Moyni karterdan olib, tizimga yuboradigan nasos."
+        },
+        {
+            "atama": "Moy filtri",
+            "tasnif": "Moydagi kirlar va metall zarrachalarni tutuvchi filtr."
+        },
+        {
+            "atama": "Moy bosimi",
+            "tasnif": "Tizimda moyning bosimi, normal 2-4 bar."
+        },
+        {
+            "atama": "Moy darajasi",
+            "tasnif": "Karterdagi moy miqdori, shchup bilan tekshiriladi."
+        },
+        {
+            "atama": "Shchup (Dipstick)",
+            "tasnif": "Moy darajasini tekshiradigan tayoqcha, min-max belgilari bor."
+        },
+        {
+            "atama": "SAE yopishqoqligi",
+            "tasnif": "Moy quyuqligi ko'rsatkichi: 5W-40, 10W-40."
+        },
+        {
+            "atama": "API sinfi",
+            "tasnif": "Moy sifati darajasi: SN, SM - yuqori sifat."
+        },
+        {
+            "atama": "Moy almasht irish",
+            "tasnif": "Eski moyni to'kib yangi moy quyish, har 10000 km."
+        },
+        {
+            "atama": "Moy sarfi",
+            "tasnif": "1000 km da qancha moy kamayashi, normal 0.1-0.5 litr."
+        },
+        {
+            "atama": "Sintetik moy",
+            "tasnif": "Kimyoviy sintez qilingan yuqori sifatli moy."
+        },
+        {
+            "atama": "Mineral moy",
+            "tasnif": "Neftdan olingan oddiy moy."
+        },
+        {
+            "atama": "Moy kanallari",
+            "tasnif": "Dvigatel ichidagi moy o'tadigan yo'llar."
+        }
+    ]
+}

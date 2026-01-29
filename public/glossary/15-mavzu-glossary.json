@@ -1,0 +1,58 @@
+{
+    "mavzu_id": 15,
+    "mavzu_nomi": "Gaz yonilg'isida ishlaydigan dvigatellar",
+    "glossary": [
+        {
+            "atama": "GBO (Gaz ballonli uskuna)",
+            "tasnif": "Avtomobilga suyultirilgan neft gazi (propan-butan) bilan yurishga imkon beruvchi tizim."
+        },
+        {
+            "atama": "Suyultirilgan gaz (LPG)",
+            "tasnif": "Bosim ostida suyuq holatda saqlanadigan propan-butan aralashmasi."
+        },
+        {
+            "atama": "Metan (CNG)",
+            "tasnif": "Siqilgan tabiiy gaz, LPG dan toza lekin tizim qimmat."
+        },
+        {
+            "atama": "Gaz balloni",
+            "tasnif": "Yuqori bosimli idish, suyultirilgan gazni saqlaydi (150-200 bar)."
+        },
+        {
+            "atama": "Reduktor (Bug'latgich)",
+            "tasnif": "Gaz bosimini kamaytirib, suyuqni bug'ga aylantiradigan qurilma."
+        },
+        {
+            "atama": "Multiklapan",
+            "tasnif": "Ballon ustidagi xavfsizlik va to'ldirish klapanlari."
+        },
+        {
+            "atama": "Gaz kalitchasi",
+            "tasnif": "Benzin va gaz o'rtasida o'tish tugmasi."
+        },
+        {
+            "atama": "Elektron blok (ECU)",
+            "tasnif": "Zamonaviy gaz tizimlarida gaz purkashni boshqaruvchi computer."
+        },
+        {
+            "atama": "Gaz forsunkalari",
+            "tasnif": "4-5 avlod GBOda gaz ni silindrga purkuvchi klapanlar."
+        },
+        {
+            "atama": "Gaz mikser",
+            "tasnif": "1-2 avlod GBOda gaz va havoni aralashtiradigan qurilma."
+        },
+        {
+            "atama": "Ballon tekshiruvi",
+            "tasnif": "Har 2-4 yilda maxsus stansiyada bosimli tekshiruv."
+        },
+        {
+            "atama": "Gaz sizishi",
+            "tasnif": "Xavfli! Gaz hidi eshitilsa - hamma tizimni o'chirish."
+        },
+        {
+            "atama": "Quvvat pasayishi",
+            "tasnif": "Gazda 5-10% kam quvvat, lekin arzonroq."
+        }
+    ]
+}

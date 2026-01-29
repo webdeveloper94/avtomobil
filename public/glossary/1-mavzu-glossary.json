@@ -1,0 +1,66 @@
+{
+    "mavzu_id": 1,
+    "mavzu_nomi": "Kirish. O'quv ustaxonasida texnika xavfsizligi va yong'in xavfsizligi qoidalari",
+    "glossary": [
+        {
+            "atama": "Texnika xavfsizligi",
+            "tasnif": "Ishdagi xodimlarning sog'lig'i va hayotini saqlash bo'yicha qoidalar to'plami."
+        },
+        {
+            "atama": "Yong'in xavfsizligi",
+            "tasnif": "O't oldini olish va yong'in chiqsa tez bartaraf etish choralari."
+        },
+        {
+            "atama": "Shaxsiy himoya vositalari (SHV)",
+            "tasnif": "Ishchi xavfsizligini ta'minlaydigan maxsus kiyim va jihozlar: qo'lqop, ko'zoynak, respirator."
+        },
+        {
+            "atama": "O't o'chirish moslamasi",
+            "tasnif": "Yong'inni o'chirish uchun maxsus qurilma: kukun, ko'pik, CO2 o't o'chirg ich."
+        },
+        {
+            "atama": "Yer bilan tutashtirish",
+            "tasnif": "Elektr toki zarbasidan himoya qilish uchun uskunalarni yerga ulash."
+        },
+        {
+            "atama": "Avariya holati",
+            "tasnif": "Favqulodda xavfli vaziyat: yong'in, elektr toki zarbasi, jarohatlash."
+        },
+        {
+            "atama": "Izolyatsiya",
+            "tasnif": "Elektr simlarini qoplagan himoya qatlami, tokni o'tkazmaydi."
+        },
+        {
+            "atama": "Ventilatsiya",
+            "tasnif": "Ustaxonada toza havo almashinuvini ta'minlash tizimi."
+        },
+        {
+            "atama": "Toksik moddalar",
+            "tasnif": "Zaharli kimyoviy moddalar: benzin, bo'yoq, eritkichlar - ehtiyotkorlik talab qiladi."
+        },
+        {
+            "atama": "Birinchi yordam",
+            "tasnif": "Jarohatlangan yoki kasalga darhol ko'rsatiladigan tibbiy yordam."
+        },
+        {
+            "atama": "Favqulodda chiqish",
+            "tasnif": "Avariya paytida tezda binoni tark etish uchun maxsus eshik va yo'l."
+        },
+        {
+            "atama": "Elektr qalqon",
+            "tasnif": "Barcha elektr jihozlarni boshqarish va uzish uchun asosiy panel."
+        },
+        {
+            "atama": "Siqilgan havo",
+            "tasnif": "Yuqori bosim ostidagi havo, tozalash va pnevmatik asboblar uchun."
+        },
+        {
+            "atama": "Shovqin himoyasi",
+            "tasnif": "Quloqni baland tovushdan himoya qiluvchi maxsus qurilma."
+        },
+        {
+            "atama": "Yonuvchan moddalar",
+            "tasnif": "Oson yonadigan suyuqliklar va gazlar: benzin, gaz, eritkichlar."
+        }
+    ]
+}

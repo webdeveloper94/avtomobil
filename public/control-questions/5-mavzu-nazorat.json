@@ -1,0 +1,36 @@
+{
+    "mavzu_id": 5,
+    "mavzu_nomi": "Krivoship-shatun mexanizmi detallarini ko'rikdan o'tkazish",
+    "nazorat_savollari": [
+        {
+            "id": 1,
+            "savol": "Krivoship-shatun mexanizmining asosiy vazifasi nima?",
+            "javob": "Pistonning to'g'ri chiziqli harakatini krivoshipning aylanma harakatiga aylantirish va quvvatni uzatish.",
+            "izoh": "Bu mexanizm dvigatelning 'yuragi' hisoblanadi. Piston silindrda yuqoriga-pastga harakat qiladi, shatun bu harakatni krivoshipga uzatadi va krivoship g'ildirakka aylanma harakat beradi. Bu jarayon sekundiga minglab marta takrorlanadi."
+        },
+        {
+            "id": 2,
+            "savol": "Pistonning asosiy nosozliklari qaysilar va ularni qanday aniqlash mumkin?",
+            "javob": "Yeyilish, yorilish, kuyish. Vizual ko'rik, o'lchov asboblari bilan o'lchash (diametr va shaklini tekshirish), sirt holatini baholash orqali aniqlanadi.",
+            "izoh": "Piston juda yuqori harorat va bosimda ishlaydi. Vaqt o'tishi bilan yeyiladi, ayrim hollarda yoriladi yoki kuyadi. Diametr kamayishi va ellips shakl olishi mumkin. Buning uchun mikrometr va nutrometr kerak."
+        },
+        {
+            "id": 3,
+            "savol": "Piston halqalarining vazifasi nima va ularni qachon almashtirish kerak?",
+            "javob": "Siqish halqalari - kompressiya ta'minlaydi, moy halqasi - moyni tozalaydi. Yeyilganda, elastikligi yo'qolganda, yorilganda almashtirish kerak.",
+            "izoh": "Piston halqalari silindr devori va piston orasidagi bo'shliqni yopadi. Ularning yeyilishi kompressiya pasayishiga va moy sarfining oshishiga olib keladi. Halqalarni maxsus shchupp bilan tekshirish mumkin."
+        },
+        {
+            "id": 4,
+            "savol": "Shatunning asosiy tekshiruvlari qaysilar?",
+            "javob": "Egrilikni tekshirish (maxsus stendda), podshipnik joyini o'lchash, yorilish va deformatsiyani aniqlash, boltlarning tortilishini tekshirish.",
+            "izoh": "Shatun juda katta yuklamalarga duchor bo'ladi. Egilgan yoki yorilgan shatun juda xavfli - u dvigatelni butunlay buzishi mumkin. Shatun podshipniklari ham muntazam tekshirilishi va almasht irilishi kerak."
+        },
+        {
+            "id": 5,
+            "savol": "Krivoship (krank vali) ning holati qanday tekshiriladi?",
+            "javob": "Sheykalarda yeyilish va sirt holati (mikrometr bilan), egilish va burilish (maxsus stend), yorilishlar (magnit yoki ultratovush defektoskopiyasi).",
+            "izoh": "Krivoship - eng qimmat detal. Uning sheykalarida yeyilish 0.05 mm dan oshsa, tozalash (pereshlifovka) zarur. Juda katta yeyilishda butunlay almashtirish kerak. Yorilishlar ko'zga ko'rinmaydi, shuning uchun maxsus uskunalar kerak."
+        }
+    ]
+}

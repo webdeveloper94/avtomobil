@@ -1,0 +1,58 @@
+{
+    "mavzu_id": 18,
+    "mavzu_nomi": "Avtomobil dvigatellarini yig'ish va sinash",
+    "glossary": [
+        {
+            "atama": "Yig'ish ketma-ketligi",
+            "tasnif": "Dvigatel qismlarini to'g'ri tartibda o'rnatish tartibi."
+        },
+        {
+            "atama": "Dinamometrik kalit",
+            "tasnif": "Boltlarni aniq moment (Nm) bilan tortish uchun kalit."
+        },
+        {
+            "atama": "Tortish momenti",
+            "tasnif": "Bolt ni qancha kuch bilan tortish o'lchovi, Nm yoki kg·m."
+        },
+        {
+            "atama": "Yig'ish moyi",
+            "tasnif": "Yangi detallarni birinchi marta moylaydigan maxsus moy."
+        },
+        {
+            "atama": "Obkatka (Ishlatib moslash)",
+            "tasnif": "Yangi dvigatelni 2000-3000 km yumshoq rejimda yuritish."
+        },
+        {
+            "atama": "Qoliplama",
+            "tasnif": "Yangi detallar bir-biriga moslashib, silliqlanadi."
+        },
+        {
+            "atama": "Birinchi moy almashuvi",
+            "tasnif": "Obkatkadan keyin 1000 km da moy almashtiriladi."
+        },
+        {
+            "atama": "Yuqori tezlik taqiqi",
+            "tasnif": "Obkatkada 3000 aylanish/min dan oshirmaslik."
+        },
+        {
+            "atama": "Sinov stendi",
+            "tasnif": "Dvigatel quvvati va momentini o'lchaydigan maxsus uskuna."
+        },
+        {
+            "atama": "Quvvat o'lchovi",
+            "tasnif": "Dvigatel necha ot kuchi (hp) yoki kVt ishlab chiqarishi."
+        },
+        {
+            "atama": "Moment o'lchovi",
+            "tasnif": "Dvigatel aylanma kuchi, Nm da o'lchanadi."
+        },
+        {
+            "atama": "Sizishlar tekshiruvi",
+            "tasnif": "Barcha qistirmalardan moy va suyuqlik chiqmayotganini ko'rish."
+        },
+        {
+            "atama": "Tovushlar tinglash",
+            "tasnif": "Taqillatish, shovqin, vibratsiya yo'qligini aniqlash."
+        }
+    ]
+}

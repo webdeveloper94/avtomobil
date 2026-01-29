@@ -1,0 +1,70 @@
+{
+    "mavzu_id": 2,
+    "mavzu_nomi": "Dvigatelni umumiy tekshirish",
+    "glossary": [
+        {
+            "atama": "Dvigatel",
+            "tasnif": "Avtomobilning asosiy quvvat manbai, yonilg'ini yondirib mexanik energiya ishlab chiqaradi."
+        },
+        {
+            "atama": "Kompressiya",
+            "tasnif": "Silindr ichidagi siqilgan gaz bosimi, dvigatel holatining asosiy ko'rsatkichi."
+        },
+        {
+            "atama": "Kompressometr",
+            "tasnif": "Kompressiyani o'lchaydigan maxsus asbob."
+        },
+        {
+            "atama": "Silindr",
+            "tasnif": "Dvigatel ichidagi silindr shaklidagi bo'shliq, piston shu yerda harakat qiladi."
+        },
+        {
+            "atama": "Piston",
+            "tasnif": "Silindr ichida yuqoriga-pastga harakatlanadigan metall detal."
+        },
+        {
+            "atama": "Moy sizishi",
+            "tasnif": "Qistirmalar yoki salniklar ishdan chiqqanda dvigateldan moy oqishi."
+        },
+        {
+            "atama": "Tutun rangi",
+            "tasnif": "Chiqish quvuridagi tutun rangi dvigatel holatini ko'rsatadi."
+        },
+        {
+            "atama": "Vibratsiya",
+            "tasnif": "Dvigatelning notekis ishlashidan tebranishlar."
+        },
+        {
+            "atama": "Bo'sh yurish",
+            "tasnif": "Dvigatelning minimal tezlikda, yuklamsiz ishlashi."
+        },
+        {
+            "atama": "Moy bosimi",
+            "tasnif": "Moylash tizimidagi moy bosimi, normal 2-4 bar."
+        },
+        {
+            "atama": "Antifrizing",
+            "tasnif": "Sovutish suyuqligi, muzlamaydi va dvigatelni sovutadi."
+        },
+        {
+            "atama": "Taqillatish",
+            "tasnif": "Dvigatel ichidan kelayotgan notekis metall tovushlari."
+        },
+        {
+            "atama": "Diagnostika",
+            "tasnif": "Dvigatel holatini tekshirish va nosozliklarni aniqlash jarayoni."
+        },
+        {
+            "atama": "Qizib ketish",
+            "tasnif": "Dvigatel haroratining haddan tashqari ko'tarilishi."
+        },
+        {
+            "atama": "Starter",
+            "tasnif": "Dvigatelni ishga tushirish uchun aylantiradigan elektr motor."
+        },
+        {
+            "atama": "Svecha (sham)",
+            "tasnif": "Benzin dvigatelda uchqun hosil qiluvchi detal."
+        }
+    ]
+}

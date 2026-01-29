@@ -1,0 +1,54 @@
+{
+    "mavzu_id": 19,
+    "mavzu_nomi": "Avtomobillarga servis xizmat ko'rsatishdan so'ng sinash",
+    "glossary": [
+        {
+            "atama": "Servis xizmati",
+            "tasnif": "Avtomobilga muntazam texnik ko'rik va ta'mirlash."
+        },
+        {
+            "atama": "Sinov yo'li (Test-drive)",
+            "tasnif": "Ta'mirdan keyin yo'lda sinab ko'rish."
+        },
+        {
+            "atama": "Diagnostika skaneri",
+            "tasnif": "Computer xatolar va datchik ko'rsatkichlarini ko'rsatadigan asbob."
+        },
+        {
+            "atama": "Xato kodlari",
+            "tasnif": "Computer xotirasida saqlanadigan nosozlik kodlari (P0301, P0420...)."
+        },
+        {
+            "atama": "Bo'sh yurish testi",
+            "tasnif": "Dvigatelni bo'sh yurishda tekshirish - tovush, vibratsiya."
+        },
+        {
+            "atama": "Yuklanish testi",
+            "tasnif": "Tezlashish, yuqori tezlikda sinov - quvvat tekshiruvi."
+        },
+        {
+            "atama": "Tormozlash testi",
+            "tasnif": "Tormoz tizimining ishlashini tekshirish."
+        },
+        {
+            "atama": "Sizishlar ko'rigi",
+            "tasnif": "Ta'mirdan keyin moy, suyuqlik sizmaganini tekshirish."
+        },
+        {
+            "atama": "Chiqindi gazlar",
+            "tasnif": "Ekologik normaga mosligi aniqlash."
+        },
+        {
+            "atama": "Mijozga topshirish",
+            "tasnif": "Avtomobilni tozalab, hisobot bilan mijozga berish."
+        },
+        {
+            "atama": "Ta'mirlash protokoli",
+            "tasnif": "Nima qilinganini yozilgan hujjat."
+        },
+        {
+            "atama": "Kafolat",
+            "tasnif": "Ta'mirlangan qismlar uchun berilgan muddatli kafolat."
+        }
+    ]
+}

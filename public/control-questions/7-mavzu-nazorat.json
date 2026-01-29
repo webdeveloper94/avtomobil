@@ -1,0 +1,36 @@
+{
+    "mavzu_id": 7,
+    "mavzu_nomi": "Klapanlar orasidagi bo'shliqni sozlash",
+    "nazorat_savollari": [
+        {
+            "id": 1,
+            "savol": "Klapanlar orasidagi bo'shliq nima uchun kerak?",
+            "javob": "Metal issiqda kengayadi. Bo'shliq klapanning to'liq yopilishini ta'minlaydi va haddan tashqari siqilishning oldini oladi.",
+            "izoh": "Agar bo'shliq bo'lmasa, dvigatel qizganda klap an uzayadi va to'liq yopilmaydi. Bu kompressiya yo'qotishiga va klapanning kuyishiga olib keladi. Lekin bo'shliq juda katta bo'lsa, klap an kam ochiladi."
+        },
+        {
+            "id": 2,
+            "savol": "Klapanlar bo'shligi qancha bo'lishi kerak va uni qanday o'lchash mumkin?",
+            "javob": "Kirish uchun 0.15-0.25mm, chiqish uchun 0.25-0.35mm (issiqroq). Shchupp (feeler gauge) bilan o'lchanadi.",
+            "izoh": "Chiqish klapani ko'proq qizadi, shuning uchun uning bo'shliqi kattaroq. O'lchash sovuq dvigatelda amalga oshiriladi. Shchupp klapan va rocker orasiga kirgiziladi va ozgina qarshilik bilan sirg'ashi kerak."
+        },
+        {
+            "id": 3,
+            "savol": "Klapanlar bo'shlig'ini sozlash qachon zarur?",
+            "javob": "Ishlab chiqaruvchi tavsiyasiga ko'ra (odatda har 20000-30000 km), taqillatish tovushi eshitilganda, quvvat pasayganda.",
+            "izoh": "Vaqt o'tishi bilan detallar yeyiladi va bo'shliq o'zgaradi. Taqillatish - bo'shliq katta bo'lganining belgisi. Quvvat pasayishi - bo'shliq kam yoki yo'q bo'lganini bildiradi. Muntazam tekshirish zarur."
+        },
+        {
+            "id": 4,
+            "savol": "Klapanlar bo'shlig'ini sozlash jarayoni qanday amalga oshiriladi?",
+            "javob": "1) Klapan qopqog'ini ochish, 2) Pistonni VMT ga keltirish, 3) Sozlash vintini bo'shashtirish, 4) Shchupp bilan o'lchash, 5) Kerakli bo'shliqni o'rnatish, 6) Vintni mahkamlash.",
+            "izoh": "Sozlash uchun dvigatel sovuq bo'lishi kerak. Har bir klapan alohida sozlanadi. Piston VMT da bo'lganda - klapan yopiq. Sozlagandan keyin qaytadan o'lchab tekshirish kerak, chunki mahkamlash paytida o'zgarishi mumkin."
+        },
+        {
+            "id": 5,
+            "savol": "Gidrokompensatorli dvigatelda bo'shliq sozlash kerakmi?",
+            "javob": "Yo'q, gidrokompensatorlar avtomatik ravishda bo'shliqni sozlaydi. Lekin gidrokompensatorning o'zi nosoz bo'lishi mumkin.",
+            "izoh": "Gidrokompensatorlar moy bosimi yordamida avtomatik sozlanadi. Bu juda qulay - sozlash kerak emas. Lekin ular tiqilib qolishi yoki yeyilishi mumkin. Bunday holda gidrokompensatorlar almashtiriladi."
+        }
+    ]
+}

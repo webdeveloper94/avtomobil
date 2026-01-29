@@ -1,0 +1,36 @@
+{
+    "mavzu_id": 8,
+    "mavzu_nomi": "Sovutish tizimi",
+    "nazorat_savollari": [
+        {
+            "id": 1,
+            "savol": "Sovutish tizimining asosiy vazifasi nima?",
+            "javob": "Dvigatelni optimal ish haroratida (85-95°C) ushlab turish, haddan tashqari qizishning oldini olish.",
+            "izoh": "Dvigatel yonish paytida 2000°C gacha qiziydi. Sovutish tizimi bu haroratni 90°C atrofida saqlaydi. Juda sovuq ham, juda issiq ham yomon - optimal harorat muhim."
+        },
+        {
+            "id": 2,
+            "savol": "Sovutish tizimining asosiy qismlari qaysilar?",
+            "javob": "Radiator, suv nasosi (pompa), termostat, ventilator, kengayish baki, quvurlar va shlanglar.",
+            "izoh": "Har bir qism ma'lum vazifani bajaradi: pompa suyuqlikni haydaydi, radiator sovutadi, termostat haroratni nazorat qiladi, ventilator havo oqimini kuchaytiradi, kengayish baki bosimni nazorat qiladi."
+        },
+        {
+            "id": 3,
+            "savol": "Dvigatel qizib ketishining asosiy sabablari qaysilar?",
+            "javob": "Sovutish suyuqligi kam, termostat buzuq, radiator tiqilgan, pompa ishlamayapti, ventilator yoqilmayapti.",
+            "izoh": "Qizish juda xavfli - silindr boshi egilishi, qistirma buzilishi, hatto dvigatel butunlay ishdan chiqishi mumkin. Shuning uchun harorat ko'rsatkichini doimo kuzatish kerak."
+        },
+        {
+            "id": 4,
+            "savol": "Termostatning vazifasi nima va u qanday ishlaydi?",
+            "javob": "Haroratni nazorat qiladi. Sovuq dvigatelda yopiq - kichik doira. Qizganda ochiladi - katta doira (radiator orqali).",
+            "izoh": "Termostat - 'aqlli klapan'. U sovuq dvigatelni tez qizdirish uchun suyuqlikni radiatorga yubormaydi. 85-90°C da ochiladi va radiator orqali sovutish boshlanadi. Buzuq termostat - tez-tez qizish sababi."
+        },
+        {
+            "id": 5,
+            "savol": "Sovutish suyuqligi qanday bo'lishi kerak va nechun suv ishlatib bo'lmaydi?",
+            "javob": "Antifrizing (tosol) ishlatiladi. Suv qishda muzlaydi, korroziya hosil qiladi va tez bug'lanadi.",
+            "izoh": "Antifrizing -40°C da ham muzlamaydi, korroziya inhibitorlari bor, yuqori qaynash nuqtasi (110-120°C). Oddiy suv dvigatelni qishda yo'q qilishi mumkin - muzlab kengayadi va blok yoriladi."
+        }
+    ]
+}

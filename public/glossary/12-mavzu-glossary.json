@@ -1,0 +1,62 @@
+{
+    "mavzu_id": 12,
+    "mavzu_nomi": "Karbyuratorli va injektorli dvigatellar",
+    "glossary": [
+        {
+            "atama": "Karbyurator",
+            "tasnif": "Havo va yoqilg'ini mexanik aralashtiradigan qurilma (eski texnologiya)."
+        },
+        {
+            "atama": "Injektor",
+            "tasnif": "Elektronli boshqariladigan yoqilg'i purkash tizimi (zamonaviy)."
+        },
+        {
+            "atama": "Forsunka",
+            "tasnif": "Yoqilg'ini silindrga purkadigan elektromagnit klapan."
+        },
+        {
+            "atama": "ECU/ECM (Computer)",
+            "tasnif": "Dvigatelni boshqaruvchi elektron kompyuter."
+        },
+        {
+            "atama": "MAF datchigi",
+            "tasnif": "Kiruvchi havo massasini o'lchaydigan sensor."
+        },
+        {
+            "atama": "Lambda datchik (Kislorod)",
+            "tasnif": "Chiqish gazidagi kislorod miqdorini o'lchaydigan sensor."
+        },
+        {
+            "atama": "TPS (Gaz klapan holati)",
+            "tasnif": "Gaz pedali qancha bosilganini aniqlaydi gan datchik."
+        },
+        {
+            "atama": "Havo-yoqilg'i aralashmasi",
+            "tasnif": "Yonish uchun kerakli havo va yoqilg'i nisbati, ideal 14.7:1."
+        },
+        {
+            "atama": "Boy aralashma",
+            "tasnif": "Yoqilg'i ko'p, havo kam - qora tutun."
+        },
+        {
+            "atama": "Yuqori aralashma",
+            "tasnif": "Yoqilg'i kam, havo ko'p - quvvat pasayadi."
+        },
+        {
+            "atama": "Karbyur ator sozlash",
+            "tasnif": "Aralashma nisbatini mexanik vintlar bilan o'zgartirish."
+        },
+        {
+            "atama": "Diagnostika skaneri",
+            "tasnif": "Injektorli dvigatel computeriga ulanib, xatolarni ko'rsatadigan asbob."
+        },
+        {
+            "atama": "Yoqilg'i rampasi",
+            "tasnif": "Injektorli tizimda forsunkalarni birlashtiruvchi quvur."
+        },
+        {
+            "atama": "Yoqilg'i bosimi",
+            "tasnif": "Injektorli tizimda 3-4 bar, dizelda 1500-2000 bar."
+        }
+    ]
+}

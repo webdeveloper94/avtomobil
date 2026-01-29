@@ -1,0 +1,58 @@
+{
+    "mavzu_id": 13,
+    "mavzu_nomi": "Dizel dvigatel yoqilg'i tizimi",
+    "glossary": [
+        {
+            "atama": "Dizel yoqilg'isi",
+            "tasnif": "Og'ir neft mahsuloti, yuqori kompressiyada o'z-o'zidan yonadi."
+        },
+        {
+            "atama": "TNVD (Yuqori bosimli nasos)",
+            "tasnif": "Yoqilg'ini juda yuqori bosim ostida forsunkalarga yuboradigan nasos."
+        },
+        {
+            "atama": "Dizel forsunkasi",
+            "tasnif": "Yoqilg'ini mayda zarrachalarga purkadigan nozik teshikli detal."
+        },
+        {
+            "atama": "Common Rail",
+            "tasnif": "Zamonaviy elektron boshqariladigan yuqori bosimli dizel tizimi."
+        },
+        {
+            "atama": "Svecha cho'g'i (kaliления)",
+            "tasnif": "Sovuq paytda yonish kamerasini qizdiradigan elektr svecha."
+        },
+        {
+            "atama": "Siqish nisbati",
+            "tasnif": "Dizelda juda yuqori - 16:1 dan 22:1 gacha."
+        },
+        {
+            "atama": "Purkash bosimi",
+            "tasnif": "Dizel forsunkasida 150-200 bar (eski), 1500-2000 bar (Common Rail)."
+        },
+        {
+            "atama": "Qishki dizel",
+            "tasnif": "-30°C gacha muzlamaydigan maxsus dizel yoqilg'isi."
+        },
+        {
+            "atama": "Yozgi dizel",
+            "tasnif": "0°C dan past qotadigan oddiy dizel."
+        },
+        {
+            "atama": "Parafin kristallari",
+            "tasnif": "Sovuqda hosil bo'lib, yoqilg'ini qotkazadigan moddalar."
+        },
+        {
+            "atama": "Havo chiqarish (Prokachka)",
+            "tasnif": "Dizel tizimidan havoni chiqarish jarayoni."
+        },
+        {
+            "atama": "Dizel filtri",
+            "tasnif": "Yoqilg'idagi suv va kirlarni tutuvchi maxsus filtr."
+        },
+        {
+            "atama": "Suv ajratgich",
+            "tasnif": "Dizel yoqilg'idagi suvni ajratib oladigan qurilma."
+        }
+    ]
+}

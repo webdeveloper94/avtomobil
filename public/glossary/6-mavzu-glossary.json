@@ -1,0 +1,66 @@
+{
+    "mavzu_id": 6,
+    "mavzu_nomi": "Gaz taqsimlash mexanizmi",
+    "glossary": [
+        {
+            "atama": "GTM (Gaz taqsimlash mexanizmi)",
+            "tasnif": "Klapanlarni ochish va yopish orqali dvigatelga havo kiritish va gazni chiqarish tizimi."
+        },
+        {
+            "atama": "Klapan",
+            "tasnif": "Silindrga havo kiritish yoki gazni chiqarish uchun ochiladi-yopiladi gan detal."
+        },
+        {
+            "atama": "Kirish klapani",
+            "tasnif": "Havo-yoqilg'i aralashmasini silindrga kirituvchi klap an."
+        },
+        {
+            "atama": "Chiqish klapani",
+            "tasnif": "Yonish mahsulotlarini silindrdan chiqaruvchi klap an."
+        },
+        {
+            "atama": "Tolqinli val (Raspredval)",
+            "tasnif": "Klapanlarni ochish vaqtini belgilaydigan val, kameralar bilan."
+        },
+        {
+            "atama": "Kamera (Kulachok)",
+            "tasnif": "Tolqinli valdagi dumaloq ko'tarilgan qismlar, klapanni ochadi."
+        },
+        {
+            "atama": "Klapan prujinasi",
+            "tasnif": "Klapanni yopiq holatda ushlab turuvchi prujina."
+        },
+        {
+            "atama": "Rocker (Koromislo)",
+            "tasnif": "Tolqinli valdan klapanga harakat uzatuvchi richag."
+        },
+        {
+            "atama": "Gidrokompensator",
+            "tasnif": "Klapan bo'shlig'ini avtomatik sozlaydigan gidravlik qurilma."
+        },
+        {
+            "atama": "Klapan o'tirgʻi (Sedlo)",
+            "tasnif": "Klapan yopilganda tegadigan metall halqa, bosh qopqoqda."
+        },
+        {
+            "atama": "Klapan vtulkasi (Napravlyayushchaya)",
+            "tasnif": "Klapan o'qini to'g'ri yo'nalishda ushlab turadigan silindr."
+        },
+        {
+            "atama": "Klapan taqsimlash fazalari",
+            "tasnif": "Klapanlar ning ochilish va yopilish vaqtlari ketma-ketligi."
+        },
+        {
+            "atama": "Klapan bo'shlig'i",
+            "tasnif": "Klapan va rocker orasidagi zarur bo'shliq, issiqlik kengayishi uchun."
+        },
+        {
+            "atama": "Zanjir/Kamar (Privod)",
+            "tasnif": "Krivoship dan tolqinli valga harakat uzatuvchi zanjir yoki rezina kamar."
+        },
+        {
+            "atama": "Natyajite l' (Tarangiч)",
+            "tasnif": "Zanjir yoki kamarni tortion holatda ushlab turuvchi qurilma."
+        }
+    ]
+}

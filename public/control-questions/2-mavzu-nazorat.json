@@ -1,0 +1,36 @@
+{
+    "mavzu_id": 2,
+    "mavzu_nomi": "Dvigatelni umumiy tekshirish",
+    "nazorat_savollari": [
+        {
+            "id": 1,
+            "savol": "Dvigatelni umumiy tekshirishda qanday vizual ko'riklar amalga oshiriladi?",
+            "javob": "Moy va suyuqlik sizishlarini tekshirish, dvigatel qopqog'ini ko'zdan kechirish, simlar va quvurlarning holatini baholash, korroziya belgilerini qidirish.",
+            "izoh": "Vizual tekshiruv birinchi va eng oddiy diagnostika usuli hisoblanadi. Bu orqali ko'plab muammolarni aniqlay olish mumkin: moy sizishi joylarini, shikastlangan quvurlarni, korroziyani va boshqa ko'zga ko'rinadigan nosozliklarni topish mumkin."
+        },
+        {
+            "id": 2,
+            "savol": "Dvigatelni ishga tushirib diagnostika qilishda nimalarni tinglash va kuzatish kerak?",
+            "javob": "Notekis ishlash tovushlarini, taqillatishlarni, vibratsiyani, tutun rangini, ishga tushish tezligini kuzatish.",
+            "izoh": "Ishlab turgan dvigatelni tinglash orqali podshipniklar, klapanlar va boshqa qismlarning holatini baholash mumkin. Tutun rangi esa yonish jarayoni va dvigatel holatini ko'rsatadi: qora tutun - boy aralashma, ko'k tutun - moy yonishi."
+        },
+        {
+            "id": 3,
+            "savol": "Kompressiya nima va uni qanday o'lchash mumkin?",
+            "javob": "Kompressiya - silindr ichidagi bosim. Kompressometr yordamida o'lchanadi: svecha o'rniga kompressometr o'rnatiladi va starter aylantiriladi.",
+            "izoh": "Kompressiya dvigatel holatining asosiy ko'rsatkichidir. Standart qiymat odatda 10-12 bar atrofida. Agar kompressiya past bo'lsa - piston halqalari yeyilgan, klapanlar yopilmayapti yoki silindr devori shikastlangan bo'lishi mumkin."
+        },
+        {
+            "id": 4,
+            "savol": "Moy bosimini tekshirish nima uchun muhim va qanday amalga oshiriladi?",
+            "javob": "Moy bosimi moylash tizimining ishlashini ko'rsatadi. Manometr yoki asboblar paneli orqali tekshiriladi. Normal bosim - 2-4 bar.",
+            "izoh": "Moy bosimi dvigatelning barcha harakatlanuvchi qismlari uchun juda muhim. Past bosim moylanishning yetarli emasligini anglatadi va bu tez yeyilishga olib keladi. Yuqori bosim esa moy filtri tiqilib qolganini yoki relef klapani ishlamasligini bildiradi."
+        },
+        {
+            "id": 5,
+            "savol": "Sovutish tizimi suyuqligi holatini qanday tekshirish kerak?",
+            "javob": "Radiator qopqog'ini ochib suyuqlik darajasi, rangi va tozaligini tekshirish. Sovuq dvigatelda tekshirish kerak. Antifrizing muzlash haroratini ham tekshirish mumkin.",
+            "izoh": "Sovutish suyuqligi dvigatelni haddan tashqari qizishdan saqlaydi. Suyuqlik darajasi past bo'lsa - sizish yoki bug'lanish bor demakdir. Rang jigarrang yoki qora bo'lsa - suyuqlik almashtirilishi kerak. Antifrizing muzlash xususiyati qishda juda muhim."
+        }
+    ]
+}

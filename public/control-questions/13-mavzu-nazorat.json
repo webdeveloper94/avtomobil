@@ -1,0 +1,36 @@
+{
+    "mavzu_id": 13,
+    "mavzu_nomi": "Dizel dvigatel yoqilg'i tizimi",
+    "nazorat_savollari": [
+        {
+            "id": 1,
+            "savol": "Dizel va benzin dvigatel yoqilg'i tizimlari orasidagi farq nima?",
+            "javob": "Dizelda yoqilg'i juda yuqori bosim ostida (1500-2000 bar) forsunka orqali purkalgadi va siqilgan havoning issiqligidan yonadi.",
+            "izoh": "Benzin dvigatelda svecha uchqun beradi, dizelda esa svecha yo'q - yoqilg'i siqilgan havoning issiqligidan o'z-o'zidan tutuashadi. Buning uchun juda yuqori bosim va aniq purkash zarur."
+        },
+        {
+            "id": 2,
+            "savol": "Dizel yoqilg'i nasosining (TNVD) vazifasi nima?",
+            "javob": "Yoqilg'ini yuqori bosim ostida forsunkalarga kerakli miqdorda va vaqtda yuborish.",
+            "izoh": "TNVD - dizel dvigate lning eng muhim va murakkab qismidir. U juda yuqori aniqlik bilan ishlaydi. Bir gramm xatoda dvigatel yomon ishlaydi. Faqat professional ustalar ta'mirlaydi."
+        },
+        {
+            "id": 3,
+            "savol": "Dizel forsunkalari qanday ishlaydi va ularning turlari qanday?",
+            "javob": "Yuqori bosim ostida yoqilg'ini mayda zarrachalarga purkaydi. Mexanik va elektron (Common Rail) turlari bor.",
+            "izoh": "Forsunka - juda nozik ish. Teshigi 0.1 mm atrofida - soch qalinligidan ingichka. Zamonaviy Common Rail tizimida elektron boshqaruv bor, juda aniq purkaydi. Mexanik forsunkalar oddiyroq lekin kamroq aniq."
+        },
+        {
+            "id": 4,
+            "savol": "Qishda dizel yoqilg'isi bilan qanday muammolar bo'ladi?",
+            "javob": "Parafin kristallari hosil bo'lib, yoqilg'i qotadi va filtrlar tiqiladi. Qishki dizel (-30°C gacha) ishlatish kerak.",
+            "izoh": "Dizel tarkibida parafin bor. Sovuqda u kristallashadi va yoqilg'i quyuq gelga aylanadi. Bu juda katta muammo - dvigatel ishga tushmaydi. Qishki dizel yoki maxsus qo'shimchalar kerak."
+        },
+        {
+            "id": 5,
+            "savol": "Dizel yoqilg'i tizimida havo bo'lsa nima bo'ladi va uni qanday chiqarish kerak?",
+            "javob": "Dvigatel ishlamaydi yoki mosh-mosh ishlaydi. Maxsus vintlari ochib havoni chiqarish kerak, to'liq yoqilg'i oqguncha.",
+            "izoh": "Havo - juda katta muammo. Dizel tizimi bosim ostida ishlaydi, havo bosimni kamaytiradi. Filtr almashtirgandan yoki yoqilg'i tugagandan keyin havoni chiqarish (prokachka) majburiy. Bu maxsus tartibda bajariladi."
+        }
+    ]
+}

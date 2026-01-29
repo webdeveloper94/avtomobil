@@ -1,0 +1,36 @@
+{
+    "mavzu_id": 15,
+    "mavzu_nomi": "Gaz yonilg'isida ishlaydigan dvigatellar",
+    "nazorat_savollari": [
+        {
+            "id": 1,
+            "savol": "Gaz yoqilg'isining afzalliklari va kamchiliklari qaysilar?",
+            "javob": "Afzalliklari: arzon, ekologik toza, dvigatelni yumshoq ishlatadi. Kamchiliklari: quvvat biroz pasayadi, ballonlar joy egallaydi.",
+            "izoh": "Gaz benzindan 30-40% arzorroq va 2-3 marta toza yonadi. Lekin oktani past bo'lgani uchun quvvat 5-10% pasayadi. Ballon - qo'shimcha og'irlik va joy. Umuman olganda, tejash uchun yaxshi variant."
+        },
+        {
+            "id": 2,
+            "savol": "GBO (gaz ballonli uskuna) ning asosiy qismlari qaysilar?",
+            "javob": "Gaz balloni, reduktor (bug'latgich), elektron blok, forsunkalar yoki mikser, multiklapan, quvurlar.",
+            "izoh": "Har bir qism muhim: ballon gazni saqlaydi, reduktor bosimni pasaytiradi va gazni bug'latadi, multiklapan xavfsizlik uchun, forsunkalar yoki mikser gazni silindrga beradi. Zamonaviy tizimlar to'liq elektronli."
+        },
+        {
+            "id": 3,
+            "savol": "Gaz reduktorining vazifasi nima va u qanday ishlaydi?",
+            "javob": "Gaz bosimini 150 bardan 1 bargacha pasaytiradi va suyuq gazni bug'ga aylantiradi. Dvigatel issiqligidan qiziydi.",
+            "izoh": "Reduktor - juda muhim qism. U bosqichma-bosqich bosimni kamaytiradi. Suyuq gaz bug'langanda hajmi 250 marta ortadi. Reduktor sovuq dvigatelda yaxshi ishlamaydi, shuning uchun ishga tushish benzinda."
+        },
+        {
+            "id": 4,
+            "savol": "Gaz ballonini qancha vaqtda tekshirish kerak?",
+            "javob": "Har 2-4 yilda bir marta (davlat standarti bo'yicha), maxsus stansiyada bosimli tekshiruv.",
+            "izoh": "Ballon bosim ostida ishlaydi va xavf li. Uning yeyilishi va mustahkamligi vaqt o'tishi bilan pasayadi. Davlat standarti bo'yicha muntazam tekshiruv majburiy - bu xavfsizlik uchun. Muddati o'tgan balloon ishlatish taqiqlanadi."
+        },
+        {
+            "id": 5,
+            "savol": "Gaz sizib chiqsa qanday xavfsizlik choralari qo'llaniladi?",
+            "javob": "Darhol dvigatelni o'chirish, qopqoqlarni ochish (ventilatsiya), chekmaslik, elektr jihozlarini ishlatmaslik, gaz xizmatini chaqirish.",
+            "izoh": "Gaz - yonuvchan va portlovchi. Havo bilan aralashsa portlaydi. Sizish belgisi - gaz hidi (maxsus qo'shilgan hid). Hech qanday olov yoki uchqun bo'lmasligi kerak. Havoni almashtirish va mutaxassislarni chaqirish - birinchi ish."
+        }
+    ]
+}

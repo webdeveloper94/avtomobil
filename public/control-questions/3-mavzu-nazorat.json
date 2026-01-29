@@ -1,0 +1,36 @@
+{
+    "mavzu_id": 3,
+    "mavzu_nomi": "Dvigatelga servis xizmat ko'rsatish va ta'mirlash",
+    "nazorat_savollari": [
+        {
+            "id": 1,
+            "savol": "Dvigatelni to'liq yig'ishdan ajratish (kapitalka) qachon zarur bo'ladi?",
+            "javob": "Kompressiya jiddiy pasaygan, haddan tashqari moy sarfi, metallning shovqini eshitilgan, qizib ketish va tiklash choralari yordam bermagan holatlarda.",
+            "izoh": "Kapital ta'mirlash - bu dvigatelni butunlay qismlarga ajratish va asosiy detallarni almashtirish jarayoni. Bu juda qimmat va vaqt talab qiladigan ish bo'lib, faqat boshqa ta'mirlash usullari samarasiz bo'lganda amalga oshiriladi."
+        },
+        {
+            "id": 2,
+            "savol": "Dvigatelni yig'ishdan ajratishdan oldin qanday tayyorgarlik ko'rish kerak?",
+            "javob": "Barcha suyuqliklarni to'kish, akkumulyatorni uzish, quvurlar va simlarni belgilash, toza ish joyini tayyorlash, zarur asboblarni yig'ish.",
+            "izoh": "To'g'ri tayyorgarlik murakkab ta'mirlashni osonlashtiradi. Quvurlar va simlarni belgilash qayta yig'ishda xatolarning oldini oladi. Suyuqliklarni oldindan to'kish ish joyining ifloslanishini kamaytiradi va xavfsizlikni ta'minlaydi."
+        },
+        {
+            "id": 3,
+            "savol": "Dvigatel detallarini yuvish va tozalashda qanday vositalar ishlatiladi?",
+            "javob": "Maxsus yuvish suyuqliklari (solvent, gazolin), cho'tka va shchetka, siqilgan havo, quruq mato.",
+            "izoh": "Dvigatel detallarini tozalash juda muhim - iflosliklar yangi qistirmalarning to'g'ri o'rnatilishiga xalaqit beradi va yangi yeyilishga sabab bo'ladi. Barcha detallar, ayniqsa moy kanallari, to'liq tozalanishi kerak."
+        },
+        {
+            "id": 4,
+            "savol": "Dvigatel detallarini o'lchash va diagnostika qilishda qanday asboblar kerak?",
+            "javob": "Shtangensirkul (kalipr), mikrometr, nutrometr, plazma (feeler gauge), kalibr.",
+            "izoh": "Dvigatel ta'mirlashda aniqlik juda muhim. 0.01 mm aniqlikdagi o'lchovlar zarur. Masalan, piston va silindr orasidagi bo'shliq juda kichik bo'lishi kerak. Nosoz detalni faqat o'lchov orqali aniqlash mumkin."
+        },
+        {
+            "id": 5,
+            "savol": "Dvigatelni qayta yig'ishda qanday muhim qoidalarga rioya qilish kerak?",
+            "javob": "Barcha qistirmalarni yangilash, momentometr bilan tortish, yig'ish ketma-ketligiga rioya qilish, barcha detallarni moylash.",
+            "izoh": "Yig'ish - eng mas'uliyatli bosqich. Qistirmalar (prokladkalar) qayta ishlatilmaydi. Har bir bolt ma'lum moment bilan tortiladi - bu juda muhim. Yig'ishdan oldin barcha harakatlanuvchi qismlar moylanadi."
+        }
+    ]
+}

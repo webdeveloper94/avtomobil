@@ -1,0 +1,66 @@
+{
+    "mavzu_id": 5,
+    "mavzu_nomi": "Krivoship-shatun mexanizmi detallarini ko'rikdan o'tkazish",
+    "glossary": [
+        {
+            "atama": "Krivoship (Krank vali)",
+            "tasnif": "Pistonning to'g'ri chiziqli harakatini aylanma harakatga aylantiradigan asosiy val."
+        },
+        {
+            "atama": "Shatun",
+            "tasnif": "Piston va krivoshipni bog'laydigan uzun metall tayoq."
+        },
+        {
+            "atama": "Krivoship sheykalari",
+            "tasnif": "Krivoship validagi podship niklar o'rnatilgan joylar."
+        },
+        {
+            "atama": "Piston halqalari",
+            "tasnif": "Piston ustidagi prujinali halqalar, kompressiya va moy nazoratini ta'minlaydi."
+        },
+        {
+            "atama": "Siqish halqasi",
+            "tasnif": "Kompressiyani ushlab turadigan yuqori piston halqalari."
+        },
+        {
+            "atama": "Moy halqasi",
+            "tasnif": "Ortiqcha moyni silindr devoridan tozalaydigan pastki halqa."
+        },
+        {
+            "atama": "Piston fingers (Porshen shtufi)",
+            "tasnif": "Piston va shatunni bog'laydigan silindr shaklidagi detal."
+        },
+        {
+            "atama": "Shatun podshipniklari",
+            "tasnif": "Shatunning krivoship bilan tutashgan joyidagi yumshatan podshipniklar."
+        },
+        {
+            "atama": "Asosiy podshipniklar",
+            "tasnif": "Krivoship valini dvigatel blokida ushlab turadigan podshipniklar."
+        },
+        {
+            "atama": "Yeyilish",
+            "tasnif": "Detallarning ishqalanish natijasida o'lchami kamayishi."
+        },
+        {
+            "atama": "Ellipslik",
+            "tasnif": "Silindrning aylana shaklidan tashqariga chiqishi, oval bo'lib qolishi."
+        },
+        {
+            "atama": "Pereshlifovka",
+            "tasnif": "Yeyilgan krivoship sheykaligini tozalash (grindlash) jarayoni."
+        },
+        {
+            "atama": "Balansir",
+            "tasnif": "Krivoship ning og'irlik markazini tenglashtiradigan qo'shimcha og'irlik."
+        },
+        {
+            "atama": "Marsh (Flywheel)",
+            "tasnif": "Krivoship oxiridagi og'ir disk, tebranishlarni kamaytiradi."
+        },
+        {
+            "atama": "Shatun boltlari",
+            "tasnif": "Shatun ikki qismini bir-biriga bog'laydigan maxsus mustahkam boltlar."
+        }
+    ]
+}

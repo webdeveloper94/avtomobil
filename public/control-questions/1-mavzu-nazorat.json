@@ -1,0 +1,36 @@
+{
+    "mavzu_id": 1,
+    "mavzu_nomi": "Kirish. O'quv ustaxonasida texnika xavfsizligi va yong'in xavfsizligi qoidalari",
+    "nazorat_savollari": [
+        {
+            "id": 1,
+            "savol": "Dvigatel ta'mirlash ustaxonasida asosiy xavfsizlik choralari qaysilar?",
+            "javob": "Shaxsiy himoya vositalarini ishlatish, vodoprovod va elektr jihozlarini to'g'ri ishlatish, o't o'chirish moslamalarini tayyor holatda saqlash, ishchi joyni toza tutish.",
+            "izoh": "Ustaxonada xavfsizlik choralari hodisalarning oldini olish va xodimlarning sog'lig'ini himoya qilish uchun juda muhimdir. Har bir ishchi shaxsiy himoya vositalarini (qo'lqop, ko'zoynak, kiyim) kiyishi, elektrga tegishda ehtiyot bo'lishi va o't xavfsizligi qoidalariga rioya qilishi shart."
+        },
+        {
+            "id": 2,
+            "savol": "Yong'in chiqsa birinchi navbatda nima qilish kerak?",
+            "javob": "Elektr quvvatini uzish, o't o'chirish moslamalaridan foydalanish, xavfsiz joyga chiqish, favqulodda xizmatlarni chaqirish.",
+            "izoh": "Yong'in chiqishida asosiy vazifa - odamlarning xavfsizligini ta'minlash. Avval elektr tarmog'ini o'chirish kerak, chunki suv bilan elektr yong'inini o'chirish xavfli. Keyin o't o'chirish moslamasi (CO2, kukun) ishlatiladi va zudlik bilan 101 ga qo'ng'iroq qilinadi."
+        },
+        {
+            "id": 3,
+            "savol": "Ustaxonada ishlashdan oldin qanday tayyorgarlik ko'rish kerak?",
+            "javob": "Ish kiyimini kiyish, asbob-uskunalarni tekshirish, ish joyini tartibga solish, xavfsizlik ko'rsatmalarini o'qish.",
+            "izoh": "Ishlashdan oldin to'g'ri tayyorgarlik jarohatlarning oldini oladi. Maxsus ish kiyimi erkin qismlar va bezaklardan xoli bo'lishi kerak. Barcha asboblar buzilmagan va xavfsiz holatda bo'lishi tekshiriladi."
+        },
+        {
+            "id": 4,
+            "savol": "Elektr asbob-uskunalar bilan ishlashda qanday xavfsizlik qoidalariga rioya qilish kerak?",
+            "javob": "Faqat yer bilan tutashtirilgan uskunalardan foydalanish, nam qo'l bilan tegmaslik, shikastlangan simlarni ishlatmaslik, ishdan keyin rozetkadan uzish.",
+            "izoh": "Elektr toki juda xavfli va o'limga olib kelishi mumkin. Shuning uchun barcha elektr uskunalar yer bilan tutashtirilgan bo'lishi, simlar yaxshi izolyatsiyalangan bo'lishi va suv yaqinida ishlatilmasligi zarur."
+        },
+        {
+            "id": 5,
+            "savol": "Ishchi joyni toza va tartibli saqlash nima uchun muhim?",
+            "javob": "Hodisalarning oldini olish, samarali ishlash, asboblarni tez topish, yong'in xavfini kamaytirish.",
+            "izoh": "Tartibsiz ish joyi ko'plab xavflarni keltirib chiqaradi: odamlar sirg'alib yiqilishi, asboblar yo'qolishi, yog' va kimyoviy moddalar to'kilishi. Toza ish joyi nafaqat xavfsiz, balki ishni tezlashtiradi va sifatini oshiradi."
+        }
+    ]
+}

@@ -1,0 +1,58 @@
+{
+    "mavzu_id": 9,
+    "mavzu_nomi": "Radiatorni tozalash va termostatni almashtirish",
+    "glossary": [
+        {
+            "atama": "Tashqi tozalash",
+            "tasnif": "Radiator panjara sidan kir va hasharotlarni olib tashlash."
+        },
+        {
+            "atama": "Ichki tozalash",
+            "tasnif": "Radiator ichidan zang va cho'kmani maxsus kimyoviy modda bilan yuvish."
+        },
+        {
+            "atama": "Radiator cleaner",
+            "tasnif": "Radiatorni ichidan tozalaydigan maxsus kimyoviy eritma."
+        },
+        {
+            "atama": "Yuvish jarayoni",
+            "tasnif": "Eski suyuqlikni to'kish, tozalagichni quyish, ishlat ish, yuvish."
+        },
+        {
+            "atama": "Radiator tiqilishi",
+            "tasnif": "Ichki cho'kma natijasida suv oqimining pasayishi."
+        },
+        {
+            "atama": "Termostat xonasi",
+            "tasnif": "Termostat o'rnatilgan joy, odatda dvigatel yuqori qismida."
+        },
+        {
+            "atama": "Termostat qopqog'i",
+            "tasnif": "Termostat xonasini yopuvchi metall qopqoq."
+        },
+        {
+            "atama": "Termostat ochilish harorati",
+            "tasnif": "Odatda 85-90°C, termostat bu haroratda ochila boshlaydi."
+        },
+        {
+            "atama": "Termostat testi",
+            "tasnif": "Termostatni qaynoq suvga solib ochilishini tekshirish."
+        },
+        {
+            "atama": "Doimo ochiq",
+            "tasnif": "Buzuq termostat - dvigatel uzoq qiziadi."
+        },
+        {
+            "atama": "Doimo yopiq",
+            "tasnif": "Buzuq termostat - dvigatel qizib ketadi."
+        },
+        {
+            "atama": "Yuqori shlang",
+            "tasnif": "Dvigateldan radiatorga suyuqlik olib boruvchi shlang."
+        },
+        {
+            "atama": "Pastki shlang",
+            "tasnif": "Radiatordan dvigatelga qaytaruvchi shlang."
+        }
+    ]
+}

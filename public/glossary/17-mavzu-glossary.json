@@ -1,0 +1,58 @@
+{
+    "mavzu_id": 17,
+    "mavzu_nomi": "O't oldirish shamlarini tekshirish va almashtirish",
+    "glossary": [
+        {
+            "atama": "Svecha elektrodi",
+            "tasnif": "Uchqun hosil bo'ladigan ikki metall qism: markaziy va yon."
+        },
+        {
+            "atama": "Svecha bo'shlig'i (Zazor)",
+            "tasnif": "Elektrodlar orasidagi masofa, odatda 0.7-1.0mm."
+        },
+        {
+            "atama": "Svecha izolyatori",
+            "tasnif": "Oq sopol qism, elektr tokini o'tkazmaydi."
+        },
+        {
+            "atama": "Jigarrang rang",
+            "tasnif": "Normal svecha - to'g'ri yonish belgisi."
+        },
+        {
+            "atama": "Qora va nam",
+            "tasnif": "Boy aralashma yoki moy yonishi - muammo bor."
+        },
+        {
+            "atama": "Oq rang",
+            "tasnif": "Yuqori aralashma yoki juda qizish - xavfli."
+        },
+        {
+            "atama": "Mis elektrodi",
+            "tasnif": "Oddiy arzon svechalar, tezroq yeyiladi."
+        },
+        {
+            "atama": "Iridiy svecha",
+            "tasnif": "Qimmat, 100 ming km gacha xizmat qiladi."
+        },
+        {
+            "atama": "Platina svecha",
+            "tasnif": "Uzoq umrli va yuqori sifatli svecha."
+        },
+        {
+            "atama": "Issiq svecha",
+            "tasnif": "Sekin qizadigan, past yuklama uchun."
+        },
+        {
+            "atama": "Sovuq svecha",
+            "tasnif": "Tez sovutiladigan, yuqori yuklama uchun."
+        },
+        {
+            "atama": "Svecha kaliti",
+            "tasnif": "Svecha ni chiqarish va o'rnatish uchun maxsus kalit."
+        },
+        {
+            "atama": "Svecha almashtirish",
+            "tasnif": "Oddiy - har 20-30 ming km, iridiy - 100 ming km."
+        }
+    ]
+}

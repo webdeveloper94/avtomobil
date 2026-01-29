@@ -1,0 +1,36 @@
+{
+    "mavzu_id": 17,
+    "mavzu_nomi": "O't oldirish shamlarini tekshirish va almashtirish",
+    "nazorat_savollari": [
+        {
+            "id": 1,
+            "savol": "Svecha izolyatori jigarrang bo'lsa bu nima haqida gap boshlaydi?",
+            "javob": "Normal ish - optimal aralashma va to'g'ri yonish.",
+            "izoh": "Jigarrang rang - idealdir. Bu aralashma to'g'ri, harorat normal va yonish yaxshi ekanligini bildiradi. Svechaning bunday holati - eng yaxshi ko'rsatkich."
+        },
+        {
+            "id": 2,
+            "savol": "Svecha qora va nam bo'lsa sababi nima?",
+            "javob": "Aralashma boy (ko'p yoqilg'i), moy yonishi, past harorat, tez-tez qisqa masofaga haydash.",
+            "izoh": "Qora cho'kma - yoqilg'i to'liq yonmagan. Nam bo'lsa - moy yoki yoqilg'i. Bu kompressiya past, piston halqalari yeyilgan yoki injektorlar haddan tashqari yoqilg'i purkayapti degani."
+        },
+        {
+            "id": 3,
+            "savol": "Svecha oq yoki kulrang bo'lsa nima anglatadi?",
+            "javob": "Aralashma yuqori (kam yoqilg'i), haddan tashqari qizish, erta o't oldirish.",
+            "izoh": "Oq rang - xavfli! Svecha juda qizigan. Sabablari: yomon yoqilg'i, ilgarilatish juda erta, sovutish yomon. Bu svechaning erishiga va dvigatel buzilishiga olib kelishi mumkin."
+        },
+        {
+            "id": 4,
+            "savol": "Svecha elektrodlari orasidagi bo'shliqni qanday o'lchash va sozlash kerak?",
+            "javob": "Shchupp (feeler gauge) bilan o'lchash, markaziy elektrodni ehtiyotkorlik bilan egiltirib sozlash. Odatda 0.7-1.0 mm.",
+            "izoh": "Bo'shliq juda muhim. Katta - uchqun zaif yoki yo'q, kichik - uchqun yomon. Faqat yon elektrodini egiltirib sozlash mumkin, markaziyni emas. Svechani o'rnatishdan oldin har doim tekshirish kerak."
+        },
+        {
+            "id": 5,
+            "savol": "Svechalarni qancha vaqtda almashtirish kerak?",
+            "javob": "Oddiy svechalar - 20-30 ming km, iridiy/platina svechalar - 100 ming km gacha. Yoki ishlab chiqaruvchi tavsiyasiga ko'ra.",
+            "izoh": "Svechaning xizmat muddati turi ga bog'liq. Oddiy mis elektrodli svechalar tezroq yeyiladi. Iridiy/platina svechalar qimmat lekin uzoq xizmat qiladi. Vaqtida almashtirmaslik yoqilg'i sarfi va quvvatning pasayishiga olib keladi."
+        }
+    ]
+}

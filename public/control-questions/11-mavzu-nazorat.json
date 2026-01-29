@@ -1,0 +1,36 @@
+{
+    "mavzu_id": 11,
+    "mavzu_nomi": "Moy bosimidagi nosozliklar",
+    "nazorat_savollari": [
+        {
+            "id": 1,
+            "savol": "Moy bosimi past bo'lishining asosiy sabablari qaysilar?",
+            "javob": "Moy kam, moy suyuq (ishlatilgan yoki noto'g'ri tanlan gan), moy nasosi yeyilgan, podshipniklar yeyilgan, filtr tiqilib qolgan.",
+            "izoh": "Past bosim - juda xavfli signal. Bu degani - moylanish yetarli emas. Dvigatelni darhol to'xtatish kerak. Sabab ni topish uchun moy darajasini, sifatini va tizim holatini tekshirish zarur."
+        },
+        {
+            "id": 2,
+            "savol": "Moy bosimi ko'rsatkichi qizil chiroq yonsa nima qilish kerak?",
+            "javob": "Darhol dvigatelni to'xtatish, moy darajasini tekshirish, sababini aniqlash. Ishlatishda davom etmaslik - dvigatelni buzadi.",
+            "izoh": "Qizil chiroq - favqulodda holat. Agar moy yo'q bo'lsa - bir necha soniyada dvigatel ishdan chiqadi. Hatto 1 km yo'l bosish ham jiddiy zarar yetkazishi mumkin. Evacuator chaqirish to'g'riroq."
+        },
+        {
+            "id": 3,
+            "savol": "Moy bosimi yuqori bo'lishining sabablari qaysilar?",
+            "javob": "Moy juda quyuq (noto'g'ri tanlangan yoki sovuq), relef klapani ishlamayapti, moy kanallari tiqilib qolgan.",
+            "izoh": "Yuqori bosim kam uchraydi, lekin u ham xavfli. Qistirmalar va salniklar shikastlanishi mumkin. Ko'pincha sovuq paytda kuzatiladi - moy quyuq bo'ladi. Qiziganda normalga tushishi kerak."
+        },
+        {
+            "id": 4,
+            "savol": "Moy bosimini qanday o'lchash mumkin?",
+            "javob": "Maxsus manometr bilan - датчик moy bosimi o'rniga ulash va dvigatelni ishga tushirish. Normal bosim - yurishda 2-4 bar, bo'sh yurishda 0.5-1 bar.",
+            "izoh": "Asboblar panelidagi ko'rsatkich har doim aniq emas. Aniq o'lchov uchun mexanik manometr kerak. Bosim dvigatel tezligiga bog'liq - tezlik oshsa, bosim ham oshadi. Ishlab chiqaruvchi ko'rsatgan qiymatlar bilan solishtirish kerak."
+        },
+        {
+            "id": 5,
+            "savol": "Moy bosimi datchigini (sensori) qanday tekshirish mumkin?",
+            "javob": "Uning o'rniga manometr ulash va haqiqiy bosimni o'lchash. Yoki yangi datchik bilan almashtirib ko'rish.",
+            "izoh": "Ba'zan muammo datchikda - u noto'g'ri signal beradi. Eski datchiklar buziladi. Tekshirish uchun manometr ulash - eng ishonchli usul. Agar manometr normal bosimni ko'rsatsa - muammo datchikda."
+        }
+    ]
+}

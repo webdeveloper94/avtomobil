@@ -1,0 +1,54 @@
+{
+    "mavzu_id": 14,
+    "mavzu_nomi": "Havo va yoqilg'i filtrlarning tozalash",
+    "glossary": [
+        {
+            "atama": "Havo filtri",
+            "tasnif": "Dvigatelga kiradigan havoni changdan tozalaydigan filtr."
+        },
+        {
+            "atama": "Yoqilg'i filtri",
+            "tasnif": "Benzin yoki dizeldagi kirlarni tutadigan tozalagich."
+        },
+        {
+            "atama": "Qog'oz filtr",
+            "tasnif": "Bir marta ishlatiladi gan, yuvilmaydigan maxsus qog'oz."
+        },
+        {
+            "atama": "Puflash",
+            "tasnif": "Havo filtrini siqilgan havo bilan tozalash - vaqtinchalik yechim."
+        },
+        {
+            "atama": "Filtr tiqilishi",
+            "tasnif": "Filtrda juda ko'p kir to'planganda havo/yoqilg'i o'tmaydi."
+        },
+        {
+            "atama": "Filtr almashtirish",
+            "tasnif": "Havo filtri - har 15-20 ming km, yoqilg'i - har 30-40 ming km."
+        },
+        {
+            "atama": "Chang ko'p joy",
+            "tasnif": "Tuproqli yo'llarda filtrlar tezroq ifloslanadi."
+        },
+        {
+            "atama": "Filtrsiz haydash",
+            "tasnif": "Juda xavfli - dvigatel ichiga chang kiradi va buziladi."
+        },
+        {
+            "atama": "Havo olish",
+            "tasnif": "Dvigatelga kiruvchi tozalngan havo, yonish uchun zarur."
+        },
+        {
+            "atama": "Yoqilg'i liniyasi",
+            "tasnif": "Bakdan dvigatelga yoqilg'i o'tadigan yo'l."
+        },
+        {
+            "atama": "Dizel filtridagi suv",
+            "tasnif": "Filtr ostida to'planadi, drenaj vinti orqali chiqariladi."
+        },
+        {
+            "atama": "Mosh-mosh ishlash",
+            "tasnif": "Yoqilg'i filtri tiqilganda dvigatelning notekis ishlashi."
+        }
+    ]
+}

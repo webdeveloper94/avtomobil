@@ -1,0 +1,54 @@
+{
+    "mavzu_id": 7,
+    "mavzu_nomi": "Klapanlar orasidagi bo'shliqni sozlash",
+    "glossary": [
+        {
+            "atama": "Klapan bo'shlig'i (Zazor)",
+            "tasnif": "Klapan o'qi va rocker orasidagi o'lchangan bo'shliq, 0.15-0.35mm."
+        },
+        {
+            "atama": "Shchupp (Feeler gauge)",
+            "tasnif": "Bo'shliqni o'lchaydigan turli qalinlikdagi metall plastinkalar to'plami."
+        },
+        {
+            "atama": "Sozlash vinti",
+            "tasnif": "Klapan bo'shlig'ini o'zgartirish uchun buralgan vint."
+        },
+        {
+            "atama": "Kontr-gayka",
+            "tasnif": "Sozlash vintini mahkamlab turadigan gayka."
+        },
+        {
+            "atama": "VMT (Yuqori o'lik holat)",
+            "tasnif": "Piston eng yuqori nuqtada, klapan yopiq - sozlash vaqti."
+        },
+        {
+            "atama": "Sovuq dvigatel",
+            "tasnif": "Sozlash faqat sovuq dvigatelda amalga oshiriladi."
+        },
+        {
+            "atama": "Issiqlik kengayishi",
+            "tasnif": "Metal qizganda uzayadi, shuning uchun bo'shliq kerak."
+        },
+        {
+            "atama": "Taqillatish tovushi",
+            "tasnif": "Bo'shliq haddan ortiq bo'lganda eshitiladigan metall tovush."
+        },
+        {
+            "atama": "Klapan yonishi",
+            "tasnif": "Bo'shliq yo'q bo'lsa, klap an to'liq yopilmay kuyadi."
+        },
+        {
+            "atama": "Kirish klapan bo'shlig'i",
+            "tasnif": "Odatda 0.15-0.25mm, chiqishdan kichikroq."
+        },
+        {
+            "atama": "Chiqish klapan bo'shlig'i",
+            "tasnif": "Odatda 0.25-0.35mm, ko'proq qizadi."
+        },
+        {
+            "atama": "Sozlash intervali",
+            "tasnif": "Har 20000-30000 km yoki 2 yilda bir marta tekshirish."
+        }
+    ]
+}

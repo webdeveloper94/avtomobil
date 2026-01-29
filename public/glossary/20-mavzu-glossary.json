@@ -1,0 +1,62 @@
+{
+    "mavzu_id": 20,
+    "mavzu_nomi": "Amaliy nazorat mashg'uloti",
+    "glossary": [
+        {
+            "atama": "Amaliy ko'nikma",
+            "tasnif": "Nazariy bilimni amalda qo'llash qobiliyati."
+        },
+        {
+            "atama": "VIN kod",
+            "tasnif": "Avtomobilning 17 belgili unikal identifikatsiya raqami."
+        },
+        {
+            "atama": "Dvigatel raqami",
+            "tasnif": "Dvigatel blokida shtamplangan unikal raqam."
+        },
+        {
+            "atama": "Ehtiyot qismlar katalogi",
+            "tasnif": "Avtomobil qismlari ro'yxati va kodlari."
+        },
+        {
+            "atama": "Texnik hujjatlar",
+            "tasnif": "Avtomobil pasporti, ishlab chiqaruvchi ko'rsatmalari."
+        },
+        {
+            "atama": "Ish xavfsizligi",
+            "tasnif": "Jarohatlanmaslik uchun qoidalarga rioya qilish."
+        },
+        {
+            "atama": "Professional usta",
+            "tasnif": "Malakali, mas'uliyatli va tajribali mexanik."
+        },
+        {
+            "atama": "Diagnostika",
+            "tasnif": "Nosozliklarni topish va aniqlash jarayoni."
+        },
+        {
+            "atama": "Ta'mirlash",
+            "tasnif": "Buzilgan detallarni tuzatish yoki almashtirish."
+        },
+        {
+            "atama": "Texnik xizmat",
+            "tasnif": "Muntazam profilaktika va ko'rik."
+        },
+        {
+            "atama": "Mijoz bilan muloqot",
+            "tasnif": "Muammolarni tushuntirish va yechimlar taklif qilish."
+        },
+        {
+            "atama": "Sifat kafolati",
+            "tasnif": "Ish sifatiga javobgarlik va kafolat berish."
+        },
+        {
+            "atama": "Uzluksiz o'rganish",
+            "tasnif": "Yangi texnologiyalarni o'rganib borish."
+        },
+        {
+            "atama": "Dvigatel umri",
+            "tasnif": "To'g'ri parvarish bilan 300-500 ming km yoki undan ko'proq."
+        }
+    ]
+}

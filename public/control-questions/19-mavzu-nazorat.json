@@ -1,0 +1,36 @@
+{
+    "mavzu_id": 19,
+    "mavzu_nomi": "Avtomobillarga servis xizmat ko'rsatishdan so'ng sinash",
+    "nazorat_savollari": [
+        {
+            "id": 1,
+            "savol": "Servis xizmatdan keyin avtomobilni sinashning maqsadi nima?",
+            "javob": "Bajarilgan ishlarning sifatini tekshirish, xatolar yo'qligiga ishonch hosil qilish, mijozga sifatli xizmat berish.",
+            "izoh": "Har qanday servis ishidan keyin sinov majburiydir. Bu usta xatolarini aniqlaydi va mijoz xavfsizligini ta'minlaydi. Professional servislar sinov protokollarini yuritadi."
+        },
+        {
+            "id": 2,
+            "savol": "Dvigatel ta'miridan keyin qanday tekshiruvlar o'tkaziladi?",
+            "javob": "Bo'sh yurishda ishlash, barcha suyuqlik darajalari, sizishlar, tovushlar, moy bosimi, harorat, diagnostika skaneri bilan tekshirish.",
+            "izoh": "Kompleks tekshiruv zarur. Avval bo'sh yurishda - tovushlar, vibratsiya, sizish lar. Keyin yo'lda - quvvat, tezlashish. Skaner yordamida xato kodlarini tekshirish. Hammasi normal bo'lsa - ishni topshirish mumkin."
+        },
+        {
+            "id": 3,
+            "savol": "Yo'lda sinash (test-drive) da nimaga e'tibor beriladi?",
+            "javob": "Tezlashish, max, moment, vibratsiya, tovushlar, tormozlash, rul boshqaruvi, hamma tizimlarning ishlashi.",
+            "izoh": "Test-drive - eng muhim sinov. Haqiq iy yo'l sharoitida barcha muammolar seziladi. Turli tezliklarda, tezlashuvda, burilishlarda, tormozlashda sinash kerak. Kamida 10-15 km yo'l bosish zarur."
+        },
+        {
+            "id": 4,
+            "savol": "Diagnostika skaneri yordamida nima aniqlanadi?",
+            "javob": "Xato kodlari, datchiklar ko'rsatkichlari, tizimlarning holati, parametrlar monitoringi.",
+            "izoh": "Zamonaviy avtomobillar computerli. Skaner - bu computerga ulanish asbobidir. U barcha datchiklar, xatolar, tarixni ko'rsatadi. Ba'zi muammolar faqat skaner orqali ko'rinadi."
+        },
+        {
+            "id": 5,
+            "savol": "Mijozga avtomobilni topshirishdan oldin qanday tayyorgarlik ko'riladi?",
+            "javob": "Avtomobilni yuvish, ichini tozalash, barcha qayta tekshiruv, ishlanganlar haqida hisobot tayyorlash.",
+            "izoh": "Professional yondashuv - nafaqat ta'mirlash, balki mijozni hurmat qilish. Toza avtomobil mijozga yaxshi taassurot qoldiradi. Yozma hisobot - nimalar qilinganini va nima bor qilish kerakligini ko'rsatadi."
+        }
+    ]
+}

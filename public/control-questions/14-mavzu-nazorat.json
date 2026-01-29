@@ -1,0 +1,36 @@
+{
+    "mavzu_id": 14,
+    "mavzu_nomi": "Havo va yoqilg'i filtrlarning tozalash",
+    "nazorat_savollari": [
+        {
+            "id": 1,
+            "savol": "Havo filtri kirlanganda dvigatelga qanday ta'sir qiladi?",
+            "javob": "Dvigatelga kam havo kiradi, quvvat pasayadi, yoqilg'i sarfi ortadi, tutun qora chiqadi.",
+            "izoh": "Havo - yonish uchun zarur. Kirlangan filtr havoni to'sadi. Natijada boy aralashma (ko'p yoqilg'i, kam havo) hosil bo'ladi - bu yonish sifatini pasaytiradi va yoqilg'ini isrof qiladi."
+        },
+        {
+            "id": 2,
+            "savol": "Havo filtrini qancha vaqtda almashtirish kerak?",
+            "javob": "Odatda har 15000-20000 km da yoki yilda bir marta. Chang ko'p joylarda tez-tez.",
+            "izoh": "Filtrning xizmat muddati yo'l sharoitiga bog'liq. Changni joyda tezroq ifloslanadi. Vizual tekshirish ham mumkin - qora va to'lgan filtr almasht iriladi. Filtrsiz yurishning o'zi dvigatelni buzadi."
+        },
+        {
+            "id": 3,
+            "savol": "Qog'oz havo filtrini yuvish mumkinmi?",
+            "javob": "Yo'q, qog'oz filtr bir marta ishlatiladi. Uni siqilgan havo bilan puflash mumkin lekin bu vaqtinchalik yechim.",
+            "izoh": "Qog'oz filtr yuvilib qayta ishlatilmaydi - namslanish uni buzadi. Siqilgan havo bilan puflash faqat favqulodda holatlarda, lekin bu filtrni butunlay tozalamaydi. Eng yaxshi yechim - yangisini o'rnatish."
+        },
+        {
+            "id": 4,
+            "savol": "Yoqilg'i filtri tiqilib qolganining belgilari qanday?",
+            "javob": "Dvigatel mosh-mosh ishlaydi, quvvat pasayadi, tezlashda muammo, yurishda o'chib qolishi mumkin.",
+            "izoh": "Tiqilib qolgan filtr yoqilg'i oqimini to'sadi. Dvigatel 'och' qoladi. Ayniqsa yuklamada (tezlashda, dovonda) seziladi. Agar to'liq tiqilib qolsa - dvigatel ishlamaydi."
+        },
+        {
+            "id": 5,
+            "savol": "Dizel yoqilg'i filtrida suv to'planganda nima qilish kerak?",
+            "javob": "Filtr ostidagi drenaj vintni ochib suvni to'kish. Keyin filtrni almashtirish yaxshiroq.",
+            "izoh": "Dizel yoqilg'ida suv bo'lishi mumkin (kondensat yoki iflos yoqilg'i). Suv filtr ostiga to'planadi - u yerda maxsus joy bor. Suvni muntazam chiqarish kerak, aks holda forsunkalar shikastlanadi."
+        }
+    ]
+}

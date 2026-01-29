@@ -1,0 +1,62 @@
+{
+    "mavzu_id": 8,
+    "mavzu_nomi": "Sovutish tizimi",
+    "glossary": [
+        {
+            "atama": "Sovutish tizimi",
+            "tasnif": "Dvigatelni 85-95°C haroratda ushlab turuvchi tizim."
+        },
+        {
+            "atama": "Radiator",
+            "tasnif": "Sovutish suyuqligini havo bilan sovutadigan qurilma."
+        },
+        {
+            "atama": "Suv nasosi (Pompa)",
+            "tasnif": "Sovutish suyuqligini aylantiradigan nasos."
+        },
+        {
+            "atama": "Termostat",
+            "tasnif": "Haroratga qarab kichik yoki katta doira ochuvchi 'aqlli klapan'."
+        },
+        {
+            "atama": "Ventilator",
+            "tasnif": "Radiatordan havo o'tkazib sovutishni tezlashtiradigan parvona."
+        },
+        {
+            "atama": "Kengayish baki",
+            "tasnif": "Tizimda bosimni nazorat qiladigan qo'shimcha idish."
+        },
+        {
+            "atama": "Antifrizing (Tosol)",
+            "tasnif": "Muzlamaydigan sovutish suyuqligi, -40°C da ham suyuq."
+        },
+        {
+            "atama": "Kichik doira",
+            "tasnif": "Radiatorni chetlab o'tib, tez qizdirish uchun."
+        },
+        {
+            "atama": "Katta doira",
+            "tasnif": "Radiator orqali, to'liq sovutish."
+        },
+        {
+            "atama": "Radiator qopqog'i",
+            "tasnif": "Bosimli qopqoq, 1.1-1.3 bar bosim ushlab turadi."
+        },
+        {
+            "atama": "Qizib ketish",
+            "tasnif": "Dvigatel harorati 100°C dan oshishi, xavfli holat."
+        },
+        {
+            "atama": "Harorat sensori",
+            "tasnif": "Dvigatel haroratini o'lchaydigan datchik."
+        },
+        {
+            "atama": "Sovutish shlangları",
+            "tasnif": "Suyuqlikni o'tkazadigan rezina quvurlar."
+        },
+        {
+            "atama": "Havo chiqarish vinti",
+            "tasnif": "Tizimdan havo pufakchalarini chiqarish uchun vint."
+        }
+    ]
+}
