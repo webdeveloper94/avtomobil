@@ -4,6 +4,10 @@ import './components/TopicDetail.css';
 import heroBg from './assets/hero-bg.png';
 import AnimatedBackground from './components/AnimatedBackground';
 import { renderAsync } from 'docx-preview';
+import { Document, Page, pdfjs } from 'react-pdf';
+
+// PDF.js worker konfiguratsiyasi - jsDelivr CDN
+pdfjs.GlobalWorkerOptions.workerSrc = `https://cdn.jsdelivr.net/npm/pdfjs-dist@${pdfjs.version}/build/pdf.worker.min.mjs`;
 
 function App() {
   const [showTopics, setShowTopics] = useState(false);
@@ -11,6 +15,12 @@ function App() {
   const [selectedTopic, setSelectedTopic] = useState(null);
   const [showPdfViewer, setShowPdfViewer] = useState(false);
   const [selectedPdf, setSelectedPdf] = useState(null);
+  const [numPages, setNumPages] = useState(null);
+  const [currentPage, setCurrentPage] = useState(1);
+  const [isFullScreen, setIsFullScreen] = useState(false);
+  const [pageAspectRatio, setPageAspectRatio] = useState(1.778); // Default 16:9
+  const pdfContentRef = useRef(null);
+  const [pdfContainerDimensions, setPdfContainerDimensions] = useState({ width: 800, height: 600 });
   const [showVideoPlayer, setShowVideoPlayer] = useState(false);
   const [selectedVideo, setSelectedVideo] = useState(null);
   const [showTestPlayer, setShowTestPlayer] = useState(false);
@@ -136,6 +146,28 @@ function App() {
     }
   }, [showTechMap, techMapFile]);
 
+  // PDF o'lchamlarini hisoblash
+  useEffect(() => {
+    const updateDimensions = () => {
+      if (pdfContentRef.current) {
+        setPdfContainerDimensions({
+          width: pdfContentRef.current.clientWidth,
+          height: pdfContentRef.current.clientHeight
+        });
+      }
+    };
+
+    if (showPdfViewer) {
+      // Modal ochilganda biroz kutib o'lchaymiz (animatsiya u-n)
+      const timer = setTimeout(updateDimensions, 100);
+      window.addEventListener('resize', updateDimensions);
+      return () => {
+        window.removeEventListener('resize', updateDimensions);
+        clearTimeout(timer);
+      };
+    }
+  }, [showPdfViewer, isFullScreen]);
+
   const toggleAnswer = (questionId) => {
     setRevealedAnswers(prev => ({
       ...prev,
@@ -189,6 +221,10 @@ function App() {
     setTimeRemaining(0);
     setTestCompleted(false);
     setTestScore(null);
+  };
+
+  const toggleFullScreen = () => {
+    setIsFullScreen(!isFullScreen);
   };
 
   const topics = [
@@ -869,6 +905,113 @@ function App() {
                 </div>
               </div>
             </div>
+          </div>
+        </div>
+      )}
+
+      {/* PDF Slide Viewer Modal */}
+      {showPdfViewer && (
+        <div className="pdf-slide-viewer-overlay" onClick={() => { setShowPdfViewer(false); setCurrentPage(1); setIsFullScreen(false); }}>
+          <div className={`pdf-slide-viewer-container ${isFullScreen ? 'fullscreen' : ''}`} onClick={(e) => e.stopPropagation()}>
+            <div className="pdf-slide-viewer-header">
+              <h2 className="pdf-viewer-title">Taqdimot</h2>
+              <div className="pdf-viewer-actions">
+                <a href={selectedPdf} download className="pdf-download-btn">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
+                    <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path>
+                    <polyline points="7 10 12 15 17 10"></polyline>
+                    <line x1="12" y1="15" x2="12" y2="3"></line>
+                  </svg>
+                  Yuklab olish
+                </a>
+                <button
+                  className={`pdf-fullscreen-btn ${isFullScreen ? 'active' : ''}`}
+                  onClick={toggleFullScreen}
+                  title={isFullScreen ? "Kichiklashtirish" : "To'liq ekran"}
+                >
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
+                    {isFullScreen ? (
+                      <path d="M8 3v3a2 2 0 0 1-2 2H3m18 0h-3a2 2 0 0 1-2-2V3m0 18v-3a2 2 0 0 1 2-2h3M3 16h3a2 2 0 0 1 2 2v3"></path>
+                    ) : (
+                      <path d="M8 3H5a2 2 0 0 0-2 2v3m18 0v-3a2 2 0 0 0-2-2h-3m0 18h3a2 2 0 0 0 2-2v-3M3 16v3a2 2 0 0 0 2 2h3"></path>
+                    )}
+                  </svg>
+                </button>
+                <button className="pdf-close-btn" onClick={() => { setShowPdfViewer(false); setCurrentPage(1); setIsFullScreen(false); }}>
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
+                    <line x1="18" y1="6" x2="6" y2="18"></line>
+                    <line x1="6" y1="6" x2="18" y2="18"></line>
+                  </svg>
+                </button>
+              </div>
+            </div>
+
+            <div className="pdf-slide-viewer-content" ref={pdfContentRef}>
+              <Document
+                file={selectedPdf}
+                onLoadSuccess={({ numPages }) => setNumPages(numPages)}
+                loading={
+                  <div className="pdf-loading">
+                    <div className="pdf-spinner"></div>
+                    <p>Taqdimot yuklanmoqda...</p>
+                  </div>
+                }
+                error={
+                  <div className="pdf-error">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
+                      <circle cx="12" cy="12" r="10"></circle>
+                      <line x1="12" y1="8" x2="12" y2="12"></line>
+                      <line x1="12" y1="16" x2="12.01" y2="16"></line>
+                    </svg>
+                    <p>Taqdimot yuklanmadi. Iltimos, qaytadan urinib ko'ring.</p>
+                  </div>
+                }
+              >
+                <Page
+                  pageNumber={currentPage}
+                  renderTextLayer={false}
+                  renderAnnotationLayer={false}
+                  className="pdf-slide-canvas"
+                  onLoadSuccess={(page) => setPageAspectRatio(page.view[2] / page.view[3])}
+                  width={Math.min(
+                    pdfContainerDimensions.width * 0.98,
+                    pdfContainerDimensions.height * pageAspectRatio * 0.98
+                  )}
+                />
+              </Document>
+            </div>
+
+            {numPages && (
+              <div className="pdf-slide-navigation">
+                <button
+                  className="pdf-nav-btn"
+                  onClick={() => setCurrentPage(prev => Math.max(prev - 1, 1))}
+                  disabled={currentPage === 1}
+                >
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
+                    <polyline points="15 18 9 12 15 6"></polyline>
+                  </svg>
+                  Oldingi
+                </button>
+
+                <div className="pdf-page-indicator">
+                  <span className="current-page">{currentPage}</span>
+                  <span className="page-separator">/</span>
+                  <span className="total-pages">{numPages}</span>
+                </div>
+
+                <button
+                  className="pdf-nav-btn"
+                  onClick={() => setCurrentPage(prev => Math.min(prev + 1, numPages))}
+                  disabled={currentPage === numPages}
+                >
+                  Keyingi
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
+                    <polyline points="9 18 15 12 9 6"></polyline>
+                  </svg>
+                </button>
+              </div>
+            )}
           </div>
         </div>
       )}
