@@ -1,8 +1,10 @@
-import { useState, useEffect } from 'react';
+import { useState, useEffect, useRef } from 'react';
 import './App.css';
 import './components/TopicDetail.css';
 import heroBg from './assets/hero-bg.png';
 import AnimatedBackground from './components/AnimatedBackground';
+import { renderAsync } from 'docx-preview';
+import 'docx-preview/dist/docx-preview.min.css';
 
 function App() {
   const [showTopics, setShowTopics] = useState(false);
@@ -25,6 +27,9 @@ function App() {
   const [showGlossary, setShowGlossary] = useState(false);
   const [glossaryData, setGlossaryData] = useState(null);
   const [glossarySearch, setGlossarySearch] = useState('');
+  const [showTechMap, setShowTechMap] = useState(false);
+  const [techMapFile, setTechMapFile] = useState(null);
+  const docxContainerRef = useRef(null);
 
   const materials = [
     { id: 1, title: "Ma'ruza matni", icon: "📄", description: "Nazariy materiallar", color: "rgba(0, 102, 255, 0.15)" },
@@ -33,6 +38,7 @@ function App() {
     { id: 4, title: "Testlar", icon: "✍️", description: "Bilim sinovi", color: "rgba(102, 255, 0, 0.15)" },
     { id: 5, title: "Nazorat savollari", icon: "✅", description: "Baholash uchun", color: "rgba(255, 165, 0, 0.15)" },
     { id: 6, title: "Glossary", icon: "📖", description: "Atamalar lug'ati", color: "rgba(138, 43, 226, 0.15)" },
+    { id: 7, title: "Texnologik xaritalar", icon: "🗺️", description: "Amaliy qo'llanma", color: "rgba(255, 99, 71, 0.15)" },
   ];
 
   const handleMaterialClick = async (material) => {
@@ -91,8 +97,42 @@ function App() {
         console.error('Glossary yuklashda xatolik:', error);
         alert('Glossary yuklanmadi. Iltimos, qaytadan urinib ko\'ring.');
       }
+    } else if (material.id === 7 && selectedTopic) {
+      // Texnologik xaritalar uchun modal ochish
+      const docxPath = `/tech-maps/${selectedTopic.id}-mavzu-texnologik-xarita.docx`;
+      setTechMapFile(docxPath);
+      setShowTechMap(true);
     }
   };
+
+  // DOCX ni render qilish
+  useEffect(() => {
+    if (showTechMap && techMapFile && docxContainerRef.current) {
+      // Containerini tozalash
+      docxContainerRef.current.innerHTML = '';
+
+      // DOCX faylni yuklash va render qilish
+      fetch(techMapFile)
+        .then(response => response.blob())
+        .then(blob => {
+          renderAsync(blob, docxContainerRef.current, null, {
+            className: 'docx-wrapper',
+            inWrapper: true,
+            ignoreWidth: false,
+            ignoreHeight: false,
+            ignoreFonts: false,
+            breakPages: true,
+            ignoreLastRenderedPageBreak: true,
+            experimental: false,
+            trimXmlDeclaration: true,
+          });
+        })
+        .catch(error => {
+          console.error('DOCX yuklashda xatolik:', error);
+          docxContainerRef.current.innerHTML = '<p style="color: #ff4a4a; text-align: center; padding: 2rem;">Fayl yuklanmadi. Iltimos, fayl mavjudligini tekshiring.</p>';
+        });
+    }
+  }, [showTechMap, techMapFile]);
 
   const toggleAnswer = (questionId) => {
     setRevealedAnswers(prev => ({
@@ -699,6 +739,44 @@ function App() {
                     </div>
                   )}
               </div>
+            </div>
+          </div>
+        </div>
+      )}
+
+      {/* Tech Map Modal */}
+      {showTechMap && techMapFile && selectedTopic && (
+        <div className="tech-map-overlay" onClick={() => setShowTechMap(false)}>
+          <div className="tech-map-container" onClick={(e) => e.stopPropagation()}>
+            <div className="tech-map-header">
+              <h3 className="tech-map-title">
+                <span className="tech-map-icon">🗺️</span>
+                Texnologik xarita - {selectedTopic.title}
+              </h3>
+              <div className="tech-map-actions">
+                <a
+                  href={techMapFile}
+                  download={`${selectedTopic.id}-mavzu-texnologik-xarita.docx`}
+                  className="tech-map-download-btn"
+                  title="Yuklab olish"
+                >
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
+                    <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path>
+                    <polyline points="7 10 12 15 17 10"></polyline>
+                    <line x1="12" y1="15" x2="12" y2="3"></line>
+                  </svg>
+                  Yuklab olish
+                </a>
+                <button className="tech-map-close-btn" onClick={() => setShowTechMap(false)}>
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
+                    <line x1="18" y1="6" x2="6" y2="18"></line>
+                    <line x1="6" y1="6" x2="18" y2="18"></line>
+                  </svg>
+                </button>
+              </div>
+            </div>
+            <div className="tech-map-content">
+              <div ref={docxContainerRef} className="docx-container"></div>
             </div>
           </div>
         </div>

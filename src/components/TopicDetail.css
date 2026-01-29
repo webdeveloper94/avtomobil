@@ -1579,3 +1579,202 @@
     padding: 1rem;
   }
 }
+
+/* ========================================== TECH MAP MODAL ========================================== */
+
+.tech-map-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(10, 14, 26, 0.98);
+  backdrop-filter: blur(10px);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 99999;
+  padding: 2rem;
+  animation: fadeIn 0.3s ease-out;
+}
+
+.tech-map-container {
+  background: linear-gradient(135deg, #1a1f35 0%, #0f1419 100%);
+  border-radius: var(--radius-xl);
+  width: 100%;
+  max-width: 1200px;
+  max-height: 90vh;
+  display: flex;
+  flex-direction: column;
+  border: 1px solid rgba(255, 99, 71, 0.3);
+  box-shadow: 0 20px 60px rgba(0, 0, 0, 0.7), 0 0 40px rgba(255, 99, 71, 0.2);
+  animation: slideUp 0.4s cubic-bezier(0.16, 1, 0.3, 1);
+  position: relative;
+  z-index: 100000;
+}
+
+.tech-map-header {
+  padding: 1.5rem 2rem;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.15);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: linear-gradient(135deg, rgba(255, 99, 71, 0.15), rgba(255, 140, 0, 0.1));
+}
+
+.tech-map-title {
+  font-size: clamp(1.1rem, 2vw, 1.4rem);
+  font-weight: 700;
+  color: var(--text-primary);
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  margin: 0;
+}
+
+.tech-map-icon {
+  font-size: 1.5em;
+  animation: pulse 2s ease-in-out infinite;
+}
+
+.tech-map-actions {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+}
+
+.tech-map-download-btn {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0.75rem 1.25rem;
+  background: linear-gradient(135deg, #00d4ff, #0066ff);
+  color: white;
+  border: none;
+  border-radius: var(--radius-md);
+  font-weight: 600;
+  font-size: 0.9rem;
+  text-decoration: none;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 15px rgba(0, 102, 255, 0.3);
+}
+
+.tech-map-download-btn:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 20px rgba(0, 102, 255, 0.4);
+}
+
+.tech-map-download-btn svg {
+  width: 20px;
+  height: 20px;
+}
+
+.tech-map-close-btn {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  border: 2px solid rgba(255, 255, 255, 0.2);
+  background: rgba(255, 255, 255, 0.1);
+  color: var(--text-secondary);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.tech-map-close-btn:hover {
+  background: rgba(255, 74, 74, 0.3);
+  border-color: rgba(255, 74, 74, 0.6);
+  color: #ff4a4a;
+  transform: rotate(90deg);
+}
+
+.tech-map-close-btn svg {
+  width: 20px;
+  height: 20px;
+}
+
+.tech-map-content {
+  flex: 1;
+  overflow-y: auto;
+  background: #ffffff;
+  padding: 2rem;
+}
+
+.docx-container {
+  width: 100%;
+  min-height: 400px;
+}
+
+/* DOCX Wrapper Styling */
+.docx-wrapper {
+  background: white;
+  padding: 2rem;
+  font-family: 'Calibri', 'Arial', sans-serif;
+}
+
+.docx-wrapper section.docx {
+  background: white;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  margin: 0 auto 2rem;
+  padding: 2rem;
+  max-width: 21cm;
+}
+
+.docx-wrapper table {
+  border-collapse: collapse;
+  width: 100%;
+  margin: 1rem 0;
+}
+
+.docx-wrapper table td,
+.docx-wrapper table th {
+  border: 1px solid #ddd;
+  padding: 0.5rem;
+}
+
+@media (max-width: 768px) {
+  .tech-map-overlay {
+    padding: 0;
+  }
+
+  .tech-map-container {
+    max-height: 100vh;
+    border-radius: 0;
+  }
+
+  .tech-map-header {
+    padding: 1rem;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+  }
+
+  .tech-map-title {
+    font-size: 1rem;
+    flex: 1 1 100%;
+  }
+
+  .tech-map-actions {
+    width: 100%;
+    justify-content: space-between;
+  }
+
+  .tech-map-download-btn {
+    font-size: 0.85rem;
+    padding: 0.6rem 1rem;
+  }
+
+  .tech-map-content {
+    padding: 1rem;
+  }
+
+  .docx-wrapper {
+    padding: 1rem;
+  }
+
+  .docx-wrapper section.docx {
+    padding: 1rem;
+  }
+}
