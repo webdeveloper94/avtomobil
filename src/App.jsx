@@ -4,7 +4,6 @@ import './components/TopicDetail.css';
 import heroBg from './assets/hero-bg.png';
 import AnimatedBackground from './components/AnimatedBackground';
 import { renderAsync } from 'docx-preview';
-import 'docx-preview/dist/docx-preview.min.css';
 
 function App() {
   const [showTopics, setShowTopics] = useState(false);
@@ -29,6 +28,7 @@ function App() {
   const [glossarySearch, setGlossarySearch] = useState('');
   const [showTechMap, setShowTechMap] = useState(false);
   const [techMapFile, setTechMapFile] = useState(null);
+  const [docxType, setDocxType] = useState(''); // 'lecture' or 'techmap'
   const docxContainerRef = useRef(null);
 
   const materials = [
@@ -43,10 +43,11 @@ function App() {
 
   const handleMaterialClick = async (material) => {
     if (material.id === 1 && selectedTopic) {
-      // Ma'ruza matni uchun PDF ochish
-      const pdfPath = `/pdfs/${selectedTopic.id}-mavzu.pdf`;
-      setSelectedPdf(pdfPath);
-      setShowPdfViewer(true);
+      // Ma'ruza matni uchun DOCX ochish
+      const docxPath = `/lectures/${selectedTopic.id}-mavzu.docx`;
+      setTechMapFile(docxPath);
+      setDocxType('lecture');
+      setShowTechMap(true);
     } else if (material.id === 2 && selectedTopic) {
       // Video darslar uchun video player ochish
       const videoPath = `/videos/${selectedTopic.id}-dars.mp4`;
@@ -101,6 +102,7 @@ function App() {
       // Texnologik xaritalar uchun modal ochish
       const docxPath = `/tech-maps/${selectedTopic.id}-mavzu-texnologik-xarita.docx`;
       setTechMapFile(docxPath);
+      setDocxType('techmap');
       setShowTechMap(true);
     }
   };
@@ -750,13 +752,13 @@ function App() {
           <div className="tech-map-container" onClick={(e) => e.stopPropagation()}>
             <div className="tech-map-header">
               <h3 className="tech-map-title">
-                <span className="tech-map-icon">🗺️</span>
-                Texnologik xarita - {selectedTopic.title}
+                <span className="tech-map-icon">{docxType === 'lecture' ? '📄' : '🗺️'}</span>
+                {docxType === 'lecture' ? "Ma'ruza matni" : "Texnologik xarita"} - {selectedTopic.title}
               </h3>
               <div className="tech-map-actions">
                 <a
                   href={techMapFile}
-                  download={`${selectedTopic.id}-mavzu-texnologik-xarita.docx`}
+                  download={docxType === 'lecture' ? `${selectedTopic.id}-mavzu.docx` : `${selectedTopic.id}-mavzu-texnologik-xarita.docx`}
                   className="tech-map-download-btn"
                   title="Yuklab olish"
                 >
