@@ -6,8 +6,8 @@ import AnimatedBackground from './components/AnimatedBackground';
 import { renderAsync } from 'docx-preview';
 import { Document, Page, pdfjs } from 'react-pdf';
 
-// PDF.js worker konfiguratsiyasi - jsDelivr CDN
-pdfjs.GlobalWorkerOptions.workerSrc = `https://cdn.jsdelivr.net/npm/pdfjs-dist@${pdfjs.version}/build/pdf.worker.min.mjs`;
+// PDF.js worker konfiguratsiyasi - Mahalliy (Offline ishlashi uchun)
+pdfjs.GlobalWorkerOptions.workerSrc = '/pdf.worker.min.mjs';
 
 function App() {
   const [showTopics, setShowTopics] = useState(false);
